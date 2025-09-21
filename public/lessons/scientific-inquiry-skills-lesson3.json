@@ -1,0 +1,211 @@
+{
+  "cards": [
+    {
+      "id": "scientific-inquiry-skills-lesson3-card1",
+      "type": "intro",
+      "cycle": 0,
+      "title": "Welcome to Data Collection & Analysis!",
+      "content": "<p>Welcome back, young scientist! You've already mastered making predictions and using your senses. Today's adventure takes you deeper into the heart of scientific investigation.</p><p>In this lesson, you'll become a <strong>data detective</strong> - someone who collects evidence, spots patterns, and solves mysteries using scientific skills. Just like real scientists who track climate change, diagnose diseases, or discover new planets, you'll learn to gather information systematically and draw conclusions based on evidence.</p><p>This is Lesson 3 of your Scientific Inquiry journey, where we transform observations into understanding!</p>",
+      "interactive": null
+    },
+    {
+      "id": "scientific-inquiry-skills-lesson3-card2",
+      "type": "objective",
+      "cycle": 0,
+      "title": "Today's Learning Goals",
+      "content": "<h3>By the end of this lesson, you will be able to:</h3><ul><li><strong>Collect accurate data</strong> using organized tables and careful measurements</li><li><strong>Analyze data for patterns</strong> by examining relationships and trends</li><li><strong>Draw valid scientific conclusions</strong> based on evidence from your data</li><li><strong>Connect findings to hypotheses</strong> and suggest explanations for your discoveries</li></ul><p>These skills will help you think like a scientist, whether you're investigating why plants grow differently, testing which paper airplane flies farthest, or understanding patterns in the weather!</p>",
+      "interactive": null
+    },
+    {
+      "id": "scientific-inquiry-skills-lesson3-card3",
+      "type": "i-do",
+      "cycle": 1,
+      "title": "I Do: Setting Up a Data Table",
+      "content": "<p>Watch as I show you exactly how to collect accurate scientific data. Let me demonstrate with a temperature investigation.</p><h3>Step 1: Prepare Your Data Table</h3><p>First, I create an organized data table with <strong>clear column headers and units</strong>:</p><ul><li>Trial Number</li><li>Temperature (°C)</li><li>Time (seconds)</li><li>Observations</li></ul><p>Notice how I include the units in parentheses - this prevents confusion later!</p><h3>Step 2: Measure and Record</h3><p>Next, I use my thermometer carefully and record the data <strong>immediately</strong>. For example: Trial 1, Temperature: 23.5°C, Time: 0 seconds, Observation: \"Room temperature, steady reading.\"</p><p><strong>Key Rule:</strong> Always record data right away to prevent errors!</p>",
+      "interactive": null
+    },
+    {
+      "id": "scientific-inquiry-skills-lesson3-card4",
+      "type": "i-do",
+      "cycle": 1,
+      "title": "I Do: Another Data Collection Example",
+      "content": "<p>Let me show you another example using the exact same process, but this time measuring plant growth.</p><h3>Same Process, Different Investigation</h3><p>First, I prepare my organized data table:</p><ul><li>Plant Number</li><li>Height (cm)</li><li>Number of Leaves</li><li>Growth Notes</li></ul><p>Next, I measure carefully with my ruler: Plant 1 is 12.3 cm tall with 6 leaves. I record this <strong>immediately</strong> in my table.</p><p>Finally, I repeat my measurements for Plants 2 and 3 to check for consistency.</p><p><strong>Remember the pattern:</strong> Prepare table → Measure carefully → Record immediately → Repeat for accuracy</p><p>This same process works for ANY data collection!</p>",
+      "interactive": null
+    },
+    {
+      "id": "scientific-inquiry-skills-lesson3-card5",
+      "type": "you-do",
+      "cycle": 1,
+      "title": "You Do: Create Your First Data Table",
+      "content": "<p>Now it's your turn to practice data collection! Imagine you're measuring the length of three different pencils.</p><p>Create a data table with appropriate headers and units. What columns would you need? Think about: identification (Pencil Number), measurement (Length), and any other useful information.</p><p>Type what your column headers would be, including units:</p>",
+      "interactive": {
+        "type": "input",
+        "question": "What are your data table column headers? (Include units)",
+        "correctAnswer": "Pencil Number, Length (cm), Color, Condition",
+        "alternativeAnswers": [
+          "Pencil Number, Length (cm), Brand, Notes",
+          "Number, Length (cm), Type, Observations",
+          "Pencil #, Length (centimeters), Color, Sharp/Dull"
+        ],
+        "feedback": {
+          "correct": "Excellent! Your data table has clear headers with units. This organization will make your data collection accurate and easy to understand.",
+          "incorrect": "Good try! A complete data table needs: an identifier (like Pencil Number), your measurement with units (Length in cm), and descriptive columns (like Color or Condition).",
+          "partial": "You're on the right track! Make sure to include units in parentheses for any measurements."
+        },
+        "hint": "Remember to include: something to identify each item, your measurement with units, and at least one descriptive column."
+      }
+    },
+    {
+      "id": "scientific-inquiry-skills-lesson3-card6",
+      "type": "you-do",
+      "cycle": 1,
+      "title": "You Do: Practice Recording Data",
+      "content": "<p>Let's practice recording data accurately. You've measured three circular objects and found:</p><ul><li>A cup with circumference 28.5 cm</li><li>A plate with circumference 65.2 cm</li><li>A bowl with circumference 47.8 cm</li></ul><p>Following our data collection process, how would you record the measurement for the plate in your data table?</p>",
+      "interactive": {
+        "type": "quiz",
+        "question": "What is the correct way to record the plate's measurement?",
+        "options": [
+          "Object 2, 65.2 cm, Plate, Kitchen",
+          "Plate - about 65 centimeters",
+          "65.2",
+          "The plate is pretty big, around 65"
+        ],
+        "correctAnswer": "Object 2, 65.2 cm, Plate, Kitchen",
+        "feedback": {
+          "correct": "Perfect! You included all the necessary information in an organized way: identifier, precise measurement with units, object type, and location.",
+          "incorrect": "Remember to record all parts of your data systematically. The best format includes: Object number, exact measurement with units, what it is, and where you found it."
+        }
+      }
+    },
+    {
+      "id": "scientific-inquiry-skills-lesson3-card7",
+      "type": "i-do",
+      "cycle": 2,
+      "title": "I Do: Finding Patterns in Data",
+      "content": "<p>Now let me show you how to analyze data for patterns. I'll use the same temperature data, but add pattern recognition.</p><h3>Looking for Trends</h3><p>Here's my complete temperature data over time:</p><ul><li>0 seconds: 45°C</li><li>30 seconds: 34°C</li><li>60 seconds: 23°C</li></ul><h3>Identifying the Pattern</h3><p>I notice: <strong>As time increases, temperature decreases consistently.</strong></p><p>The pattern shows: Temperature drops by approximately 11°C every 30 seconds.</p><p>This is a <strong>decreasing trend</strong> with a <strong>consistent rate of change</strong>.</p><p><em>Key insight:</em> Pattern analysis means looking for relationships between your variables!</p>",
+      "interactive": null
+    },
+    {
+      "id": "scientific-inquiry-skills-lesson3-card8",
+      "type": "i-do",
+      "cycle": 2,
+      "title": "I Do: Another Pattern Analysis",
+      "content": "<p>Let me demonstrate pattern finding with plant growth data.</p><h3>My Plant Data</h3><ul><li>Plant 1: 8 leaves, 15 cm tall</li><li>Plant 2: 4 leaves, 9 cm tall</li><li>Plant 3: 10 leaves, 18 cm tall</li><li>Plant 4: 3 leaves, 7 cm tall</li></ul><h3>The Pattern I Discover</h3><p>I notice: <strong>Plants with more leaves are consistently taller.</strong></p><p>This shows a <strong>positive relationship</strong> - as one measurement increases, the other increases too.</p><p>There's a clear correlation: More leaves → Greater height</p><p><em>Remember:</em> Patterns can be increases, decreases, or relationships between different measurements!</p>",
+      "interactive": null
+    },
+    {
+      "id": "scientific-inquiry-skills-lesson3-card9",
+      "type": "you-do",
+      "cycle": 2,
+      "title": "You Do: Identify a Pattern",
+      "content": "<p>Look at this data about students' reading speed:</p><ul><li>Student A: Practices 10 min/day, reads 150 words/minute</li><li>Student B: Practices 30 min/day, reads 200 words/minute</li><li>Student C: Practices 5 min/day, reads 125 words/minute</li><li>Student D: Practices 25 min/day, reads 185 words/minute</li></ul><p>What pattern do you notice in this data?</p>",
+      "interactive": {
+        "type": "practice",
+        "question": "Describe the pattern you see in the reading data.",
+        "feedback": {
+          "correct": "Model Answer: There is a positive relationship between practice time and reading speed. Students who practice more minutes per day tend to read more words per minute. As practice time increases, reading speed increases. This shows that more practice leads to faster reading.",
+          "incorrect": "Look for relationships between the two measurements. How does reading speed change as practice time changes?"
+        },
+        "hint": "Compare the practice times with the reading speeds. Do students who practice more read faster or slower?"
+      }
+    },
+    {
+      "id": "scientific-inquiry-skills-lesson3-card10",
+      "type": "you-do",
+      "cycle": 2,
+      "title": "You Do: Analyze Temperature Patterns",
+      "content": "<p>A student recorded the outside temperature at different times of day:</p><ul><li>6 AM: 12°C</li><li>9 AM: 16°C</li><li>12 PM: 22°C</li><li>3 PM: 24°C</li><li>6 PM: 19°C</li></ul><p>What type of pattern does this data show?</p>",
+      "interactive": {
+        "type": "quiz",
+        "question": "Which best describes the temperature pattern?",
+        "options": [
+          "Temperature increases then decreases throughout the day",
+          "Temperature only increases all day",
+          "Temperature stays the same",
+          "Temperature randomly changes with no pattern"
+        ],
+        "correctAnswer": "Temperature increases then decreases throughout the day",
+        "feedback": {
+          "correct": "Excellent pattern recognition! The temperature rises from morning to afternoon (peak at 3 PM), then begins to fall in the evening. This is typical daily temperature variation.",
+          "incorrect": "Look carefully at how temperature changes from 6 AM through 6 PM. Notice it doesn't just go in one direction."
+        }
+      }
+    },
+    {
+      "id": "scientific-inquiry-skills-lesson3-card11",
+      "type": "i-do",
+      "cycle": 3,
+      "title": "I Do: Drawing Scientific Conclusions",
+      "content": "<p>Let me show you how to draw scientific conclusions by connecting data patterns to hypotheses.</p><h3>My Investigation</h3><p><strong>Hypothesis:</strong> \"Hot water will cool down faster in a freezer than at room temperature.\"</p><p><strong>My Data:</strong></p><ul><li>Freezer cooling: 45°C to 5°C in 30 minutes</li><li>Room cooling: 45°C to 25°C in 30 minutes</li></ul><h3>My Scientific Conclusion</h3><p><strong>The data supports my hypothesis.</strong> Water in the freezer cooled by 40°C while room temperature water only cooled by 20°C in the same time.</p><p><strong>Explanation:</strong> The greater temperature difference between hot water and the freezer environment causes faster heat transfer.</p><p><strong>Limitations:</strong> I only tested once; multiple trials would strengthen this conclusion.</p>",
+      "interactive": null
+    },
+    {
+      "id": "scientific-inquiry-skills-lesson3-card12",
+      "type": "i-do",
+      "cycle": 3,
+      "title": "I Do: Real-World Conclusion Example",
+      "content": "<p>Here's how scientists draw conclusions from environmental data.</p><h3>Investigation: Effect of Sunlight on Plant Growth</h3><p><strong>Hypothesis:</strong> \"Plants receiving more sunlight will grow taller.\"</p><p><strong>Data Pattern Found:</strong></p><ul><li>Full sun plants: Average 25 cm tall</li><li>Partial sun plants: Average 18 cm tall</li><li>Shade plants: Average 10 cm tall</li></ul><h3>Scientific Conclusion</h3><p><strong>Conclusion:</strong> The hypothesis is supported. Plants receiving more sunlight grew significantly taller.</p><p><strong>Scientific Reasoning:</strong> Sunlight provides energy for photosynthesis, which produces the food plants need to grow. More sunlight = more energy = more growth.</p><p><strong>Next Steps:</strong> Test with different plant species to see if pattern holds.</p>",
+      "interactive": null
+    },
+    {
+      "id": "scientific-inquiry-skills-lesson3-card13",
+      "type": "you-do",
+      "cycle": 3,
+      "title": "You Do: Draw a Conclusion",
+      "content": "<p>A student hypothesized: \"Paper airplanes with pointed noses will fly farther than ones with blunt noses.\"</p><p><strong>The Data:</strong></p><ul><li>Pointed nose planes: 8m, 7.5m, 8.2m (average: 7.9m)</li><li>Blunt nose planes: 5m, 4.8m, 5.5m (average: 5.1m)</li></ul><p>Based on this data, what scientific conclusion can you draw?</p>",
+      "interactive": {
+        "type": "practice",
+        "question": "Write your scientific conclusion about the paper airplane experiment.",
+        "feedback": {
+          "correct": "Model Answer: The hypothesis is supported by the data. Pointed nose airplanes flew an average of 7.9 meters, while blunt nose planes only flew 5.1 meters on average. This 2.8-meter difference shows that pointed noses help airplanes fly farther, likely because the pointed shape reduces air resistance. To strengthen this conclusion, we could test more airplane designs or try different throwing techniques.",
+          "incorrect": "Include whether the hypothesis was supported, what the specific evidence shows, and why this might be true."
+        },
+        "hint": "Start by stating if the hypothesis was supported. Then explain what the data shows and suggest why pointed noses might fly farther."
+      }
+    },
+    {
+      "id": "scientific-inquiry-skills-lesson3-card14",
+      "type": "you-do",
+      "cycle": 3,
+      "title": "You Do: Complete Scientific Analysis",
+      "content": "<p>Put it all together! A class tested: \"Warmer water will dissolve sugar faster than cold water.\"</p><p><strong>Data Collected:</strong></p><ul><li>Cold water (5°C): Sugar dissolved in 85 seconds</li><li>Room temp water (22°C): Sugar dissolved in 45 seconds</li><li>Warm water (40°C): Sugar dissolved in 20 seconds</li></ul><p>What pattern do you see, and what conclusion can you draw?</p>",
+      "interactive": {
+        "type": "input",
+        "question": "State the pattern and your scientific conclusion:",
+        "correctAnswer": "As water temperature increases, sugar dissolves faster. The hypothesis is supported.",
+        "alternativeAnswers": [
+          "Higher temperature means faster dissolving. The hypothesis was correct.",
+          "Warmer water dissolves sugar more quickly. Data supports the hypothesis.",
+          "Temperature and dissolving time have an inverse relationship. Hypothesis confirmed."
+        ],
+        "feedback": {
+          "correct": "Outstanding scientific thinking! You correctly identified the inverse relationship (as temperature goes up, dissolving time goes down) and connected it to the hypothesis. This is exactly how scientists draw evidence-based conclusions!",
+          "incorrect": "Good effort! Look for the relationship between temperature and time, then state whether this supports what was predicted.",
+          "partial": "You're on track! Make sure to mention both the pattern AND whether it supports the hypothesis."
+        },
+        "hint": "First describe what happens to dissolving time as temperature changes, then state if this matches the prediction."
+      }
+    },
+    {
+      "id": "scientific-inquiry-skills-lesson3-card15",
+      "type": "summary",
+      "cycle": 0,
+      "title": "Congratulations, Data Detective!",
+      "content": "<h3>🎉 You've Mastered Scientific Data Skills!</h3><p>Today you learned three powerful scientific abilities:</p><ul><li><strong>Data Collection:</strong> Creating organized tables with clear headers, units, and systematic recording</li><li><strong>Pattern Analysis:</strong> Finding trends, relationships, and correlations in your data</li><li><strong>Scientific Conclusions:</strong> Connecting evidence to hypotheses and explaining your findings</li></ul><p>These skills work together like tools in a detective's kit. You collect clues (data), spot patterns (analysis), and solve the mystery (conclusions)!</p><p><strong>Remember the process:</strong> Organize systematically → Identify patterns → Draw evidence-based conclusions</p><p>Next lesson, you'll apply these complete scientific inquiry skills to investigate specific science topics. Keep practicing your data detective skills - real scientists use them every day to make amazing discoveries!</p>",
+      "interactive": null
+    }
+  ],
+  "totalCards": 15,
+  "metadata": {
+    "topicName": "Scientific Inquiry Skills",
+    "lessonNumber": 3,
+    "estimatedTime": "20-30 minutes",
+    "gradeLevel": "Elementary (Grades 3-5)",
+    "prerequisites": [
+      "Understanding of observations and senses",
+      "Basic measurement skills",
+      "Ability to make predictions"
+    ],
+    "nextLesson": "Applying complete scientific inquiry to specific investigations"
+  }
+}

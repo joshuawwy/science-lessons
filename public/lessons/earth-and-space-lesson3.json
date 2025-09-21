@@ -1,0 +1,187 @@
+{
+  "cards": [
+    {
+      "id": "earth-and-space-lesson3-card1",
+      "type": "intro",
+      "title": "Journey Through Time and Space",
+      "content": "<h3>Welcome, Time Traveler!</h3><p>Today we're embarking on an incredible journey through billions of years of history and into the far future! This is Lesson 3 of Earth and Space, where we'll explore Earth's amazing story from its birth to its distant future.</p><p>Have you ever wondered how old Earth really is? Or what will happen to our planet millions of years from now? We'll discover the answers to these cosmic questions together!</p><p>Get ready to think about time in a whole new way - not in minutes or years, but in millions and billions of years. Let's begin our journey through deep time!</p>"
+    },
+    {
+      "id": "earth-and-space-lesson3-card2",
+      "type": "objective",
+      "title": "Your Learning Goals",
+      "content": "<h3>By the end of this lesson, you will be able to:</h3><ul><li><strong>Navigate through geological time</strong> and identify major events in Earth's 4.5 billion year history</li><li><strong>Explain how the universe formed</strong> from the Big Bang to galaxies and solar systems</li><li><strong>Predict Earth's future</strong> based on current scientific understanding</li><li><strong>Connect Earth's story</strong> to the larger story of the universe</li></ul><p>These skills will help you understand our planet's place in the cosmos and appreciate the incredible journey that led to life on Earth!</p>"
+    },
+    {
+      "id": "earth-and-space-lesson3-card3",
+      "type": "i-do",
+      "cycle": 1,
+      "title": "Understanding Deep Time - The Geological Clock",
+      "content": "<h3>Watch as I demonstrate how to understand geological time</h3><p>Let me show you how scientists organize Earth's vast history. Imagine if Earth's entire 4.5 billion year history was compressed into a single 24-hour day.</p><p><strong>Here's how I break it down:</strong></p><ul><li>00:00 (midnight) - Earth forms from cosmic dust</li><li>04:00 - First simple life appears (bacteria)</li><li>21:00 - First animals appear</li><li>23:40 - Dinosaurs appear</li><li>23:58 - First humans appear</li><li>23:59:59 - Recorded human history begins</li></ul><p>Notice how most of Earth's history happened before complex life even appeared! The key is understanding that Earth changes very slowly over millions of years.</p>"
+    },
+    {
+      "id": "earth-and-space-lesson3-card4",
+      "type": "i-do",
+      "cycle": 1,
+      "title": "Reading the Geological Time Scale",
+      "content": "<h3>Let me show you another way to understand Earth's timeline</h3><p>Scientists divide Earth's history into major time periods, like chapters in a book. Watch how I identify key events:</p><p><strong>The main divisions are:</strong></p><ol><li><strong>Hadean Eon (4.5-4 billion years ago):</strong> Earth forms, surface is molten rock</li><li><strong>Archean Eon (4-2.5 billion years ago):</strong> First life appears, atmosphere forms</li><li><strong>Proterozoic Eon (2.5 billion-541 million years ago):</strong> Oxygen increases, complex cells evolve</li><li><strong>Phanerozoic Eon (541 million years ago-present):</strong> Explosion of complex life</li></ol><p>Notice how I start with the oldest and work forward. Each eon represents hundreds of millions or billions of years!</p>"
+    },
+    {
+      "id": "earth-and-space-lesson3-card5",
+      "type": "you-do",
+      "cycle": 1,
+      "title": "Your Turn: Placing Events in Time",
+      "content": "<h3>Now it's your turn to work with geological time</h3><p>If Earth formed 4.5 billion years ago, and the first complex animals appeared 600 million years ago, what percentage of Earth's history passed before complex animals evolved?</p><p><em>Hint: Divide the time before animals by Earth's total age, then multiply by 100.</em></p>",
+      "interactive": {
+        "type": "input",
+        "question": "What percentage of Earth's history passed before complex animals? (Round to the nearest whole number)",
+        "correctAnswer": "87",
+        "alternativeAnswers": ["86", "87%", "86%", "86.7", "86.7%", "86.67%"],
+        "feedback": {
+          "correct": "Excellent calculation! About 87% of Earth's history had already passed before complex animals appeared. That means complex life is relatively new in Earth's story!",
+          "incorrect": "Not quite. Try this: (4.5 billion - 0.6 billion) ÷ 4.5 billion × 100. The answer should be about 87%.",
+          "partial": "You're on the right track! Make sure you're dividing 3.9 billion by 4.5 billion and converting to a percentage."
+        },
+        "hint": "Calculate: 3.9 billion years (time before animals) divided by 4.5 billion years (Earth's age) equals about 0.87, which is 87%."
+      }
+    },
+    {
+      "id": "earth-and-space-lesson3-card6",
+      "type": "you-do",
+      "cycle": 1,
+      "title": "Practice: Major Earth Events",
+      "content": "<h3>Try identifying when major events happened</h3><p>Match each event to its correct time period in Earth's history.</p>",
+      "interactive": {
+        "type": "quiz",
+        "question": "When did the first oxygen-producing bacteria appear?",
+        "options": [
+          "About 2.5 billion years ago",
+          "About 600 million years ago", 
+          "About 65 million years ago",
+          "About 200,000 years ago"
+        ],
+        "correctAnswer": "About 2.5 billion years ago",
+        "feedback": {
+          "correct": "That's right! Cyanobacteria began producing oxygen about 2.5 billion years ago, fundamentally changing Earth's atmosphere in what scientists call the Great Oxidation Event.",
+          "incorrect": "Remember that bacteria are much older than complex life. The first oxygen-producing bacteria appeared about 2.5 billion years ago, long before animals or plants."
+        }
+      }
+    },
+    {
+      "id": "earth-and-space-lesson3-card7",
+      "type": "i-do",
+      "cycle": 2,
+      "title": "The Universe's Beginning - The Big Bang",
+      "content": "<h3>Watch as I explain how everything in the universe began</h3><p>Let me show you how scientists understand the origin of the universe, which happened about 13.8 billion years ago - long before Earth existed!</p><p><strong>Here's the sequence of events:</strong></p><ol><li><strong>Time 0:</strong> The Big Bang - all matter and energy in the universe was compressed into a single point</li><li><strong>First second:</strong> Universe expands rapidly, fundamental particles form</li><li><strong>3 minutes:</strong> First atomic nuclei form (hydrogen and helium)</li><li><strong>380,000 years:</strong> First atoms form, universe becomes transparent</li><li><strong>200 million years:</strong> First stars begin to shine</li><li><strong>9 billion years:</strong> Our solar system forms (4.5 billion years ago)</li></ol><p>Notice how the universe had to evolve for billions of years before conditions were right for our solar system to form!</p>"
+    },
+    {
+      "id": "earth-and-space-lesson3-card8",
+      "type": "i-do",
+      "cycle": 2,
+      "title": "How Solar Systems Form",
+      "content": "<h3>Let me demonstrate how our solar system came to be</h3><p>Watch as I trace the formation of our solar system from a cloud of gas and dust:</p><p><strong>The process unfolds like this:</strong></p><ol><li><strong>Nebula stage:</strong> A giant cloud of gas and dust floats in space</li><li><strong>Gravitational collapse:</strong> The cloud begins to spin and contract</li><li><strong>Protostar forms:</strong> Material concentrates in the center, heating up</li><li><strong>Disk formation:</strong> Remaining material flattens into a spinning disk</li><li><strong>Planet formation:</strong> Dust grains stick together, growing into planets</li><li><strong>System cleanup:</strong> Solar wind clears away remaining gas and dust</li></ol><p>This entire process took about 100 million years. Earth formed through countless collisions of smaller rocky bodies in the disk around our young Sun!</p>"
+    },
+    {
+      "id": "earth-and-space-lesson3-card9",
+      "type": "you-do",
+      "cycle": 2,
+      "title": "Your Turn: Universal Timeline",
+      "content": "<h3>Now you apply what you've learned about cosmic time</h3><p>Place these events in order from oldest to most recent:</p><p>A) Earth forms<br>B) The Big Bang occurs<br>C) First stars begin to shine<br>D) Our Sun forms</p><p>Enter your answer as four letters in order (like BCDA):</p>",
+      "interactive": {
+        "type": "input",
+        "question": "What is the correct order of events?",
+        "correctAnswer": "BCDA",
+        "alternativeAnswers": ["B C D A", "B, C, D, A", "B-C-D-A"],
+        "feedback": {
+          "correct": "Perfect! You correctly ordered the cosmic timeline: Big Bang (13.8 billion years ago) → First stars (13.6 billion years ago) → Our Sun forms (4.6 billion years ago) → Earth forms (4.5 billion years ago).",
+          "incorrect": "Think about the sequence: The universe began with the Big Bang, then stars formed, then our Sun formed, and finally Earth formed. Try again!",
+          "partial": "You're close! Remember that the Sun had to form slightly before Earth could form from the disk around it."
+        },
+        "hint": "Start with the Big Bang (the beginning of everything), then first stars, then our Sun, and finally Earth."
+      }
+    },
+    {
+      "id": "earth-and-space-lesson3-card10",
+      "type": "you-do",
+      "cycle": 2,
+      "title": "Practice: Solar System Formation",
+      "content": "<h3>Apply your understanding of how planets form</h3><p>Based on what you learned about solar system formation, explain why all planets orbit the Sun in the same direction.</p>",
+      "interactive": {
+        "type": "practice",
+        "question": "Why do all planets orbit in the same direction? Write your explanation:",
+        "correctAnswer": "All planets orbit in the same direction because they formed from the same spinning disk of material around the young Sun. As the original nebula collapsed and began rotating, conservation of angular momentum caused it to spin faster and flatten into a disk. The planets formed from this disk, inheriting its rotation direction.",
+        "feedback": {
+          "correct": "Excellent explanation! You understand that the shared orbital direction comes from the original spinning disk that gave birth to all the planets.",
+          "incorrect": "Think about how planets formed from a spinning disk of material. What would happen to objects forming within a spinning disk?"
+        }
+      }
+    },
+    {
+      "id": "earth-and-space-lesson3-card11",
+      "type": "i-do",
+      "cycle": 3,
+      "title": "Earth's Future - The Next Billion Years",
+      "content": "<h3>Let me show you what scientists predict for Earth's future</h3><p>Based on our understanding of stellar evolution and planetary science, here's Earth's probable future:</p><p><strong>Timeline of future events:</strong></p><ul><li><strong>500 million years:</strong> Increasing solar radiation makes Earth too hot for most complex life</li><li><strong>1 billion years:</strong> Oceans begin to evaporate as Sun grows brighter</li><li><strong>3 billion years:</strong> Andromeda galaxy collides with Milky Way (Earth likely survives)</li><li><strong>5 billion years:</strong> Sun begins expanding into a red giant</li><li><strong>7.5 billion years:</strong> Sun becomes a red giant, possibly engulfing Earth</li><li><strong>8 billion years:</strong> Sun becomes a white dwarf, solar system freezes</li></ul><p>Notice how these predictions are based on our understanding of how stars age and galaxies move through space.</p>"
+    },
+    {
+      "id": "earth-and-space-lesson3-card12",
+      "type": "i-do",
+      "cycle": 3,
+      "title": "The Ultimate Fate of the Universe",
+      "content": "<h3>Watch as I explain the universe's distant future</h3><p>Scientists have three main theories about how the universe will end, based on measurements of its expansion:</p><p><strong>The possible endings:</strong></p><ol><li><strong>Heat Death (most likely):</strong> Universe expands forever, becoming cold and dark as stars burn out</li><li><strong>Big Rip:</strong> Dark energy accelerates expansion until even atoms are torn apart</li><li><strong>Big Crunch:</strong> Gravity eventually reverses expansion, universe collapses back to a point</li></ol><p>Current evidence suggests the universe is expanding faster over time due to dark energy, making the Heat Death scenario most probable. This wouldn't happen for trillions of years - a timespan so vast it makes Earth's history seem like a blink!</p>"
+    },
+    {
+      "id": "earth-and-space-lesson3-card13",
+      "type": "you-do",
+      "cycle": 3,
+      "title": "Your Turn: Predicting Earth's Future",
+      "content": "<h3>Now you make predictions based on scientific understanding</h3><p>Scientists estimate the Sun will start running out of hydrogen fuel in about 5 billion years. What will happen to Earth's temperature as the Sun ages and expands?</p>",
+      "interactive": {
+        "type": "quiz",
+        "question": "What will happen to Earth as the Sun becomes a red giant?",
+        "options": [
+          "Earth will become much hotter and possibly be consumed by the expanding Sun",
+          "Earth will become colder as the Sun loses energy",
+          "Earth's temperature will stay the same",
+          "Earth will move closer to the Sun due to gravity"
+        ],
+        "correctAnswer": "Earth will become much hotter and possibly be consumed by the expanding Sun",
+        "feedback": {
+          "correct": "Exactly right! As the Sun expands into a red giant, it will grow hundreds of times larger, making Earth unbearably hot. The Sun might even expand enough to engulf Earth's orbit entirely!",
+          "incorrect": "Think about what happens when the Sun expands to hundreds of times its current size. Even if Earth isn't swallowed up, being much closer to the Sun's surface would make it extremely hot."
+        }
+      }
+    },
+    {
+      "id": "earth-and-space-lesson3-card14",
+      "type": "you-do",
+      "cycle": 3,
+      "title": "Synthesis: Connecting Past and Future",
+      "content": "<h3>Apply everything you've learned to this big-picture question</h3><p>Earth has existed for about 4.5 billion years and complex life has existed for about 600 million years. If Earth becomes uninhabitable in 1 billion years, what fraction of Earth's total habitable period are we currently in?</p><p><em>Think about this: If complex life has existed for 0.6 billion years and has 1 billion years left, that's 1.6 billion years total for complex life.</em></p>",
+      "interactive": {
+        "type": "practice",
+        "question": "Where are we in Earth's story of complex life? Are we at the beginning, middle, or end? Explain your reasoning:",
+        "correctAnswer": "We are in the middle third of Earth's period of complex life. Complex life has existed for 600 million years and has about 1 billion years remaining, giving a total habitable period of 1.6 billion years for complex life. We've used about 37% of this time (600 million / 1.6 billion), meaning we're past the beginning but far from the end.",
+        "feedback": {
+          "correct": "Wonderful analysis! You correctly recognized that we're in the middle portion of Earth's habitable period for complex life - not at the beginning, but with plenty of time still ahead.",
+          "incorrect": "Calculate the total time for complex life (past + future), then see what fraction we've already used. Is it closer to 0%, 50%, or 100%?"
+        }
+      }
+    },
+    {
+      "id": "earth-and-space-lesson3-card15",
+      "type": "summary",
+      "title": "Your Cosmic Journey Complete!",
+      "content": "<h3>Congratulations, Time Traveler!</h3><p>You've successfully journeyed through billions of years of cosmic history! Let's celebrate what you've learned:</p><p><strong>Key Achievements:</strong></p><ul><li>✓ You can navigate through geological time and identify major events in Earth's 4.5 billion year history</li><li>✓ You understand how the universe evolved from the Big Bang to create galaxies and solar systems</li><li>✓ You can predict Earth's future based on stellar evolution and cosmic expansion</li><li>✓ You see Earth's story as part of the grand narrative of the universe</li></ul><p>You now understand that Earth's story is both incredibly long and surprisingly short - long compared to human history, but just a chapter in the universe's even grander tale.</p><p><strong>Looking ahead:</strong> With your understanding of Earth's place in space and time, you're ready to explore even more specialized topics in geology, astronomy, and cosmology. The universe awaits your continued exploration!</p>"
+    }
+  ],
+  "totalCards": 15,
+  "metadata": {
+    "topicName": "Earth and Space",
+    "lessonNumber": 3,
+    "estimatedTime": "20-30 minutes",
+    "gradeLevel": "Elementary to Middle School",
+    "prerequisites": ["Scientific Inquiry Skills", "Earth and Space Lessons 1 and 2"],
+    "nextLesson": "Advanced topics in geology, astronomy, and cosmology"
+  }
+}

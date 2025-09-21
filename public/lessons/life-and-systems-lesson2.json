@@ -1,0 +1,187 @@
+{
+  "cards": [
+    {
+      "id": "life-and-systems-lesson2-card1",
+      "type": "intro",
+      "title": "Energy Powers Life!",
+      "content": "<h3>Welcome to Lesson 2: Energy and Matter in Living Systems!</h3><p>Have you ever wondered how a tiny seed grows into a giant tree, or how you have the energy to run and play? Today, we're going to discover the amazing ways that living things use energy and recycle matter!</p><p>In this lesson, you'll become an expert at understanding how energy flows through organisms and ecosystems. You'll learn about the incredible processes that keep all life on Earth running, from the smallest cell to the largest ecosystem.</p><p>Get ready to explore the fascinating world of energy transformations and matter cycles that make life possible!</p>"
+    },
+    {
+      "id": "life-and-systems-lesson2-card2",
+      "type": "objective",
+      "title": "Today's Learning Goals",
+      "content": "<h3>By the end of this lesson, you will be able to:</h3><ul><li><strong>Understand</strong> how energy powers all living processes</li><li><strong>Explain</strong> how cells transform energy through metabolism and cellular respiration</li><li><strong>Describe</strong> how matter cycles through ecosystems in biogeochemical cycles</li><li><strong>Trace</strong> the flow of energy and matter through food webs</li></ul><p>These skills will help you understand everything from how your body uses food for energy to how Earth recycles essential elements to sustain all life!</p>"
+    },
+    {
+      "id": "life-and-systems-lesson2-card3",
+      "type": "i-do",
+      "cycle": 1,
+      "title": "Energy in Living Systems - The Basics",
+      "content": "<h3>Watch as I explain how energy flows through living things!</h3><p>Let me show you a simple example of energy transformation in your daily life:</p><ol><li><strong>The sun</strong> shines on a plant → The plant captures solar energy</li><li><strong>The plant</strong> uses this energy to make glucose (sugar) through photosynthesis</li><li><strong>You eat</strong> an apple from the plant → You get chemical energy from the glucose</li><li><strong>Your body</strong> breaks down the glucose → Energy is released for your cells to use</li><li><strong>You use</strong> this energy to move, think, and grow!</li></ol><p>Notice how energy <em>flows</em> in one direction: from the sun → to plants → to you → and finally released as heat. Energy cannot be recycled - it flows through living systems!</p>"
+    },
+    {
+      "id": "life-and-systems-lesson2-card4",
+      "type": "i-do",
+      "cycle": 1,
+      "title": "Energy Transformations",
+      "content": "<h3>Let me demonstrate another energy transformation!</h3><p>Here's how a hummingbird transforms energy:</p><p><strong>Step 1:</strong> The hummingbird drinks nectar (chemical energy in sugar)</p><p><strong>Step 2:</strong> Its cells break down the sugar molecules</p><p><strong>Step 3:</strong> This releases energy that gets stored in special molecules called ATP</p><p><strong>Step 4:</strong> The ATP provides energy for wing muscles to contract</p><p><strong>Step 5:</strong> The rapid wing movement creates kinetic energy (movement)</p><p><strong>Step 6:</strong> Some energy is lost as heat (thermal energy)</p><p>See how energy changes forms? From <em>chemical</em> → to <em>stored</em> → to <em>kinetic</em> → to <em>thermal</em>. Each transformation follows the laws of energy!</p>"
+    },
+    {
+      "id": "life-and-systems-lesson2-card5",
+      "type": "you-do",
+      "cycle": 1,
+      "title": "Trace the Energy Flow",
+      "content": "<h3>Now it's your turn to trace energy flow!</h3><p>A rabbit eats grass in a meadow. The grass got its energy from the sun. What happens to the energy next?</p><p>Complete this sentence: After the rabbit eats the grass, the energy is used for...</p>",
+      "interactive": {
+        "type": "practice",
+        "question": "Describe what the rabbit uses the energy from grass for (name at least 2 uses):",
+        "correctAnswer": "The rabbit uses energy for movement, maintaining body temperature, growth, reproduction, and other life processes. Some energy is lost as heat.",
+        "feedback": {
+          "correct": "Excellent thinking! You correctly identified that organisms use energy for multiple life processes.",
+          "incorrect": "Good try! Remember that all organisms need energy for basic life functions like movement, growth, and maintaining their body temperature."
+        }
+      }
+    },
+    {
+      "id": "life-and-systems-lesson2-card6",
+      "type": "you-do",
+      "cycle": 1,
+      "title": "Energy Flow Direction",
+      "content": "<h3>Test your understanding of energy flow!</h3><p>Think about what you've learned about energy in living systems.</p>",
+      "interactive": {
+        "type": "quiz",
+        "question": "Which statement about energy flow in ecosystems is correct?",
+        "options": [
+          "Energy cycles through ecosystems and can be reused",
+          "Energy flows in one direction and cannot be recycled",
+          "Energy stays in one place and doesn't move",
+          "Energy only exists in plants, not animals"
+        ],
+        "correctAnswer": 1,
+        "feedback": {
+          "correct": "Perfect! Energy flows in one direction through ecosystems - from the sun through organisms and is eventually released as heat. It cannot be recycled like matter can.",
+          "incorrect": "Not quite. Remember that energy flows through ecosystems in one direction (from sun → producers → consumers → heat) and cannot be recycled, unlike matter which does cycle."
+        }
+      }
+    },
+    {
+      "id": "life-and-systems-lesson2-card7",
+      "type": "i-do",
+      "cycle": 2,
+      "title": "Cellular Respiration - Energy for Cells",
+      "content": "<h3>Let me show you how cells extract energy from food!</h3><p>Watch as I explain cellular respiration - the process that powers your cells:</p><p><strong>The Overall Process:</strong><br/>Glucose (C₆H₁₂O₆) + Oxygen (O₂) → Carbon Dioxide (CO₂) + Water (H₂O) + Energy (ATP)</p><p><strong>Step-by-step breakdown:</strong></p><ol><li><strong>Glycolysis:</strong> Glucose is broken into smaller molecules in the cytoplasm (produces 2 ATP)</li><li><strong>Krebs Cycle:</strong> These molecules enter the mitochondria and are broken down further (produces 2 ATP)</li><li><strong>Electron Transport Chain:</strong> The final stage produces the most energy (about 32 ATP)</li></ol><p>Total energy yield: About <strong>36 ATP molecules</strong> from one glucose molecule! ATP is like the 'energy currency' that cells use for all their activities.</p>"
+    },
+    {
+      "id": "life-and-systems-lesson2-card8",
+      "type": "i-do",
+      "cycle": 2,
+      "title": "Matter Cycles - The Carbon Cycle",
+      "content": "<h3>Now let me demonstrate how matter cycles through ecosystems!</h3><p>Unlike energy, matter gets recycled! Let's trace a carbon atom through the carbon cycle:</p><ol><li><strong>Atmosphere:</strong> Our carbon atom starts as part of CO₂ in the air</li><li><strong>Photosynthesis:</strong> A tree absorbs the CO₂ and uses it to make glucose</li><li><strong>Plant tissue:</strong> The carbon becomes part of a leaf</li><li><strong>Consumption:</strong> A caterpillar eats the leaf</li><li><strong>Respiration:</strong> The caterpillar breathes out CO₂, returning carbon to the air</li><li><strong>OR Decomposition:</strong> When organisms die, decomposers release carbon back to soil and air</li></ol><p>Notice how the same carbon atom can be used over and over again - matter cycles, but energy flows!</p>"
+    },
+    {
+      "id": "life-and-systems-lesson2-card9",
+      "type": "you-do",
+      "cycle": 2,
+      "title": "Calculate Cellular Respiration Energy",
+      "content": "<h3>Your turn to work with cellular respiration!</h3><p>If a muscle cell breaks down 3 glucose molecules through cellular respiration, approximately how many ATP molecules will it produce?</p><p>Remember: One glucose molecule produces about 36 ATP molecules.</p>",
+      "interactive": {
+        "type": "input",
+        "question": "How many ATP molecules from 3 glucose molecules?",
+        "correctAnswer": "108",
+        "alternativeAnswers": ["108 ATP", "108 ATP molecules"],
+        "feedback": {
+          "correct": "Outstanding! You correctly calculated that 3 × 36 = 108 ATP molecules. This shows you understand how cells generate energy from glucose!",
+          "incorrect": "Let's think through this: If one glucose produces 36 ATP, then 3 glucose molecules would produce 3 × 36 = 108 ATP molecules.",
+          "partial": "You're on the right track! Make sure to multiply the number of glucose molecules (3) by the ATP produced per glucose (36)."
+        },
+        "hint": "Multiply the number of glucose molecules by 36 ATP per glucose"
+      }
+    },
+    {
+      "id": "life-and-systems-lesson2-card10",
+      "type": "you-do",
+      "cycle": 2,
+      "title": "Trace the Carbon Atom",
+      "content": "<h3>Track a carbon atom through the cycle!</h3><p>A carbon atom is currently in a CO₂ molecule in the atmosphere. A corn plant absorbs it during photosynthesis. What are TWO possible paths this carbon atom could take next?</p>",
+      "interactive": {
+        "type": "practice",
+        "question": "Describe two different paths the carbon atom could take after becoming part of the corn plant:",
+        "correctAnswer": "Path 1: The corn is eaten by an animal, the carbon becomes part of the animal's body or is released as CO₂ through respiration. Path 2: The corn plant dies and decomposes, releasing the carbon back to the soil or atmosphere. Other paths include: being eaten by humans, becoming fossil fuel over millions of years, or staying in plant tissue.",
+        "feedback": {
+          "correct": "Excellent tracing! You've shown that you understand how carbon moves through different parts of the ecosystem.",
+          "incorrect": "Think about what happens to plants - they can be eaten, they can die and decompose, or they can release CO₂ through their own respiration."
+        }
+      }
+    },
+    {
+      "id": "life-and-systems-lesson2-card11",
+      "type": "i-do",
+      "cycle": 3,
+      "title": "Energy Flow in Food Webs",
+      "content": "<h3>Let me show you how energy flows through an entire ecosystem!</h3><p>Here's a meadow food web with energy values:</p><p><strong>Energy Pyramid (from bottom to top):</strong></p><ul><li><strong>Producers (Grass):</strong> 10,000 units of energy from the sun</li><li><strong>Primary Consumers (Rabbits):</strong> 1,000 units (10% of grass energy)</li><li><strong>Secondary Consumers (Foxes):</strong> 100 units (10% of rabbit energy)</li><li><strong>Tertiary Consumers (Hawks):</strong> 10 units (10% of fox energy)</li></ul><p><strong>Key Insight:</strong> Only about 10% of energy transfers to the next level! Why? Because organisms use most energy for their own life processes and lose much as heat. This is called the <em>10% Rule</em> in ecology.</p><p>This explains why there are always fewer predators than prey in nature!</p>"
+    },
+    {
+      "id": "life-and-systems-lesson2-card12",
+      "type": "i-do",
+      "cycle": 3,
+      "title": "Complete Biogeochemical Cycles",
+      "content": "<h3>Let me demonstrate how multiple cycles work together!</h3><p>In a pond ecosystem, watch how carbon, nitrogen, and water cycles interconnect:</p><p><strong>The Pond System:</strong></p><ol><li><strong>Algae</strong> use CO₂, water, and nitrogen to grow (photosynthesis + nutrient uptake)</li><li><strong>Small fish</strong> eat algae, incorporating these elements into their bodies</li><li><strong>Fish waste</strong> releases nitrogen compounds back to the water</li><li><strong>Bacteria</strong> convert waste nitrogen into forms algae can use again</li><li><strong>Fish respiration</strong> releases CO₂ back to the water and air</li><li><strong>Water evaporates</strong> and returns as rain, continuing the water cycle</li></ol><p>See how all three cycles work together? Living things need ALL these elements cycling to survive. If one cycle is disrupted, the whole ecosystem is affected!</p>"
+    },
+    {
+      "id": "life-and-systems-lesson2-card13",
+      "type": "you-do",
+      "cycle": 3,
+      "title": "Energy Transfer Calculation",
+      "content": "<h3>Apply the 10% rule to solve this problem!</h3><p>In a forest ecosystem, oak trees capture 50,000 units of energy from sunlight. If caterpillars eat the oak leaves, and birds eat the caterpillars, how much energy will be available to the birds?</p>",
+      "interactive": {
+        "type": "input",
+        "question": "How many energy units will the birds receive?",
+        "correctAnswer": "500",
+        "alternativeAnswers": ["500 units", "500 energy units"],
+        "feedback": {
+          "correct": "Brilliant work! You correctly applied the 10% rule twice: Oak trees (50,000) → Caterpillars (5,000) → Birds (500). You understand energy transfer in food chains!",
+          "incorrect": "Let's work through this step by step: Caterpillars get 10% of 50,000 = 5,000 units. Birds get 10% of 5,000 = 500 units.",
+          "partial": "Remember to apply the 10% rule at each step of the food chain."
+        },
+        "hint": "Apply the 10% rule twice: once from plants to caterpillars, then from caterpillars to birds"
+      }
+    },
+    {
+      "id": "life-and-systems-lesson2-card14",
+      "type": "you-do",
+      "cycle": 3,
+      "title": "Ecosystem Integration",
+      "content": "<h3>Put it all together with this ecosystem challenge!</h3>",
+      "interactive": {
+        "type": "quiz",
+        "question": "A farmer notices that adding decomposer organisms (earthworms) to soil improves plant growth. Which explanation best describes why this happens?",
+        "options": [
+          "Earthworms create new energy for plants to use",
+          "Earthworms recycle nutrients from dead matter back into forms plants can absorb",
+          "Earthworms prevent energy from escaping the ecosystem",
+          "Earthworms produce oxygen that plants need"
+        ],
+        "correctAnswer": 1,
+        "feedback": {
+          "correct": "Exactly right! Decomposers like earthworms break down dead organic matter and release nutrients (nitrogen, phosphorus, etc.) back into the soil where plants can absorb and use them. This is matter cycling in action!",
+          "incorrect": "Think about the role of decomposers - they break down dead matter and return nutrients to the soil. They don't create energy or prevent its loss."
+        }
+      }
+    },
+    {
+      "id": "life-and-systems-lesson2-card15",
+      "type": "summary",
+      "title": "Energy and Matter Mastery!",
+      "content": "<h3>🌟 Congratulations! You've Mastered Energy and Matter in Living Systems!</h3><p>You've made incredible discoveries today! Let's celebrate what you've learned:</p><ul><li><strong>Energy flows</strong> in one direction through ecosystems (sun → organisms → heat)</li><li><strong>Matter cycles</strong> and gets reused through biogeochemical cycles</li><li><strong>Cellular respiration</strong> transforms glucose into usable energy (ATP)</li><li><strong>The 10% rule</strong> explains energy transfer between trophic levels</li><li><strong>Decomposers</strong> play a crucial role in recycling matter</li></ul><p>You now understand the fundamental processes that keep all life on Earth running! These concepts explain everything from why you need to eat food to how Earth has sustained life for billions of years.</p><p><strong>Next up:</strong> In Lesson 3, you'll explore the amazing diversity of life and discover how organisms have adapted to use energy and matter in incredible ways!</p><p>Keep up the fantastic work - you're becoming a real life scientist! 🔬</p>"
+    }
+  ],
+  "totalCards": 15,
+  "metadata": {
+    "topicName": "Life and Systems",
+    "lessonNumber": 2,
+    "estimatedTime": "20-30 minutes",
+    "gradeLevel": "Elementary to Middle School",
+    "prerequisites": ["Scientific Inquiry Skills", "Life and Systems Lesson 1"],
+    "nextLesson": "Life and Systems Lesson 3: Diversity and Adaptations"
+  }
+}

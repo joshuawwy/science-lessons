@@ -1,0 +1,223 @@
+{
+  "cards": [
+    {
+      "id": "matter-and-materials-lesson3-card1",
+      "type": "intro",
+      "cycle": null,
+      "title": "Welcome to Changes in Matter!",
+      "content": "<p>Welcome back, young scientist! You've already explored what matter is and its amazing properties. Today, we're going on an exciting journey to discover how matter can change!</p><p>Have you ever watched an ice cube melt? Or seen a campfire turn wood into ash? These are just two examples of the incredible changes matter can undergo. Some changes are reversible (like melting ice), while others create entirely new substances (like burning wood).</p><p>In this lesson 3 of Matter and Materials, you'll become a change detective, learning to spot the difference between physical and chemical changes, understand why matter never truly disappears, and discover the energy secrets hidden in every transformation!</p><p>Ready to unlock the mysteries of changing matter? Let's begin!</p>",
+      "interactive": null
+    },
+    {
+      "id": "matter-and-materials-lesson3-card2",
+      "type": "objective",
+      "cycle": null,
+      "title": "Today's Learning Goals",
+      "content": "<h3>By the end of this lesson, you will be able to:</h3><ul><li><strong>Distinguish</strong> between physical and chemical changes by observing key clues and evidence</li><li><strong>Explain</strong> the conservation of mass principle - why matter never disappears, only transforms</li><li><strong>Describe</strong> how energy flows in and out during physical and chemical processes</li><li><strong>Predict</strong> whether a change is physical or chemical based on what happens to the particles</li></ul><p>These skills will help you understand everything from cooking in the kitchen to how your body digests food!</p>",
+      "interactive": null
+    },
+    {
+      "id": "matter-and-materials-lesson3-card3",
+      "type": "i-do",
+      "cycle": 1,
+      "title": "I Do: Spotting Physical Changes",
+      "content": "<h3>Let me show you how to identify a physical change!</h3><p>Watch as I examine what happens when we tear a piece of paper:</p><ol><li><strong>Before:</strong> I have one whole sheet of paper</li><li><strong>Action:</strong> I tear it into smaller pieces</li><li><strong>After:</strong> I have many small pieces of paper</li></ol><p><strong>Notice how:</strong></p><ul><li>The paper is still paper - it hasn't become a different substance</li><li>The particles (molecules) that make up the paper are exactly the same</li><li>I could tape the pieces back together (theoretically)</li><li>Only the <em>shape</em> and <em>size</em> changed, not the <em>identity</em></li></ul><p>This is a <strong>physical change</strong> - the substance stays the same, only its form changes!</p>",
+      "interactive": null
+    },
+    {
+      "id": "matter-and-materials-lesson3-card4",
+      "type": "i-do",
+      "cycle": 1,
+      "title": "I Do: Another Physical Change Example",
+      "content": "<h3>Let me demonstrate another physical change with water!</h3><p>Watch what happens when water freezes into ice:</p><ol><li><strong>Start:</strong> Liquid water at room temperature (H₂O molecules moving freely)</li><li><strong>Process:</strong> Place in freezer at 0°C or below</li><li><strong>Result:</strong> Solid ice (H₂O molecules locked in place)</li></ol><p><strong>Key observations:</strong></p><ul><li>The chemical formula stays H₂O - it's still water!</li><li>Only the arrangement of molecules changed (spread out → organized pattern)</li><li>We can reverse it by melting the ice back to water</li><li>The substance's identity remains unchanged</li></ul><p>Remember: In physical changes, the particles themselves don't change - only how they're arranged or how fast they're moving!</p>",
+      "interactive": null
+    },
+    {
+      "id": "matter-and-materials-lesson3-card5",
+      "type": "you-do",
+      "cycle": 1,
+      "title": "You Do: Identify the Physical Change",
+      "content": "<p>Now it's your turn! Look at this scenario and answer the question:</p><p><strong>Scenario:</strong> Sarah takes a bar of chocolate and breaks it into smaller pieces to share with friends. The chocolate pieces melt slightly in her warm hands, becoming soft and sticky.</p><p>What evidence tells you this is a physical change? Type your answer below:</p>",
+      "interactive": {
+        "type": "practice",
+        "question": "Explain why breaking and melting chocolate are physical changes.",
+        "correctAnswer": "The chocolate remains chocolate throughout. Breaking it changes only the size/shape, and melting changes only the state from solid to soft. The chocolate molecules stay the same - no new substance is created.",
+        "alternativeAnswers": [
+          "The chocolate is still chocolate after breaking and melting",
+          "No new substances are formed",
+          "The changes can be reversed by cooling"
+        ],
+        "feedback": {
+          "correct": "Excellent observation! You correctly identified that the chocolate's chemical identity doesn't change.",
+          "incorrect": "Think about what happens to the chocolate molecules - do they change into something else, or just rearrange?",
+          "partial": "Good start! Also consider that the chocolate molecules themselves remain unchanged."
+        },
+        "hint": "Focus on whether the chocolate becomes a different substance or just changes its form."
+      }
+    },
+    {
+      "id": "matter-and-materials-lesson3-card6",
+      "type": "you-do",
+      "cycle": 1,
+      "title": "You Do: Physical Change Detective",
+      "content": "<p>Test your understanding with this question:</p>",
+      "interactive": {
+        "type": "quiz",
+        "question": "Which of the following is NOT a physical change?",
+        "options": [
+          "Crushing a can",
+          "Dissolving sugar in water",
+          "Rusting iron",
+          "Boiling water"
+        ],
+        "correctAnswer": "Rusting iron",
+        "feedback": {
+          "correct": "Perfect! Rusting is a chemical change where iron combines with oxygen to form iron oxide (rust), a completely new substance.",
+          "incorrect": "Remember, physical changes don't create new substances. Look for the option where a new substance forms."
+        },
+        "hint": "Physical changes alter appearance but not chemical composition. Which option creates a new substance?"
+      }
+    },
+    {
+      "id": "matter-and-materials-lesson3-card7",
+      "type": "i-do",
+      "cycle": 2,
+      "title": "I Do: Recognizing Chemical Changes",
+      "content": "<h3>Now let me show you how to identify a chemical change!</h3><p>Watch what happens when we burn a piece of paper:</p><ol><li><strong>Before:</strong> White paper made of cellulose (C₆H₁₀O₅)</li><li><strong>During:</strong> Apply heat from a flame</li><li><strong>After:</strong> Black ash (mostly carbon), smoke, and invisible gases (CO₂ and H₂O vapor)</li></ol><p><strong>Evidence of chemical change:</strong></p><ul><li>✓ New substances formed (ash, carbon dioxide, water vapor)</li><li>✓ Energy released as heat and light</li><li>✓ Color change (white → black)</li><li>✓ Irreversible - we can't turn ash back into paper</li><li>✓ Chemical bonds broken and new ones formed</li></ul><p>This is a <strong>chemical change</strong> - the original substance is transformed into completely different substances!</p>",
+      "interactive": null
+    },
+    {
+      "id": "matter-and-materials-lesson3-card8",
+      "type": "i-do",
+      "cycle": 2,
+      "title": "I Do: Conservation of Mass in Action",
+      "content": "<h3>Let me demonstrate the amazing principle of conservation of mass!</h3><p>Imagine we're doing a chemical reaction in a sealed container:</p><p><strong>Baking soda + Vinegar reaction:</strong></p><ol><li><strong>Before:</strong> 10g baking soda + 50g vinegar = 60g total</li><li><strong>During:</strong> Bubbling and fizzing as CO₂ gas forms</li><li><strong>After:</strong> Products (including trapped gas) = still 60g total!</li></ol><p><strong>The Law of Conservation of Mass states:</strong></p><p><em>Matter cannot be created or destroyed in a chemical reaction - it only changes form!</em></p><ul><li>All atoms present before the reaction are still there after</li><li>They've just rearranged into new combinations</li><li>If mass seems to disappear, it's usually because gas escaped!</li></ul><p>Remember: Count the atoms, not just what you can see!</p>",
+      "interactive": null
+    },
+    {
+      "id": "matter-and-materials-lesson3-card9",
+      "type": "you-do",
+      "cycle": 2,
+      "title": "You Do: Chemical Change Clues",
+      "content": "<p>You're observing an experiment where iron filings are mixed with sulfur powder and heated. You notice:</p><ul><li>The mixture glows red-hot without adding more heat</li><li>A new gray-black solid forms</li><li>A magnet can no longer separate the iron</li><li>The final product has different properties than iron or sulfur</li></ul><p>Based on these observations, explain why this is a chemical change:</p>",
+      "interactive": {
+        "type": "input",
+        "question": "List at least two pieces of evidence that prove this is a chemical change.",
+        "correctAnswer": "New substance formed with different properties; energy released as heat and light; cannot be separated by physical means; irreversible change",
+        "alternativeAnswers": [
+          "A new substance formed and energy was released",
+          "The magnet can't separate it anymore and it has new properties",
+          "It glows and creates something with different properties"
+        ],
+        "feedback": {
+          "correct": "Excellent analysis! You've identified the key indicators of a chemical change.",
+          "incorrect": "Look for signs like new substances forming, energy being released, or permanent changes in properties.",
+          "partial": "Good observations! Chemical changes always produce new substances with different properties."
+        },
+        "hint": "Think about what makes this change permanent and different from just mixing."
+      }
+    },
+    {
+      "id": "matter-and-materials-lesson3-card10",
+      "type": "you-do",
+      "cycle": 2,
+      "title": "You Do: Conservation of Mass Challenge",
+      "content": "<p>A student burns 5 grams of magnesium ribbon in air. The resulting white ash weighs 8.3 grams.</p><p><strong>Question:</strong> Has the Law of Conservation of Mass been broken? Explain what happened.</p>",
+      "interactive": {
+        "type": "practice",
+        "question": "Explain why the mass increased and how this still follows the conservation of mass.",
+        "correctAnswer": "The mass increased because magnesium combined with oxygen from the air to form magnesium oxide. The total mass of magnesium plus oxygen equals the mass of the ash. Mass is conserved - we just need to account for the oxygen that joined the reaction.",
+        "alternativeAnswers": [
+          "Oxygen from the air combined with the magnesium",
+          "The magnesium reacted with oxygen to form a heavier compound",
+          "Air particles were added to the magnesium during burning"
+        ],
+        "feedback": {
+          "correct": "Perfect explanation! You understand that we must account for all reactants, including gases from the air.",
+          "incorrect": "Remember that burning involves combining with oxygen from the air. Where does the extra mass come from?",
+          "partial": "You're on the right track! The key is that oxygen from the air becomes part of the new compound."
+        },
+        "hint": "What substance from the air does magnesium combine with when it burns?"
+      }
+    },
+    {
+      "id": "matter-and-materials-lesson3-card11",
+      "type": "i-do",
+      "cycle": 3,
+      "title": "I Do: Energy in Physical Changes",
+      "content": "<h3>Let me show you how energy flows during changes in matter!</h3><p><strong>Example: Melting Ice Cream</strong></p><p>When ice cream melts on a hot day:</p><ol><li><strong>Energy flows IN (endothermic):</strong> Heat from the warm air enters the cold ice cream</li><li><strong>What happens:</strong> This energy makes the frozen water molecules vibrate faster</li><li><strong>Result:</strong> Molecules break free from their fixed positions → ice cream becomes liquid</li></ol><p><strong>Energy diagram:</strong></p><p>Solid (low energy) + Heat Energy → Liquid (higher energy)</p><p><strong>Key insight:</strong> Physical changes that require energy input (melting, evaporating) are <em>endothermic</em>. The reverse processes (freezing, condensing) release energy and are <em>exothermic</em>.</p><p>Think of it like this: You need to add energy to climb uphill (endothermic), but you release energy going downhill (exothermic)!</p>",
+      "interactive": null
+    },
+    {
+      "id": "matter-and-materials-lesson3-card12",
+      "type": "i-do",
+      "cycle": 3,
+      "title": "I Do: Energy in Chemical Changes",
+      "content": "<h3>Now let's explore energy in chemical changes!</h3><p><strong>Example: Hand Warmer Activation</strong></p><p>When you activate a chemical hand warmer:</p><ol><li><strong>Before:</strong> Iron powder, salt, and water are separated</li><li><strong>Activation:</strong> Mixing allows iron to react with oxygen</li><li><strong>During:</strong> Chemical bonds break and new, stronger bonds form</li><li><strong>Result:</strong> Energy is released as heat (exothermic reaction)</li></ol><p><strong>Energy analysis:</strong></p><ul><li>Breaking bonds requires energy (like breaking apart LEGOs)</li><li>Forming new bonds releases energy (like snapping LEGOs together)</li><li>If more energy is released than absorbed → exothermic (gives off heat)</li><li>If more energy is absorbed than released → endothermic (absorbs heat)</li></ul><p>The hand warmer is exothermic because forming iron oxide bonds releases more energy than breaking the original bonds required!</p>",
+      "interactive": null
+    },
+    {
+      "id": "matter-and-materials-lesson3-card13",
+      "type": "you-do",
+      "cycle": 3,
+      "title": "You Do: Energy Flow Detective",
+      "content": "<p>You're making instant ice packs for the school nurse. When you break the inner pouch, ammonium nitrate mixes with water and the pack becomes very cold.</p>",
+      "interactive": {
+        "type": "quiz",
+        "question": "What type of energy change is occurring and why does the pack feel cold?",
+        "options": [
+          "Exothermic - heat is released making it cold",
+          "Endothermic - heat is absorbed from your hand",
+          "No energy change - it's just mixing",
+          "Exothermic - cold is a type of energy released"
+        ],
+        "correctAnswer": "Endothermic - heat is absorbed from your hand",
+        "feedback": {
+          "correct": "Exactly right! The dissolving process absorbs heat energy from the surroundings (including your hand), making the pack feel cold. This is an endothermic process.",
+          "incorrect": "Think about where the energy is going. If the pack feels cold to your hand, what's happening to the heat from your hand?"
+        },
+        "hint": "If something feels cold, it's taking heat away from you. Which type of reaction absorbs heat?"
+      }
+    },
+    {
+      "id": "matter-and-materials-lesson3-card14",
+      "type": "you-do",
+      "cycle": 3,
+      "title": "You Do: Complete Change Analysis",
+      "content": "<p>A candle is burning at a birthday party. Analyze everything that's happening:</p><p><strong>Your task:</strong> Identify what type of change is occurring and describe the energy transformations.</p>",
+      "interactive": {
+        "type": "practice",
+        "question": "Explain whether burning a candle is a physical or chemical change, and describe what happens to the energy.",
+        "correctAnswer": "Burning a candle involves both changes. The melting wax is a physical change (solid to liquid). The burning wick and vaporized wax undergo chemical changes, combining with oxygen to form CO₂ and water vapor. This is an exothermic chemical reaction that releases energy as heat and light. The chemical energy stored in the wax molecules is converted to thermal and light energy.",
+        "alternativeAnswers": [
+          "Chemical change that releases heat and light energy",
+          "Both physical (melting) and chemical (burning) changes occur with energy release",
+          "Exothermic chemical reaction converting stored energy to heat and light"
+        ],
+        "feedback": {
+          "correct": "Outstanding analysis! You've identified both types of changes and correctly described the energy transformations.",
+          "incorrect": "Consider that a candle involves both melting (physical) and burning (chemical). What happens to the energy?",
+          "partial": "Good thinking! Remember to consider both the melting wax and the burning process."
+        },
+        "hint": "Think about what happens to the solid wax first, then what happens when it burns."
+      }
+    },
+    {
+      "id": "matter-and-materials-lesson3-card15",
+      "type": "summary",
+      "cycle": null,
+      "title": "Celebrating Your Learning!",
+      "content": "<h3>🌟 Congratulations, Change Expert!</h3><p>You've mastered the fundamental concepts of how matter changes! Let's celebrate what you've accomplished:</p><ul><li><strong>Physical vs. Chemical Changes:</strong> You can now identify whether a change creates new substances (chemical) or just alters the form (physical)</li><li><strong>Conservation of Mass:</strong> You understand that matter is never lost or created - it just transforms and rearranges</li><li><strong>Energy Transformations:</strong> You can track how energy flows in and out of physical and chemical processes</li></ul><p><strong>Real-world applications:</strong> These concepts explain everything from cooking food to powering batteries, from weather patterns to how your body processes nutrients!</p><p><strong>What's next?</strong> In future lessons, you'll explore specific types of reactions, learn to predict products, and even balance chemical equations. You're building a strong foundation for advanced chemistry!</p><p>Remember: Every change you observe - from rust forming to ice melting - follows the principles you've learned today. Keep observing, keep questioning, and keep discovering!</p>",
+      "interactive": null
+    }
+  ],
+  "totalCards": 15,
+  "metadata": {
+    "topicName": "Matter and Materials",
+    "lessonNumber": 3,
+    "estimatedTime": "20-30 minutes",
+    "gradeLevel": "Primary to lower secondary",
+    "prerequisites": ["Scientific Inquiry Skills", "Introduction to Matter (Part 1)", "Properties of Matter (Part 2)"],
+    "nextLesson": "Advanced topics in chemistry and physics"
+  }
+}

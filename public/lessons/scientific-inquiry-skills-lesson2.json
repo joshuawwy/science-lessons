@@ -1,0 +1,211 @@
+{
+  "cards": [
+    {
+      "id": "scientific-inquiry-skills-lesson2-card1",
+      "type": "intro",
+      "cycle": null,
+      "title": "Welcome to Scientific Hypothesis Formation",
+      "content": "<p>Welcome back, young scientist! In our last lesson, you mastered the art of careful observation and asking scientific questions. Today, we're taking the next exciting step in your scientific journey.</p><p>You're about to learn one of the most powerful tools scientists use: <strong>forming hypotheses and designing experiments</strong>. This is how scientists turn their questions into discoveries that can change the world!</p><p>Imagine being the researcher who discovers a cure for a disease, or the engineer who designs a new material that makes buildings earthquake-proof. These breakthroughs all start with a well-formed hypothesis and a carefully designed experiment.</p><p>Ready to think like a real scientist? Let's begin!</p>",
+      "interactive": null
+    },
+    {
+      "id": "scientific-inquiry-skills-lesson2-card2",
+      "type": "objective",
+      "cycle": null,
+      "title": "Today's Learning Goals",
+      "content": "<h3>By the end of this lesson, you will be able to:</h3><ul><li><strong>Formulate testable hypotheses</strong> using the if-then-because structure</li><li><strong>Identify variables</strong> in experiments (independent, dependent, and controlled)</li><li><strong>Design controlled experiments</strong> with step-by-step procedures</li><li><strong>Connect your hypotheses</strong> to real scientific investigations</li></ul><p>These skills are exactly what professional scientists use every day in labs around the world. Whether they're developing new medicines, studying climate change, or exploring space, they all use the same hypothesis and experimental design principles you're about to master!</p>",
+      "interactive": null
+    },
+    {
+      "id": "scientific-inquiry-skills-lesson2-card3",
+      "type": "i-do",
+      "cycle": 1,
+      "title": "I Do: Creating Your First Hypothesis",
+      "content": "<h3>Watch How I Form a Scientific Hypothesis</h3><p>Let me show you exactly how to create a testable hypothesis. Pay close attention to each step!</p><p><strong>Step 1: Start with an observation and question</strong></p><ul><li>My observation: 'Plants in the sunny window are taller than plants in the dark corner.'</li><li>My question: 'How does light affect plant growth?'</li></ul><p><strong>Step 2: Make a prediction with an explanation</strong></p><p>If plants receive more sunlight, then they will grow taller <em>because</em> light provides energy for photosynthesis.</p><p><strong>Step 3: Make it specific and testable</strong></p><p>My complete hypothesis: <strong>'If plants receive 8 hours of direct sunlight per day, then they will grow 2 cm taller per week than plants receiving no direct sunlight, because light provides energy needed for photosynthesis.'</strong></p><p>Notice the three essential parts: <strong>IF</strong> (what we change), <strong>THEN</strong> (what we expect to happen), and <strong>BECAUSE</strong> (why we think it will happen).</p>",
+      "interactive": null
+    },
+    {
+      "id": "scientific-inquiry-skills-lesson2-card4",
+      "type": "i-do",
+      "cycle": 1,
+      "title": "I Do: Another Hypothesis Example",
+      "content": "<h3>Let's Form Another Hypothesis Using the Same Process</h3><p>Watch as I use the exact same steps with a different scenario:</p><p><strong>Step 1: Observation and question</strong></p><ul><li>My observation: 'Ice cubes melt faster in warm water than cold water.'</li><li>My question: 'How does water temperature affect ice melting rate?'</li></ul><p><strong>Step 2: Prediction with explanation</strong></p><p>If ice cubes are placed in warmer water, then they will melt faster <em>because</em> higher temperature increases molecular movement.</p><p><strong>Step 3: Specific and testable version</strong></p><p>My complete hypothesis: <strong>'If ice cubes are placed in water at 40°C, then they will melt completely in 3 minutes, compared to 10 minutes in water at 10°C, because higher temperature increases molecular kinetic energy.'</strong></p><p>See how both examples follow the same <strong>if-then-because</strong> pattern? This structure works for any scientific hypothesis!</p>",
+      "interactive": null
+    },
+    {
+      "id": "scientific-inquiry-skills-lesson2-card5",
+      "type": "you-do",
+      "cycle": 1,
+      "title": "You Do: Write Your First Hypothesis",
+      "content": "<h3>Now It's Your Turn!</h3><p>Here's an observation and question for you to work with:</p><ul><li><strong>Observation:</strong> 'Balls bounce higher on concrete than on grass.'</li><li><strong>Question:</strong> 'How does surface type affect ball bounce height?'</li></ul><p>Use the three-step process you just learned to write a complete hypothesis. Remember to include:</p><ol><li>An <strong>IF</strong> statement (what you'll change)</li><li>A <strong>THEN</strong> statement with specific measurements (what you expect)</li><li>A <strong>BECAUSE</strong> explanation (why you think it will happen)</li></ol>",
+      "interactive": {
+        "type": "practice",
+        "question": "Write your complete hypothesis using the if-then-because structure. Be specific with your measurements!",
+        "correctAnswer": "If a ball is dropped from 1 meter onto concrete, then it will bounce to 80 cm compared to 20 cm on grass, because concrete's hard surface transfers more energy back to the ball.",
+        "alternativeAnswers": [
+          "If a ball is dropped from 1 meter onto concrete, then it will bounce higher than on grass, because concrete is harder and transfers more energy back to the ball.",
+          "If I drop a ball from 1 meter onto concrete, then it will bounce to about 75-85 cm compared to 15-25 cm on grass, because the harder surface of concrete transfers more kinetic energy back to the ball."
+        ],
+        "feedback": {
+          "correct": "Excellent work! You've included all three essential parts: the IF (what changes), THEN (specific prediction), and BECAUSE (scientific explanation). Your hypothesis is testable and specific!",
+          "incorrect": "Good try! Make sure your hypothesis includes specific measurements. For example: 'If a ball is dropped from 1 meter onto concrete, then it will bounce to 80 cm compared to 20 cm on grass, because concrete's hard surface transfers more energy back to the ball.'",
+          "partial": "You're on the right track! Try to be more specific with your measurements. Instead of 'higher,' use actual numbers like '80 cm on concrete compared to 20 cm on grass.'"
+        },
+        "hint": "Remember to follow the pattern: IF (specific condition) THEN (measurable outcome) BECAUSE (scientific reason). Include actual numbers for drop height and expected bounce heights."
+      }
+    },
+    {
+      "id": "scientific-inquiry-skills-lesson2-card6",
+      "type": "you-do",
+      "cycle": 1,
+      "title": "You Do: Practice Another Hypothesis",
+      "content": "<h3>Let's Practice One More Time</h3><p>Here's another scenario for hypothesis practice:</p><ul><li><strong>Observation:</strong> 'Hot water dissolves sugar faster than cold water.'</li><li><strong>Question:</strong> 'How does water temperature affect sugar dissolving rate?'</li></ul><p>Write your hypothesis following the same if-then-because structure. Make sure to include specific temperatures and time measurements!</p>",
+      "interactive": {
+        "type": "input",
+        "question": "Write your hypothesis here (include IF, THEN with specific measurements, and BECAUSE):",
+        "correctAnswer": "If sugar is added to water at 80°C, then it will dissolve completely in 10 seconds, compared to 60 seconds in water at 20°C, because higher temperature increases molecular movement and collision rate.",
+        "alternativeAnswers": [
+          "If sugar is added to water at 80 degrees Celsius, then it will dissolve in 10 seconds versus 60 seconds at 20 degrees Celsius, because higher temperature increases molecular movement.",
+          "If I add sugar to water at 80°C, then it will dissolve in about 10 seconds compared to 1 minute in 20°C water, because heat increases molecular motion and collision rate."
+        ],
+        "feedback": {
+          "correct": "Perfect! Your hypothesis is clear, specific, and testable. You've mastered the if-then-because structure with precise measurements. Well done!",
+          "incorrect": "Remember to include all three parts with specific details. Try: 'If sugar is added to water at 80°C, then it will dissolve completely in 10 seconds, compared to 60 seconds in water at 20°C, because higher temperature increases molecular movement.'",
+          "partial": "Good start! Make your measurements more specific and include the scientific explanation about molecular movement."
+        },
+        "hint": "Think about specific temperatures (like 80°C vs 20°C) and dissolving times (like 10 seconds vs 60 seconds). Don't forget to explain WHY using molecular movement!"
+      }
+    },
+    {
+      "id": "scientific-inquiry-skills-lesson2-card7",
+      "type": "i-do",
+      "cycle": 2,
+      "title": "I Do: Identifying Variables in Experiments",
+      "content": "<h3>Now Let's Add Variable Identification</h3><p>Watch as I take my plant growth hypothesis and identify all the variables needed for a controlled experiment:</p><p><strong>My hypothesis:</strong> 'If plants receive 8 hours of direct sunlight per day, then they will grow 2 cm taller per week than plants receiving no direct sunlight.'</p><p><strong>Now I identify three types of variables:</strong></p><ol><li><strong>Independent Variable</strong> (what I change): Amount of sunlight (8 hours vs 0 hours)</li><li><strong>Dependent Variable</strong> (what I measure): Plant height growth per week</li><li><strong>Controlled Variables</strong> (what I keep the same): <ul><li>Plant type (same species)</li><li>Water amount (50 mL daily)</li><li>Soil type (same potting mix)</li><li>Pot size (15 cm diameter)</li><li>Room temperature (22°C)</li></ul></li></ol><p>Remember: Every good experiment changes only ONE thing (independent variable) while keeping everything else constant!</p>",
+      "interactive": null
+    },
+    {
+      "id": "scientific-inquiry-skills-lesson2-card8",
+      "type": "i-do",
+      "cycle": 2,
+      "title": "I Do: More Variable Identification",
+      "content": "<h3>Let's Identify Variables for the Ice Melting Experiment</h3><p><strong>My hypothesis:</strong> 'If ice cubes are placed in water at 40°C, then they will melt completely in 3 minutes, compared to 10 minutes in water at 10°C.'</p><p><strong>Variable identification:</strong></p><ol><li><strong>Independent Variable</strong> (what I change): Water temperature (40°C vs 10°C)</li><li><strong>Dependent Variable</strong> (what I measure): Time for ice to melt completely</li><li><strong>Controlled Variables</strong> (what stays the same): <ul><li>Ice cube size (2 cm × 2 cm × 2 cm)</li><li>Water volume (200 mL)</li><li>Container type (glass beaker)</li><li>Stirring (no stirring)</li><li>Room temperature (22°C)</li></ul></li></ol><p>Notice how controlling these variables ensures that ONLY the water temperature affects the melting time. This is what makes the experiment fair and scientific!</p>",
+      "interactive": null
+    },
+    {
+      "id": "scientific-inquiry-skills-lesson2-card9",
+      "type": "you-do",
+      "cycle": 2,
+      "title": "You Do: Identify Variables for Ball Bounce",
+      "content": "<h3>Your Turn to Identify Variables</h3><p>Using your ball bounce hypothesis from earlier, identify all three types of variables needed for a controlled experiment.</p><p><strong>Reminder of your scenario:</strong> Testing how surface type affects ball bounce height when dropped from 1 meter.</p><p>Think carefully about:</p><ul><li>What ONE thing will you change?</li><li>What will you measure?</li><li>What must stay the same for a fair test?</li></ul>",
+      "interactive": {
+        "type": "quiz",
+        "question": "Which of the following correctly identifies all three variable types for the ball bounce experiment?",
+        "options": [
+          "Independent: surface type; Dependent: bounce height; Controls: ball type, drop height, measuring method",
+          "Independent: ball type; Dependent: surface type; Controls: bounce height, drop method",
+          "Independent: drop height; Dependent: surface type; Controls: ball type, bounce height",
+          "Independent: bounce height; Dependent: surface type; Controls: ball type, drop height"
+        ],
+        "correctAnswer": 0,
+        "feedback": {
+          "correct": "Excellent! You correctly identified that we change the surface type (independent), measure the bounce height (dependent), and control everything else like the ball type and drop height.",
+          "incorrect": [
+            "",
+            "Not quite. The independent variable is what YOU change (surface type), and the dependent variable is what you measure (bounce height). Try again!",
+            "Think again. We're testing how surface type affects bounce, so surface type is what we change (independent), not what we measure.",
+            "Remember: the independent variable is what you change on purpose. We're changing the surface type to see how it affects bounce height."
+          ]
+        },
+        "hint": "The independent variable is what you change (the surface), the dependent is what you measure (bounce height), and controls are everything you keep the same."
+      }
+    },
+    {
+      "id": "scientific-inquiry-skills-lesson2-card10",
+      "type": "you-do",
+      "cycle": 2,
+      "title": "You Do: Variables for Sugar Dissolving",
+      "content": "<h3>Identify Variables for Your Sugar Dissolving Experiment</h3><p>Now identify the variables for your sugar dissolving hypothesis. Remember, you're testing how water temperature affects dissolving time.</p><p>List all three types of variables that would make this a controlled, scientific experiment.</p>",
+      "interactive": {
+        "type": "practice",
+        "question": "Identify the three types of variables for the sugar dissolving experiment. List the independent variable, dependent variable, and at least 3 controlled variables.",
+        "correctAnswer": "Independent Variable: water temperature (80°C vs 20°C)\nDependent Variable: dissolving time (seconds until completely dissolved)\nControlled Variables: sugar amount (5 grams), water volume (100 mL), stirring method (gentle swirl every 5 seconds), sugar type (granulated white sugar), container size (250 mL beaker)",
+        "feedback": {
+          "correct": "Perfect variable identification! You understand that we change only the temperature, measure the dissolving time, and keep everything else constant for a fair test.",
+          "incorrect": "Good effort! Remember: Independent = water temperature (what you change), Dependent = dissolving time (what you measure), Controls = sugar amount, water volume, stirring, container (what stays the same).",
+          "partial": "You're on track! Make sure you clearly identify what you're changing (temperature), what you're measuring (time), and what must stay the same (sugar amount, water volume, etc.)."
+        },
+        "hint": "Think: What ONE thing am I changing? (temperature) What am I measuring? (time to dissolve) What must stay the same? (amount of sugar, water volume, stirring...)"
+      }
+    },
+    {
+      "id": "scientific-inquiry-skills-lesson2-card11",
+      "type": "i-do",
+      "cycle": 3,
+      "title": "I Do: Complete Experimental Design",
+      "content": "<h3>Watch Me Design a Complete Experiment</h3><p>Now I'll combine everything into a full experimental design for testing plant growth:</p><p><strong>Hypothesis:</strong> If plants receive 8 hours of direct sunlight daily, then they will grow 2 cm taller per week than plants with no sunlight.</p><p><strong>Materials Needed:</strong></p><ul><li>6 identical bean plants (3 for each condition)</li><li>6 identical pots with same soil</li><li>Ruler, water, timer, grow light</li></ul><p><strong>Step-by-Step Procedure:</strong></p><ol><li>Label 3 plants 'Sunlight' and 3 plants 'No Sunlight'</li><li>Place 'Sunlight' plants under grow light for exactly 8 hours daily</li><li>Place 'No Sunlight' plants in dark closet</li><li>Water all plants with 50 mL daily at 9:00 AM</li><li>Measure height of all plants every Monday at 9:00 AM</li><li>Record measurements in data table for 4 weeks</li><li>Calculate average growth for each group</li></ol><p><strong>Data Analysis Plan:</strong> Compare average weekly growth between groups using a bar graph.</p><p><strong>Potential Errors to Avoid:</strong> Ensure equal temperature for both groups, use same measuring technique, prevent any light leaks to dark group.</p>",
+      "interactive": null
+    },
+    {
+      "id": "scientific-inquiry-skills-lesson2-card12",
+      "type": "i-do",
+      "cycle": 3,
+      "title": "I Do: Another Complete Design",
+      "content": "<h3>Complete Experimental Design for Ice Melting</h3><p><strong>Hypothesis:</strong> If ice cubes are placed in 40°C water, then they will melt in 3 minutes versus 10 minutes in 10°C water.</p><p><strong>Materials:</strong></p><ul><li>12 identical ice cubes (2cm × 2cm × 2cm)</li><li>2 glass beakers (250 mL)</li><li>Thermometer, stopwatch, hot plate, ice bath</li></ul><p><strong>Procedure:</strong></p><ol><li>Prepare water bath at exactly 40°C using hot plate</li><li>Prepare water bath at exactly 10°C using ice bath</li><li>Pour 200 mL of each temperature water into separate beakers</li><li>Simultaneously place one ice cube in each beaker</li><li>Start stopwatch immediately</li><li>Record time when each ice cube completely melts</li><li>Repeat experiment 5 times for reliability</li><li>Calculate average melting time for each temperature</li></ol><p><strong>Data Collection:</strong> Create table with columns for trial number, 40°C melt time, and 10°C melt time.</p><p><strong>Safety Note:</strong> Use tongs to handle ice, wear safety goggles, handle hot water carefully.</p>",
+      "interactive": null
+    },
+    {
+      "id": "scientific-inquiry-skills-lesson2-card13",
+      "type": "you-do",
+      "cycle": 3,
+      "title": "You Do: Design a Heart Rate Experiment",
+      "content": "<h3>Your Challenge: Complete Experimental Design</h3><p>Design a complete experiment to test this question: <strong>'How does exercise affect heart rate?'</strong></p><p>Your design must include:</p><ol><li>A testable hypothesis with if-then-because structure</li><li>Identification of all three variable types</li><li>A list of materials needed</li><li>Step-by-step procedure (at least 5 steps)</li><li>How you'll collect and analyze data</li></ol><p>Think about safety and controlling variables for a fair test!</p>",
+      "interactive": {
+        "type": "practice",
+        "question": "Write your complete experimental design for testing how exercise affects heart rate. Include all required components.",
+        "correctAnswer": "Hypothesis: If a person exercises for 5 minutes, then their heart rate will increase from about 70 bpm to 120 bpm, because physical activity requires more oxygen delivery to muscles.\n\nVariables:\n- Independent: Exercise (5 minutes jogging vs resting)\n- Dependent: Heart rate (beats per minute)\n- Controls: Same person, time of day, room temperature, prior activity level\n\nMaterials: Stopwatch, heart rate monitor (or manual pulse counting), exercise space\n\nProcedure:\n1. Have subject rest sitting for 5 minutes\n2. Measure resting heart rate for 1 minute\n3. Subject jogs in place for 5 minutes at steady pace\n4. Immediately measure heart rate for 1 minute\n5. Record both measurements\n6. Repeat with 3 different subjects\n7. Calculate average increase in heart rate\n\nData Analysis: Create bar graph comparing resting vs exercise heart rates",
+        "feedback": {
+          "correct": "Outstanding experimental design! You've included all essential components: clear hypothesis, proper variables, detailed procedure, and data analysis plan. This is professional-level scientific thinking!",
+          "incorrect": "Good effort! Make sure to include: a clear if-then-because hypothesis, all three variable types, materials list, numbered procedure steps, and how you'll analyze the data. Review the examples and try again!",
+          "partial": "You're getting there! Remember to be specific about measurements (like exact exercise time and expected heart rates) and include safety considerations."
+        },
+        "hint": "Start with a hypothesis like: 'If someone exercises for 5 minutes, then heart rate will increase from 70 to 120 bpm because...' Then identify what you change, measure, and control."
+      }
+    },
+    {
+      "id": "scientific-inquiry-skills-lesson2-card14",
+      "type": "you-do",
+      "cycle": 3,
+      "title": "You Do: Music and Plant Growth Experiment",
+      "content": "<h3>Final Challenge: Design an Unusual Experiment</h3><p>Here's an interesting question to investigate: <strong>'How does music affect plant growth?'</strong></p><p>This might seem unusual, but some scientists have actually studied this! Design a complete, controlled experiment to test this question scientifically.</p><p>Remember to include all the components of good experimental design, and think creatively about how to control variables in this unique scenario.</p>",
+      "interactive": {
+        "type": "practice",
+        "question": "Design a complete experiment to test how music affects plant growth. Be creative but scientific!",
+        "correctAnswer": "Hypothesis: If plants are exposed to classical music for 2 hours daily, then they will grow 1 cm taller per week than plants in silence, because sound vibrations may stimulate cellular activity.\n\nVariables:\n- Independent: Music exposure (2 hours classical music vs silence)\n- Dependent: Plant height growth per week\n- Controls: Plant species, soil, water, light, temperature, pot size, music volume\n\nMaterials: 6 bean plants, speaker, music player, soundproof boxes, ruler, growing conditions\n\nProcedure:\n1. Place 3 plants in soundproof box with speaker\n2. Place 3 plants in identical soundproof box without music\n3. Play classical music at 65 decibels for 2 hours daily (10am-12pm)\n4. Provide identical water (50mL daily) and light (8 hours) to all plants\n5. Measure all plants weekly on Mondays at 9am\n6. Record heights for 6 weeks\n7. Calculate and compare average growth\n\nData Analysis: Line graph showing growth over time for both groups",
+        "feedback": {
+          "correct": "Brilliant experimental design! You've taken an unusual question and created a rigorous scientific test. Your controls are excellent, especially considering sound isolation. Real scientists would be impressed!",
+          "incorrect": "Interesting topic! Remember to include: specific hypothesis with measurements, clear variables (music = independent, growth = dependent), controlled conditions for fair testing, and detailed procedure. Think about how to isolate the music variable!",
+          "partial": "Good thinking! Consider how you'll ensure only the music differs between groups (maybe soundproof boxes?). Be specific about music type, volume, and duration."
+        },
+        "hint": "Think about: What type of music? How loud? How long each day? How will you prevent the control group from hearing it? What else must be identical between groups?"
+      }
+    },
+    {
+      "id": "scientific-inquiry-skills-lesson2-card15",
+      "type": "summary",
+      "cycle": null,
+      "title": "Congratulations, Scientific Investigator!",
+      "content": "<h3>You've Mastered Hypothesis Formation and Experimental Design!</h3><p>Look at what you've accomplished today:</p><ul><li>✓ You can write testable hypotheses using the <strong>if-then-because</strong> structure</li><li>✓ You can identify <strong>independent, dependent, and controlled variables</strong></li><li>✓ You can design <strong>complete, controlled experiments</strong> with detailed procedures</li><li>✓ You understand how to <strong>collect and analyze data</strong> scientifically</li></ul><p>These aren't just school skills – they're the exact same methods used by:</p><ul><li>Medical researchers developing new treatments</li><li>Environmental scientists studying climate change</li><li>Engineers testing new materials</li><li>Food scientists creating healthier products</li></ul><p><strong>What's Next?</strong></p><p>In our next lesson, you'll learn how to collect data like a pro and analyze it to draw scientific conclusions. You'll discover how to spot patterns, create graphs, and determine if your hypothesis was supported by evidence.</p><p>Remember: Every great scientific discovery started with someone asking a question, forming a hypothesis, and designing a careful experiment – just like you did today!</p><p>Keep questioning, keep hypothesizing, and keep experimenting. You're well on your way to thinking like a true scientist!</p>",
+      "interactive": null
+    }
+  ],
+  "totalCards": 15,
+  "metadata": {
+    "topicName": "Scientific Inquiry Skills",
+    "lessonNumber": 2,
+    "estimatedTime": "25-30 minutes",
+    "gradeLevel": "Primary to Lower Secondary",
+    "prerequisites": ["Observation skills", "Question formation from Lesson 1"],
+    "nextLesson": "Data collection and analysis techniques"
+  }
+}

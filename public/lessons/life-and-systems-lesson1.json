@@ -1,0 +1,191 @@
+{
+  "cards": [
+    {
+      "id": "life-and-systems-lesson1-card1",
+      "type": "intro",
+      "title": "Welcome to the World of Living Things!",
+      "content": "<p>Welcome, young scientist! Today we're beginning an exciting journey into the world of <strong>life and living systems</strong>. Have you ever wondered what makes something alive? Why is a dog different from a rock? How does your body know when to feel hungry or tired?</p><p>In this lesson, you'll discover the amazing characteristics that all living things share - from the tiniest bacteria to the largest whales! You'll also learn how life is organized in beautiful patterns, from tiny molecules all the way up to entire ecosystems.</p><p>This is Lesson 1 of 3 in our Life and Systems unit. By the end of today's lesson, you'll be able to identify living things with confidence and understand how they stay balanced and healthy. Let's begin this fascinating exploration!</p>",
+      "interactive": null
+    },
+    {
+      "id": "life-and-systems-lesson1-card2",
+      "type": "objective",
+      "title": "What You'll Learn Today",
+      "content": "<h3>Your Learning Goals</h3><p>By the end of this lesson, you will be able to:</p><ul><li><strong>Identify the seven characteristics</strong> that all living organisms share</li><li><strong>Explain the levels of organization</strong> in biological systems, from molecules to ecosystems</li><li><strong>Describe homeostasis</strong> and why it's essential for life</li><li><strong>Apply these concepts</strong> to real-world examples of living things around you</li></ul><p>These fundamental concepts will help you understand everything from why plants need water to how your body maintains its temperature. Ready to become a life science expert? Let's go!</p>",
+      "interactive": null
+    },
+    {
+      "id": "life-and-systems-lesson1-card3",
+      "type": "i-do",
+      "cycle": 1,
+      "title": "The Seven Characteristics of Life - Part 1",
+      "content": "<h3>Watch as I identify characteristics of living things</h3><p>Let me show you the first four characteristics that ALL living things share. I'll use a familiar example - a cat!</p><ol><li><strong>Movement:</strong> Notice how cats can walk, jump, and even move their ears. Even plants move - sunflowers turn to face the sun!</li><li><strong>Respiration:</strong> Cats breathe in oxygen and use it to release energy from food. This happens in every cell of their body.</li><li><strong>Sensitivity:</strong> Watch how a cat's ears perk up at sounds, or how its pupils change size in different light. Living things respond to their environment.</li><li><strong>Growth:</strong> Kittens grow into adult cats. All living things increase in size and develop over time.</li></ol><p>These four characteristics - Movement, Respiration, Sensitivity, and Growth - can be remembered with the helpful acronym <strong>MRS G</strong>. Let's see the rest next!</p>",
+      "interactive": null
+    },
+    {
+      "id": "life-and-systems-lesson1-card4",
+      "type": "i-do",
+      "cycle": 1,
+      "title": "The Seven Characteristics of Life - Part 2",
+      "content": "<h3>Let me show you the remaining three characteristics</h3><p>Continuing with our cat example, here are the final three characteristics of life:</p><ol start=\"5\"><li><strong>Reproduction:</strong> Cats can have kittens, passing on their characteristics to the next generation. Even single-celled bacteria can divide to make copies of themselves!</li><li><strong>Excretion:</strong> Cats eliminate waste products through urine and feces. Plants release oxygen as a waste product of photosynthesis. All living things must remove harmful substances.</li><li><strong>Nutrition:</strong> Cats eat food to get energy and materials for growth. Plants make their own food through photosynthesis. Every living thing needs nutrients.</li></ol><p>Together, all seven characteristics spell <strong>MRS GREN</strong> - Movement, Respiration, Sensitivity, Growth, Reproduction, Excretion, and Nutrition. If something has ALL seven of these characteristics, it's alive!</p>",
+      "interactive": null
+    },
+    {
+      "id": "life-and-systems-lesson1-card5",
+      "type": "you-do",
+      "cycle": 1,
+      "title": "Identify the Characteristic",
+      "content": "<h3>Now it's your turn to identify characteristics of life!</h3><p>A plant's roots grow towards water in the soil, and its leaves turn towards sunlight coming through a window.</p><p><strong>Which characteristic of life does this example best demonstrate?</strong></p>",
+      "interactive": {
+        "type": "input",
+        "question": "Which characteristic of life does this example best demonstrate?",
+        "correctAnswer": "Sensitivity",
+        "alternativeAnswers": ["sensitivity", "Sensitive", "sensitive", "Response", "response", "Responding", "responding"],
+        "feedback": {
+          "correct": "Excellent! This is sensitivity (or response to stimuli). The plant is sensing and responding to its environment - roots detect and grow toward water, while leaves detect and turn toward light. This shows how even plants, which can't move from place to place, are still responsive to their surroundings!",
+          "incorrect": "Not quite. Think about what the plant is doing - it's detecting water and light in its environment and responding to them. This is one of the seven characteristics we just learned about. Try again!",
+          "partial": "You're on the right track if you mentioned responding or detecting. The specific characteristic is called 'Sensitivity' - the ability to detect and respond to changes in the environment."
+        },
+        "hint": "Remember MRS GREN. Which letter represents the ability to detect and respond to the environment?"
+      }
+    },
+    {
+      "id": "life-and-systems-lesson1-card6",
+      "type": "you-do",
+      "cycle": 1,
+      "title": "Living or Non-Living?",
+      "content": "<h3>Apply what you learned to determine if something is alive</h3><p>Consider a robot vacuum cleaner that moves around your house, avoids obstacles, and returns to its charging station when its battery is low.</p><p><strong>Is the robot vacuum cleaner a living thing? Explain your answer using the seven characteristics of life.</strong></p>",
+      "interactive": {
+        "type": "practice",
+        "question": "Is the robot vacuum cleaner a living thing? Explain using MRS GREN.",
+        "modelAnswer": "No, the robot vacuum cleaner is not living. While it shows some characteristics like movement (moves around), sensitivity (detects obstacles), and even a form of nutrition (charging for energy), it lacks several essential characteristics of life. It cannot grow - it stays the same size. It cannot reproduce - it cannot make baby vacuum cleaners. It doesn't truly respire - it doesn't break down food to release energy in cells. And it doesn't excrete waste products from biological processes. For something to be alive, it must have ALL seven characteristics of MRS GREN, not just some of them.",
+        "feedback": {
+          "correct": "Great thinking! You correctly identified that despite having some life-like features, the robot lacks essential characteristics like growth, reproduction, and true respiration.",
+          "partial": "Good start! Make sure to consider all seven characteristics. Does the robot grow? Can it reproduce? Does it truly respire like living things do?"
+        }
+      }
+    },
+    {
+      "id": "life-and-systems-lesson1-card7",
+      "type": "i-do",
+      "cycle": 2,
+      "title": "The Amazing Organization of Life",
+      "content": "<h3>Watch as I explain the levels of biological organization</h3><p>Let me show you how life is organized in a beautiful hierarchy, starting from the smallest to the largest. I'll use the human body as our example:</p><ol><li><strong>Molecules:</strong> Tiny particles like water (H₂O) and glucose (sugar) that make up living things</li><li><strong>Cells:</strong> The basic units of life - like muscle cells in your arm</li><li><strong>Tissues:</strong> Groups of similar cells working together - muscle tissue made of many muscle cells</li><li><strong>Organs:</strong> Different tissues working together - your heart has muscle tissue, nerve tissue, and connective tissue</li><li><strong>Organ Systems:</strong> Groups of organs with a common function - your circulatory system includes your heart, blood vessels, and blood</li></ol><p>Notice how each level builds upon the previous one? It's like building blocks - molecules form cells, cells form tissues, and so on. But we're not done yet!</p>",
+      "interactive": null
+    },
+    {
+      "id": "life-and-systems-lesson1-card8",
+      "type": "i-do",
+      "cycle": 2,
+      "title": "From Organisms to Ecosystems",
+      "content": "<h3>Let me complete the hierarchy of life</h3><p>Continuing from organ systems, the organization of life extends beyond individual living things:</p><ol start=\"6\"><li><strong>Organism:</strong> A complete living thing - you are an organism made of multiple organ systems!</li><li><strong>Population:</strong> All organisms of the same species in an area - all the squirrels in a park</li><li><strong>Community:</strong> All different populations living together - squirrels, birds, trees, and insects in that park</li><li><strong>Ecosystem:</strong> The community plus the non-living environment - the park's living things plus soil, water, air, and sunlight</li><li><strong>Biosphere:</strong> All ecosystems on Earth - every place where life exists!</li></ol><p>This incredible organization shows how everything in life is connected. A change at one level can affect all the others. For example, if cells in your body don't get enough water (molecular level), it affects your tissues, organs, and you as a whole organism!</p>",
+      "interactive": null
+    },
+    {
+      "id": "life-and-systems-lesson1-card9",
+      "type": "you-do",
+      "cycle": 2,
+      "title": "Order the Levels",
+      "content": "<h3>Now you try organizing the levels of life!</h3><p>A scientist is studying oak trees in a forest. Put these levels of organization in order from <strong>smallest to largest</strong>:</p><p>Forest ecosystem, Oak leaf cell, All oak trees in the forest, Chlorophyll molecule, Single oak tree</p><p><strong>Write your answer as a numbered list from 1 (smallest) to 5 (largest).</strong></p>",
+      "interactive": {
+        "type": "practice",
+        "question": "Order these from smallest to largest: Forest ecosystem, Oak leaf cell, All oak trees in the forest, Chlorophyll molecule, Single oak tree",
+        "modelAnswer": "1. Chlorophyll molecule (molecular level - a single molecule that helps with photosynthesis)\n2. Oak leaf cell (cellular level - contains many molecules including chlorophyll)\n3. Single oak tree (organism level - made of many cells and tissues)\n4. All oak trees in the forest (population level - all organisms of the same species)\n5. Forest ecosystem (ecosystem level - includes all living things plus the non-living environment)",
+        "feedback": {
+          "correct": "Perfect! You correctly identified the hierarchy from the tiny chlorophyll molecule all the way up to the entire forest ecosystem.",
+          "partial": "You're on the right track! Remember: molecules → cells → organism → population → ecosystem. Which is smallest - a molecule or a cell?"
+        }
+      }
+    },
+    {
+      "id": "life-and-systems-lesson1-card10",
+      "type": "you-do",
+      "cycle": 2,
+      "title": "Identify the Level",
+      "content": "<h3>Test your understanding of organizational levels</h3><p>Your classroom has a fish tank with 5 goldfish, 3 snails, some aquatic plants, gravel, water, a filter, and a light.</p><p><strong>What level of biological organization does the entire fish tank represent?</strong></p>",
+      "interactive": {
+        "type": "quiz",
+        "question": "What level of biological organization does the entire fish tank represent?",
+        "options": [
+          "Community",
+          "Population",
+          "Ecosystem",
+          "Organism"
+        ],
+        "correctAnswer": "Ecosystem",
+        "feedback": {
+          "correct": "Excellent! The fish tank is an ecosystem because it includes living things (goldfish, snails, plants) AND non-living components (water, gravel, light). Together they form a complete, interacting system.",
+          "incorrect": {
+            "Community": "Close, but not quite! A community would be just the living things (fish, snails, plants). Since the question includes non-living parts like water and gravel, we're looking at a higher level.",
+            "Population": "Not quite. A population would be just one species, like only the goldfish. We have multiple species plus non-living components here.",
+            "Organism": "Not quite. An organism is a single living thing. We have multiple living things plus their environment here."
+          }
+        }
+      }
+    },
+    {
+      "id": "life-and-systems-lesson1-card11",
+      "type": "i-do",
+      "cycle": 3,
+      "title": "Understanding Homeostasis",
+      "content": "<h3>Let me show you how living things maintain balance</h3><p><strong>Homeostasis</strong> is the ability of living things to maintain stable internal conditions despite changes in their environment. Think of it like a thermostat in your house!</p><p>Here's how your body maintains temperature homeostasis:</p><ul><li><strong>Too hot?</strong> Your body detects the increase and responds by: sweating (cooling through evaporation), dilating blood vessels near skin (releasing heat), and making you feel thirsty (replacing lost water)</li><li><strong>Too cold?</strong> Your body detects the decrease and responds by: shivering (muscle movement creates heat), constricting blood vessels near skin (keeping heat in), and making you feel hungry (food provides energy for heat)</li></ul><p>Your body constantly monitors and adjusts to keep your internal temperature around 37°C (98.6°F), even when it's hot summer or cold winter outside. This automatic balancing act is homeostasis in action!</p>",
+      "interactive": null
+    },
+    {
+      "id": "life-and-systems-lesson1-card12",
+      "type": "i-do",
+      "cycle": 3,
+      "title": "Homeostasis in Plants",
+      "content": "<h3>Let me demonstrate homeostasis in plants</h3><p>Plants also maintain homeostasis, though differently than animals. Let's look at how plants regulate water:</p><p><strong>Stomata Control:</strong> Plants have tiny pores called stomata (singular: stoma) on their leaves that can open and close:</p><ul><li><strong>When water is plentiful:</strong> Stomata open to allow carbon dioxide in for photosynthesis and oxygen out. Some water escapes too (transpiration).</li><li><strong>When water is scarce:</strong> Stomata close to prevent water loss, even though this limits photosynthesis.</li><li><strong>At night:</strong> Most plants close their stomata since they don't need CO₂ without sunlight for photosynthesis.</li></ul><p>This careful balance ensures the plant has enough water to survive while still being able to make food through photosynthesis. Just like your body automatically maintains temperature, plants automatically maintain their water balance. Both are examples of the remarkable process of homeostasis!</p>",
+      "interactive": null
+    },
+    {
+      "id": "life-and-systems-lesson1-card13",
+      "type": "you-do",
+      "cycle": 3,
+      "title": "Homeostasis in Action",
+      "content": "<h3>Apply your understanding of homeostasis</h3><p>After playing soccer on a hot day, Maria is sweating, breathing heavily, and feels very thirsty. Her friend offers her a cold bottle of water.</p><p><strong>Identify TWO ways Maria's body is trying to maintain homeostasis and explain what each is trying to balance.</strong></p>",
+      "interactive": {
+        "type": "practice",
+        "question": "Identify TWO ways Maria's body is maintaining homeostasis and what each is balancing.",
+        "modelAnswer": "Maria's body is maintaining homeostasis in multiple ways:\n\n1. SWEATING is helping maintain temperature homeostasis - as sweat evaporates from her skin, it removes excess heat from her body, preventing overheating from the exercise and hot weather.\n\n2. HEAVY BREATHING is maintaining oxygen/carbon dioxide homeostasis - during exercise, her cells used lots of oxygen and produced carbon dioxide. Breathing heavily brings in more oxygen and removes excess CO₂.\n\n3. FEELING THIRSTY is promoting water balance homeostasis - sweating caused water loss, so her body signals thirst to encourage her to drink and replace the lost fluids.\n\nAny two of these would be correct, as they all show her body automatically working to maintain stable internal conditions.",
+        "feedback": {
+          "correct": "Excellent analysis! You correctly identified how Maria's body is automatically working to restore balance after the disruption caused by exercise and heat.",
+          "partial": "Good start! Make sure to explain both what the body is doing AND what it's trying to balance. For example, sweating helps balance temperature."
+        }
+      }
+    },
+    {
+      "id": "life-and-systems-lesson1-card14",
+      "type": "you-do",
+      "cycle": 3,
+      "title": "Why Homeostasis Matters",
+      "content": "<h3>Think critically about the importance of homeostasis</h3><p>A goldfish lives happily in a bowl at room temperature (20°C). Someone accidentally places the bowl in direct sunlight, and the water temperature rises to 35°C over several hours.</p><p><strong>What might happen to the goldfish and why? Use your understanding of homeostasis in your answer.</strong></p>",
+      "interactive": {
+        "type": "practice",
+        "question": "What might happen to the goldfish when water temperature rises to 35°C? Explain using homeostasis.",
+        "modelAnswer": "The goldfish would likely become stressed and could die if the temperature stays high. Here's why:\n\nGoldfish are cold-blooded (ectothermic), meaning they can't regulate their internal temperature like humans can - their body temperature matches their environment. When the water reaches 35°C, the goldfish's body temperature also becomes 35°C.\n\nThis disrupts homeostasis because:\n1. Enzymes in the fish's body work best at specific temperatures. At 35°C, many enzymes may not function properly, disrupting digestion, respiration, and other vital processes.\n2. The warmer water holds less dissolved oxygen, making it harder for the fish to get enough oxygen through its gills.\n3. The fish's metabolism speeds up in warm water, requiring more oxygen just when less is available.\n4. The fish cannot sweat, shiver, or move to a cooler location to maintain homeostasis.\n\nThis shows why maintaining stable environmental conditions is crucial for organisms that cannot fully regulate their internal conditions.",
+        "feedback": {
+          "correct": "Outstanding! You've shown a deep understanding of how homeostasis works differently in various organisms and why stable conditions are vital for life.",
+          "partial": "You're on the right track! Remember that goldfish are cold-blooded, so they can't regulate temperature internally like mammals. How would this affect their ability to maintain homeostasis?"
+        }
+      }
+    },
+    {
+      "id": "life-and-systems-lesson1-card15",
+      "type": "summary",
+      "title": "Congratulations on Completing Lesson 1!",
+      "content": "<h3>You've mastered the foundations of Life and Systems!</h3><p>Amazing work! You've successfully learned:</p><ul><li><strong>The seven characteristics of life (MRS GREN)</strong> - You can now identify what makes something truly alive</li><li><strong>The levels of biological organization</strong> - From tiny molecules to the vast biosphere, you understand how life is structured</li><li><strong>The principle of homeostasis</strong> - You know how living things maintain balance to survive</li></ul><p>These concepts are the foundation of all biology! You've seen how a cat demonstrates MRS GREN, how your body is organized from cells to organ systems, and how organisms from humans to plants to goldfish maintain the stable conditions needed for life.</p><p><strong>What's Next?</strong> In Lesson 2, you'll dive deeper into the microscopic world of cells - the basic units of life. You'll discover the amazing structures inside cells and how they work together to keep organisms alive!</p><p>Keep up the excellent work, biologist!</p>",
+      "interactive": null
+    }
+  ],
+  "totalCards": 15,
+  "metadata": {
+    "topicName": "Life and Systems",
+    "lessonNumber": 1,
+    "estimatedTime": "20-30 minutes",
+    "gradeLevel": "Ages 10-14",
+    "prerequisites": ["Scientific Inquiry Skills"],
+    "nextLesson": "Cell structure and function"
+  }
+}

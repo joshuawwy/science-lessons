@@ -1,0 +1,203 @@
+{
+  "cards": [
+    {
+      "id": "earth-and-space-lesson2-card1",
+      "type": "intro",
+      "cycle": null,
+      "title": "Welcome to Earth's Cosmic Journey!",
+      "content": "<p>Welcome back, space explorer! In our previous lesson, we discovered Earth as a dynamic system with interconnected spheres. Today, we're zooming out to see Earth's incredible journey through space!</p><p>Did you know that right now, you're traveling through space at over 67,000 miles per hour? That's Earth's speed as it orbits around the Sun! You're also spinning at about 1,000 miles per hour as Earth rotates on its axis.</p><p>In this lesson, you'll discover how these amazing movements create the patterns we experience every day - from sunrise to sunset, from summer to winter. Get ready to explore Earth's place in the solar system and understand the cosmic dance that makes life on our planet possible!</p>",
+      "interactive": null
+    },
+    {
+      "id": "earth-and-space-lesson2-card2",
+      "type": "objective",
+      "cycle": null,
+      "title": "Your Learning Journey",
+      "content": "<h3>By the end of this lesson, you will be able to:</h3><ul><li><strong>Identify Earth's position</strong> in the solar system and describe its unique characteristics as the third planet from the Sun</li><li><strong>Explain Earth's two main movements</strong> - rotation on its axis and revolution around the Sun</li><li><strong>Connect these movements to phenomena</strong> we experience, including day and night cycles, the changing seasons, and eclipses</li><li><strong>Predict and explain</strong> how Earth's position and movements affect life on our planet</li></ul><p>These skills will help you understand everything from why we have time zones to why Australia has summer when North America has winter!</p>",
+      "interactive": null
+    },
+    {
+      "id": "earth-and-space-lesson2-card3",
+      "type": "i-do",
+      "cycle": 1,
+      "title": "Earth's Place in Our Solar System",
+      "content": "<p><strong>Watch as I show you Earth's position in our solar system.</strong></p><p>Our solar system consists of the Sun at the center, with eight planets orbiting around it. Let me list them in order from the Sun:</p><ol><li><strong>Mercury</strong> - The smallest planet, closest to the Sun</li><li><strong>Venus</strong> - The hottest planet, with thick clouds</li><li><strong>Earth</strong> - Our home, the third planet from the Sun</li><li><strong>Mars</strong> - The red planet, our neighbor</li><li><strong>Jupiter</strong> - The giant, with many moons</li><li><strong>Saturn</strong> - Famous for its rings</li><li><strong>Uranus</strong> - Tilted on its side</li><li><strong>Neptune</strong> - The windiest planet</li></ol><p><em>Notice how Earth is in the 'Goldilocks zone' - not too hot like Mercury and Venus, not too cold like the outer planets, but just right for liquid water and life!</em></p>",
+      "interactive": null
+    },
+    {
+      "id": "earth-and-space-lesson2-card4",
+      "type": "i-do",
+      "cycle": 1,
+      "title": "Earth's Special Characteristics",
+      "content": "<p><strong>Let me show you what makes Earth unique in our solar system.</strong></p><p>Earth has several special features that make it perfect for life:</p><ul><li><strong>Distance from Sun:</strong> About 93 million miles (150 million km) - this gives us the right temperature range</li><li><strong>Size:</strong> Diameter of about 8,000 miles (12,742 km) - large enough to hold an atmosphere</li><li><strong>Atmosphere:</strong> 78% nitrogen, 21% oxygen - perfect for breathing!</li><li><strong>Water:</strong> 71% of Earth's surface is covered with water</li><li><strong>Magnetic field:</strong> Protects us from harmful solar radiation</li><li><strong>One natural satellite:</strong> The Moon, which affects our tides</li></ul><p><em>Notice how all these features work together. Our distance from the Sun allows liquid water, our atmosphere keeps us warm and provides oxygen, and our magnetic field shields us from danger!</em></p>",
+      "interactive": null
+    },
+    {
+      "id": "earth-and-space-lesson2-card5",
+      "type": "you-do",
+      "cycle": 1,
+      "title": "Find Earth's Position",
+      "content": "<p>Now it's your turn to show what you've learned about Earth's place in the solar system!</p><p><strong>Question:</strong> If you were traveling from the Sun outward through the solar system, which planet would you encounter third?</p>",
+      "interactive": {
+        "type": "input",
+        "question": "Which planet is third from the Sun?",
+        "correctAnswer": "Earth",
+        "alternativeAnswers": ["earth", "EARTH", "The Earth", "the earth"],
+        "feedback": {
+          "correct": "Excellent! Earth is indeed the third planet from the Sun, positioned perfectly in the habitable zone where liquid water can exist!",
+          "incorrect": "Not quite. Remember the order: Mercury, Venus, and then... Think about which planet we live on!",
+          "partial": "You're on the right track! Make sure you spell the planet's name correctly."
+        },
+        "hint": "Think about the planet you're standing on right now. It comes after Venus in the solar system."
+      }
+    },
+    {
+      "id": "earth-and-space-lesson2-card6",
+      "type": "you-do",
+      "cycle": 1,
+      "title": "Earth's Unique Features",
+      "content": "<p>Let's test your understanding of what makes Earth special!</p>",
+      "interactive": {
+        "type": "quiz",
+        "question": "What percentage of Earth's surface is covered by water?",
+        "correctAnswer": "71%",
+        "options": ["50%", "71%", "85%", "95%"],
+        "feedback": {
+          "correct": "That's right! About 71% of Earth's surface is covered by water, which is why Earth is often called the 'Blue Planet' when viewed from space!",
+          "incorrect": "Good try! Think about this: Earth is sometimes called the 'Blue Planet' because most of its surface is water. The correct answer is 71% - nearly three-quarters of Earth's surface!"
+        }
+      }
+    },
+    {
+      "id": "earth-and-space-lesson2-card7",
+      "type": "i-do",
+      "cycle": 2,
+      "title": "Earth's Rotation: Creating Day and Night",
+      "content": "<p><strong>Watch as I demonstrate how Earth's rotation creates day and night.</strong></p><p>Earth spins on its axis, an imaginary line running from the North Pole to the South Pole. Here's how this rotation works:</p><ul><li><strong>Direction:</strong> Earth rotates from west to east (counterclockwise when viewed from above the North Pole)</li><li><strong>Speed:</strong> One complete rotation takes 24 hours - this is one day!</li><li><strong>Effect:</strong> As Earth spins, different parts face the Sun</li></ul><p>Let me show you what happens:<br/>1. When your location faces the Sun → <strong>Daytime</strong> (sunlight reaches you)<br/>2. As Earth rotates, you turn away from the Sun → <strong>Sunset</strong><br/>3. When your location faces away from the Sun → <strong>Nighttime</strong> (you're in Earth's shadow)<br/>4. As Earth continues rotating, you turn toward the Sun → <strong>Sunrise</strong></p><p><em>Notice how the Sun doesn't actually move across our sky - it's Earth's rotation that makes it appear to rise in the east and set in the west!</em></p>",
+      "interactive": null
+    },
+    {
+      "id": "earth-and-space-lesson2-card8",
+      "type": "i-do",
+      "cycle": 2,
+      "title": "Earth's Revolution: Journey Around the Sun",
+      "content": "<p><strong>Let me show you Earth's second movement - its revolution around the Sun.</strong></p><p>While Earth spins on its axis daily, it also travels in a huge orbit around the Sun:</p><ul><li><strong>Orbital path:</strong> An ellipse (slightly oval shape), not a perfect circle</li><li><strong>Distance traveled:</strong> About 584 million miles in one complete orbit</li><li><strong>Time for one revolution:</strong> 365.25 days - this is one year!</li><li><strong>Speed:</strong> About 67,000 miles per hour (30 km/second)</li></ul><p>Here's the key insight: <strong>Earth's axis is tilted at 23.5 degrees</strong> as it orbits. This tilt stays pointed in the same direction throughout the year (toward Polaris, the North Star).</p><p>This means:<br/>• Sometimes the Northern Hemisphere tilts toward the Sun<br/>• Sometimes the Southern Hemisphere tilts toward the Sun<br/>• This changing tilt creates our seasons!</p><p><em>Notice how Earth's tilt, not its distance from the Sun, causes seasons. We're actually closest to the Sun in January!</em></p>",
+      "interactive": null
+    },
+    {
+      "id": "earth-and-space-lesson2-card9",
+      "type": "you-do",
+      "cycle": 2,
+      "title": "Understanding Earth's Movements",
+      "content": "<p>Now it's your turn to apply what you've learned about Earth's movements!</p><p><strong>Question:</strong> How long does it take Earth to complete one full rotation on its axis?</p>",
+      "interactive": {
+        "type": "input",
+        "question": "How many hours does one complete rotation take?",
+        "correctAnswer": "24",
+        "alternativeAnswers": ["24 hours", "twenty-four", "twenty-four hours", "24 hrs", "1 day", "one day"],
+        "feedback": {
+          "correct": "Perfect! Earth completes one rotation in 24 hours, which gives us our day and night cycle. This is why we have 24-hour days!",
+          "incorrect": "Think about how long one complete day is, from noon to noon. This is the time for one full spin of Earth.",
+          "partial": "You're thinking along the right lines! The answer is a number - how many hours are in one day?"
+        },
+        "hint": "Think about how many hours are in one complete day, from midnight to midnight."
+      }
+    },
+    {
+      "id": "earth-and-space-lesson2-card10",
+      "type": "you-do",
+      "cycle": 2,
+      "title": "Seasons and Earth's Tilt",
+      "content": "<p>Let's explore how Earth's tilt creates the seasons!</p>",
+      "interactive": {
+        "type": "quiz",
+        "question": "What causes Earth's seasons?",
+        "correctAnswer": "Earth's tilted axis as it orbits the Sun",
+        "options": [
+          "Earth getting closer and farther from the Sun",
+          "The Sun getting hotter and cooler",
+          "Earth's tilted axis as it orbits the Sun",
+          "Changes in Earth's rotation speed"
+        ],
+        "feedback": {
+          "correct": "Excellent understanding! Earth's 23.5-degree tilt causes different parts of Earth to receive more direct sunlight at different times of the year, creating our seasons. When the Northern Hemisphere tilts toward the Sun, it's summer there and winter in the Southern Hemisphere!",
+          "incorrect": "Good thinking, but that's not quite right. Remember, Earth is actually closest to the Sun in January (winter in the Northern Hemisphere)! The real cause is Earth's 23.5-degree tilt, which makes different parts of Earth receive more direct sunlight at different times of the year."
+        }
+      }
+    },
+    {
+      "id": "earth-and-space-lesson2-card11",
+      "type": "i-do",
+      "cycle": 3,
+      "title": "Solar Eclipses: When the Moon Blocks the Sun",
+      "content": "<p><strong>Let me demonstrate how a solar eclipse occurs.</strong></p><p>A solar eclipse happens when the Moon passes between Earth and the Sun, casting a shadow on Earth. Here's how it works:</p><p><strong>The alignment needed:</strong><br/>Sun → Moon → Earth (all in a straight line)</p><p><strong>Types of solar eclipses:</strong></p><ul><li><strong>Total eclipse:</strong> The Moon completely covers the Sun (visible from a narrow path on Earth)</li><li><strong>Partial eclipse:</strong> The Moon covers only part of the Sun</li><li><strong>Annular eclipse:</strong> The Moon appears smaller than the Sun, creating a 'ring of fire'</li></ul><p><strong>Why don't we have eclipses every month?</strong><br/>The Moon's orbit is tilted about 5 degrees relative to Earth's orbit around the Sun. Usually, the Moon passes above or below the Sun from our perspective.</p><p><em>Notice how special this alignment is - the Moon is 400 times smaller than the Sun but also 400 times closer to Earth, making them appear nearly the same size in our sky!</em></p>",
+      "interactive": null
+    },
+    {
+      "id": "earth-and-space-lesson2-card12",
+      "type": "i-do",
+      "cycle": 3,
+      "title": "Lunar Eclipses: Earth's Shadow on the Moon",
+      "content": "<p><strong>Now let me show you how a lunar eclipse is different from a solar eclipse.</strong></p><p>A lunar eclipse occurs when Earth passes between the Sun and the Moon, and Earth's shadow falls on the Moon:</p><p><strong>The alignment needed:</strong><br/>Sun → Earth → Moon (all in a straight line)</p><p><strong>What we see during a lunar eclipse:</strong></p><ul><li>The Moon gradually darkens as it enters Earth's shadow</li><li>Often turns a reddish color (called a 'Blood Moon')</li><li>Can be seen by everyone on the night side of Earth</li><li>Lasts for several hours</li></ul><p><strong>Why does the Moon turn red?</strong><br/>Earth's atmosphere filters sunlight, allowing red light to bend around Earth and reach the Moon. It's like all of Earth's sunrises and sunsets projecting onto the Moon at once!</p><p><em>Notice the key difference: In a solar eclipse, the Moon blocks sunlight from reaching Earth. In a lunar eclipse, Earth blocks sunlight from reaching the Moon!</em></p>",
+      "interactive": null
+    },
+    {
+      "id": "earth-and-space-lesson2-card13",
+      "type": "you-do",
+      "cycle": 3,
+      "title": "Predicting Eclipses",
+      "content": "<p>Apply your knowledge to predict when eclipses can occur!</p><p><strong>Challenge:</strong> During which phase of the Moon can a solar eclipse occur? Think about the positions of the Sun, Moon, and Earth.</p>",
+      "interactive": {
+        "type": "input",
+        "question": "During which Moon phase can a solar eclipse occur?",
+        "correctAnswer": "new moon",
+        "alternativeAnswers": ["New Moon", "new", "New", "NEW MOON", "during new moon", "at new moon"],
+        "feedback": {
+          "correct": "Outstanding! You correctly identified that solar eclipses can only occur during a new moon, when the Moon is between Earth and the Sun. This is the only time the Moon can cast its shadow on Earth!",
+          "incorrect": "Think about this: For the Moon to block the Sun, it must be between Earth and the Sun. During which phase is the Moon in this position?",
+          "partial": "You're thinking in the right direction! Be more specific about which Moon phase allows the Moon to be between Earth and the Sun."
+        },
+        "hint": "Remember, the Moon must be between Earth and the Sun to block sunlight. This happens during the phase when we can't see the Moon from Earth."
+      }
+    },
+    {
+      "id": "earth-and-space-lesson2-card14",
+      "type": "you-do",
+      "cycle": 3,
+      "title": "Understanding Eclipse Differences",
+      "content": "<p>Let's test your understanding of the two types of eclipses!</p>",
+      "interactive": {
+        "type": "quiz",
+        "question": "Which statement correctly describes the difference between solar and lunar eclipses?",
+        "correctAnswer": "Solar: Moon's shadow on Earth; Lunar: Earth's shadow on Moon",
+        "options": [
+          "Solar: Earth's shadow on Sun; Lunar: Moon's shadow on Earth",
+          "Solar: Moon's shadow on Earth; Lunar: Earth's shadow on Moon",
+          "Solar: Sun's shadow on Moon; Lunar: Sun's shadow on Earth",
+          "Both occur when the Moon blocks the Sun"
+        ],
+        "feedback": {
+          "correct": "Perfect! You've mastered the difference! In a solar eclipse, the Moon casts its shadow on Earth (blocking our view of the Sun). In a lunar eclipse, Earth casts its shadow on the Moon (blocking sunlight from reaching the Moon).",
+          "incorrect": "Not quite right. Remember: 'Solar' refers to the Sun being blocked (Moon's shadow on Earth), and 'Lunar' refers to the Moon being in shadow (Earth's shadow on Moon). The correct answer is: Solar - Moon's shadow on Earth; Lunar - Earth's shadow on Moon."
+        }
+      }
+    },
+    {
+      "id": "earth-and-space-lesson2-card15",
+      "type": "summary",
+      "cycle": null,
+      "title": "Your Cosmic Journey Complete!",
+      "content": "<h3>🌍 Congratulations, Space Explorer!</h3><p>You've successfully discovered Earth's incredible journey through space! Let's celebrate what you've learned:</p><ul><li><strong>Earth's special position:</strong> You identified Earth as the third planet from the Sun, perfectly placed in the habitable zone with unique features that support life</li><li><strong>Two important movements:</strong> You understood how Earth's rotation creates day and night (24 hours) and how its revolution creates years (365.25 days)</li><li><strong>The seasons explained:</strong> You discovered that Earth's 23.5-degree tilt, not distance from the Sun, causes our seasons</li><li><strong>Eclipse mastery:</strong> You can now explain both solar eclipses (Moon's shadow on Earth) and lunar eclipses (Earth's shadow on Moon)</li></ul><p>You've gained a deeper understanding of how Earth's movements affect everything from your daily sunrise to the changing seasons. These cosmic dances have been happening for billions of years and will continue long into the future!</p><p><strong>Coming Next:</strong> In Lesson 3, we'll explore Earth's history and discover how our planet has changed over billions of years. Get ready to travel through time!</p>",
+      "interactive": null
+    }
+  ],
+  "totalCards": 15,
+  "metadata": {
+    "topicName": "Earth and Space",
+    "lessonNumber": 2,
+    "estimatedTime": "20-30 minutes",
+    "gradeLevel": "Elementary to Middle School",
+    "prerequisites": ["Scientific Inquiry Skills", "Earth and Space Lesson 1"],
+    "nextLesson": "Earth's History and Changes Over Time"
+  }
+}

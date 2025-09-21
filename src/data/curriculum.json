@@ -1,0 +1,2034 @@
+{
+  "topics": [
+    {
+      "id": "Scientific-Inquiry-Skills",
+      "name": "Scientific Inquiry Skills",
+      "numbering": "1",
+      "level": 1,
+      "prerequisites": [],
+      "folderPath": "plans/01-Scientific-Inquiry-Skills",
+      "lessons": [
+        {
+          "id": "Scientific-Inquiry-Skills-part-1",
+          "number": 1,
+          "completed": false
+        },
+        {
+          "id": "Scientific-Inquiry-Skills-part-2",
+          "number": 2,
+          "completed": false
+        },
+        {
+          "id": "Scientific-Inquiry-Skills-part-3",
+          "number": 3,
+          "completed": false
+        }
+      ]
+    },
+    {
+      "id": "Matter-and-Materials",
+      "name": "Matter and Materials",
+      "numbering": "2",
+      "level": 1,
+      "prerequisites": [
+        "Scientific Inquiry Skills"
+      ],
+      "folderPath": "plans/02-Matter-and-Materials",
+      "lessons": [
+        {
+          "id": "Matter-and-Materials-part-1",
+          "number": 1,
+          "completed": false
+        },
+        {
+          "id": "Matter-and-Materials-part-2",
+          "number": 2,
+          "completed": false
+        },
+        {
+          "id": "Matter-and-Materials-part-3",
+          "number": 3,
+          "completed": false
+        }
+      ]
+    },
+    {
+      "id": "States-of-Matter",
+      "name": "States of Matter",
+      "numbering": "2.1",
+      "level": 2,
+      "prerequisites": [
+        "Matter and Materials"
+      ],
+      "folderPath": "plans/02-1-States-of-Matter",
+      "lessons": [
+        {
+          "id": "States-of-Matter-part-1",
+          "number": 1,
+          "completed": false
+        },
+        {
+          "id": "States-of-Matter-part-2",
+          "number": 2,
+          "completed": false
+        },
+        {
+          "id": "States-of-Matter-part-3",
+          "number": 3,
+          "completed": false
+        }
+      ]
+    },
+    {
+      "id": "Physical-Properties",
+      "name": "Physical Properties",
+      "numbering": "2.1.1",
+      "level": 3,
+      "prerequisites": [
+        "States of Matter"
+      ],
+      "folderPath": "plans/02-1-1-Physical-Properties",
+      "lessons": [
+        {
+          "id": "Physical-Properties-part-1",
+          "number": 1,
+          "completed": false
+        },
+        {
+          "id": "Physical-Properties-part-2",
+          "number": 2,
+          "completed": false
+        },
+        {
+          "id": "Physical-Properties-part-3",
+          "number": 3,
+          "completed": false
+        }
+      ]
+    },
+    {
+      "id": "Separating-Mixtures",
+      "name": "Separating Mixtures",
+      "numbering": "2.1.2",
+      "level": 3,
+      "prerequisites": [
+        "Physical Properties"
+      ],
+      "folderPath": "plans/02-1-2-Separating-Mixtures",
+      "lessons": [
+        {
+          "id": "Separating-Mixtures-part-1",
+          "number": 1,
+          "completed": false
+        },
+        {
+          "id": "Separating-Mixtures-part-2",
+          "number": 2,
+          "completed": false
+        },
+        {
+          "id": "Separating-Mixtures-part-3",
+          "number": 3,
+          "completed": false
+        }
+      ]
+    },
+    {
+      "id": "Changes-of-State",
+      "name": "Changes of State",
+      "numbering": "2.1.3",
+      "level": 3,
+      "prerequisites": [
+        "States of Matter"
+      ],
+      "folderPath": "plans/02-1-3-Changes-of-State",
+      "lessons": [
+        {
+          "id": "Changes-of-State-part-1",
+          "number": 1,
+          "completed": false
+        },
+        {
+          "id": "Changes-of-State-part-2",
+          "number": 2,
+          "completed": false
+        },
+        {
+          "id": "Changes-of-State-part-3",
+          "number": 3,
+          "completed": false
+        }
+      ]
+    },
+    {
+      "id": "Atoms-and-Elements",
+      "name": "Atoms and Elements",
+      "numbering": "2.2",
+      "level": 2,
+      "prerequisites": [
+        "Matter and Materials"
+      ],
+      "folderPath": "plans/02-2-Atoms-and-Elements",
+      "lessons": [
+        {
+          "id": "Atoms-and-Elements-part-1",
+          "number": 1,
+          "completed": false
+        },
+        {
+          "id": "Atoms-and-Elements-part-2",
+          "number": 2,
+          "completed": false
+        },
+        {
+          "id": "Atoms-and-Elements-part-3",
+          "number": 3,
+          "completed": false
+        }
+      ]
+    },
+    {
+      "id": "Atomic-Structure",
+      "name": "Atomic Structure",
+      "numbering": "2.2.1",
+      "level": 3,
+      "prerequisites": [
+        "Atoms and Elements"
+      ],
+      "folderPath": "plans/02-2-1-Atomic-Structure",
+      "lessons": [
+        {
+          "id": "Atomic-Structure-part-1",
+          "number": 1,
+          "completed": false
+        },
+        {
+          "id": "Atomic-Structure-part-2",
+          "number": 2,
+          "completed": false
+        },
+        {
+          "id": "Atomic-Structure-part-3",
+          "number": 3,
+          "completed": false
+        }
+      ]
+    },
+    {
+      "id": "Periodic-Table",
+      "name": "Periodic Table",
+      "numbering": "2.2.2",
+      "level": 3,
+      "prerequisites": [
+        "Atomic Structure"
+      ],
+      "folderPath": "plans/02-2-2-Periodic-Table",
+      "lessons": [
+        {
+          "id": "Periodic-Table-part-1",
+          "number": 1,
+          "completed": false
+        },
+        {
+          "id": "Periodic-Table-part-2",
+          "number": 2,
+          "completed": false
+        },
+        {
+          "id": "Periodic-Table-part-3",
+          "number": 3,
+          "completed": false
+        }
+      ]
+    },
+    {
+      "id": "Electron-Configuration",
+      "name": "Electron Configuration",
+      "numbering": "2.2.3",
+      "level": 3,
+      "prerequisites": [
+        "Periodic Table"
+      ],
+      "folderPath": "plans/02-2-3-Electron-Configuration",
+      "lessons": [
+        {
+          "id": "Electron-Configuration-part-1",
+          "number": 1,
+          "completed": false
+        },
+        {
+          "id": "Electron-Configuration-part-2",
+          "number": 2,
+          "completed": false
+        },
+        {
+          "id": "Electron-Configuration-part-3",
+          "number": 3,
+          "completed": false
+        }
+      ]
+    },
+    {
+      "id": "Chemical-Reactions",
+      "name": "Chemical Reactions",
+      "numbering": "2.3",
+      "level": 2,
+      "prerequisites": [
+        "Matter and Materials"
+      ],
+      "folderPath": "plans/02-3-Chemical-Reactions",
+      "lessons": [
+        {
+          "id": "Chemical-Reactions-part-1",
+          "number": 1,
+          "completed": false
+        },
+        {
+          "id": "Chemical-Reactions-part-2",
+          "number": 2,
+          "completed": false
+        },
+        {
+          "id": "Chemical-Reactions-part-3",
+          "number": 3,
+          "completed": false
+        }
+      ]
+    },
+    {
+      "id": "Chemical-Bonding",
+      "name": "Chemical Bonding",
+      "numbering": "2.3.1",
+      "level": 3,
+      "prerequisites": [
+        "Electron Configuration"
+      ],
+      "folderPath": "plans/02-3-1-Chemical-Bonding",
+      "lessons": [
+        {
+          "id": "Chemical-Bonding-part-1",
+          "number": 1,
+          "completed": false
+        },
+        {
+          "id": "Chemical-Bonding-part-2",
+          "number": 2,
+          "completed": false
+        },
+        {
+          "id": "Chemical-Bonding-part-3",
+          "number": 3,
+          "completed": false
+        }
+      ]
+    },
+    {
+      "id": "Types-of-Reactions",
+      "name": "Types of Reactions",
+      "numbering": "2.3.2",
+      "level": 3,
+      "prerequisites": [
+        "Chemical Reactions"
+      ],
+      "folderPath": "plans/02-3-2-Types-of-Reactions",
+      "lessons": [
+        {
+          "id": "Types-of-Reactions-part-1",
+          "number": 1,
+          "completed": false
+        },
+        {
+          "id": "Types-of-Reactions-part-2",
+          "number": 2,
+          "completed": false
+        },
+        {
+          "id": "Types-of-Reactions-part-3",
+          "number": 3,
+          "completed": false
+        }
+      ]
+    },
+    {
+      "id": "Rates-of-Reaction",
+      "name": "Rates of Reaction",
+      "numbering": "2.3.3",
+      "level": 3,
+      "prerequisites": [
+        "Types of Reactions"
+      ],
+      "folderPath": "plans/02-3-3-Rates-of-Reaction",
+      "lessons": [
+        {
+          "id": "Rates-of-Reaction-part-1",
+          "number": 1,
+          "completed": false
+        },
+        {
+          "id": "Rates-of-Reaction-part-2",
+          "number": 2,
+          "completed": false
+        },
+        {
+          "id": "Rates-of-Reaction-part-3",
+          "number": 3,
+          "completed": false
+        }
+      ]
+    },
+    {
+      "id": "Acids-and-Bases",
+      "name": "Acids and Bases",
+      "numbering": "2.3.4",
+      "level": 3,
+      "prerequisites": [
+        "Chemical Reactions"
+      ],
+      "folderPath": "plans/02-3-4-Acids-and-Bases",
+      "lessons": [
+        {
+          "id": "Acids-and-Bases-part-1",
+          "number": 1,
+          "completed": false
+        },
+        {
+          "id": "Acids-and-Bases-part-2",
+          "number": 2,
+          "completed": false
+        },
+        {
+          "id": "Acids-and-Bases-part-3",
+          "number": 3,
+          "completed": false
+        }
+      ]
+    },
+    {
+      "id": "Materials-Science",
+      "name": "Materials Science",
+      "numbering": "2.4",
+      "level": 2,
+      "prerequisites": [
+        "Matter and Materials"
+      ],
+      "folderPath": "plans/02-4-Materials-Science",
+      "lessons": [
+        {
+          "id": "Materials-Science-part-1",
+          "number": 1,
+          "completed": false
+        },
+        {
+          "id": "Materials-Science-part-2",
+          "number": 2,
+          "completed": false
+        },
+        {
+          "id": "Materials-Science-part-3",
+          "number": 3,
+          "completed": false
+        }
+      ]
+    },
+    {
+      "id": "Properties-of-Materials",
+      "name": "Properties of Materials",
+      "numbering": "2.4.1",
+      "level": 3,
+      "prerequisites": [
+        "Materials Science"
+      ],
+      "folderPath": "plans/02-4-1-Properties-of-Materials",
+      "lessons": [
+        {
+          "id": "Properties-of-Materials-part-1",
+          "number": 1,
+          "completed": false
+        },
+        {
+          "id": "Properties-of-Materials-part-2",
+          "number": 2,
+          "completed": false
+        },
+        {
+          "id": "Properties-of-Materials-part-3",
+          "number": 3,
+          "completed": false
+        }
+      ]
+    },
+    {
+      "id": "Nanomaterials",
+      "name": "Nanomaterials",
+      "numbering": "2.4.2",
+      "level": 3,
+      "prerequisites": [
+        "Properties of Materials"
+      ],
+      "folderPath": "plans/02-4-2-Nanomaterials",
+      "lessons": [
+        {
+          "id": "Nanomaterials-part-1",
+          "number": 1,
+          "completed": false
+        },
+        {
+          "id": "Nanomaterials-part-2",
+          "number": 2,
+          "completed": false
+        },
+        {
+          "id": "Nanomaterials-part-3",
+          "number": 3,
+          "completed": false
+        }
+      ]
+    },
+    {
+      "id": "Polymers-and-Composites",
+      "name": "Polymers and Composites",
+      "numbering": "2.4.3",
+      "level": 3,
+      "prerequisites": [
+        "Materials Science"
+      ],
+      "folderPath": "plans/02-4-3-Polymers-and-Composites",
+      "lessons": [
+        {
+          "id": "Polymers-and-Composites-part-1",
+          "number": 1,
+          "completed": false
+        },
+        {
+          "id": "Polymers-and-Composites-part-2",
+          "number": 2,
+          "completed": false
+        },
+        {
+          "id": "Polymers-and-Composites-part-3",
+          "number": 3,
+          "completed": false
+        }
+      ]
+    },
+    {
+      "id": "Energy-and-Forces",
+      "name": "Energy and Forces",
+      "numbering": "3",
+      "level": 1,
+      "prerequisites": [
+        "Scientific Inquiry Skills"
+      ],
+      "folderPath": "plans/03-Energy-and-Forces",
+      "lessons": [
+        {
+          "id": "Energy-and-Forces-part-1",
+          "number": 1,
+          "completed": false
+        },
+        {
+          "id": "Energy-and-Forces-part-2",
+          "number": 2,
+          "completed": false
+        },
+        {
+          "id": "Energy-and-Forces-part-3",
+          "number": 3,
+          "completed": false
+        }
+      ]
+    },
+    {
+      "id": "Energy-Types-and-Transfers",
+      "name": "Energy Types and Transfers",
+      "numbering": "3.1",
+      "level": 2,
+      "prerequisites": [
+        "Energy and Forces",
+        "Chemical Reactions"
+      ],
+      "folderPath": "plans/03-1-Energy-Types-and-Transfers",
+      "lessons": [
+        {
+          "id": "Energy-Types-and-Transfers-part-1",
+          "number": 1,
+          "completed": false
+        },
+        {
+          "id": "Energy-Types-and-Transfers-part-2",
+          "number": 2,
+          "completed": false
+        },
+        {
+          "id": "Energy-Types-and-Transfers-part-3",
+          "number": 3,
+          "completed": false
+        }
+      ]
+    },
+    {
+      "id": "Kinetic-and-Potential-Energy",
+      "name": "Kinetic and Potential Energy",
+      "numbering": "3.1.1",
+      "level": 3,
+      "prerequisites": [
+        "Energy Types and Transfers"
+      ],
+      "folderPath": "plans/03-1-1-Kinetic-and-Potential-Energy",
+      "lessons": [
+        {
+          "id": "Kinetic-and-Potential-Energy-part-1",
+          "number": 1,
+          "completed": false
+        },
+        {
+          "id": "Kinetic-and-Potential-Energy-part-2",
+          "number": 2,
+          "completed": false
+        },
+        {
+          "id": "Kinetic-and-Potential-Energy-part-3",
+          "number": 3,
+          "completed": false
+        }
+      ]
+    },
+    {
+      "id": "Energy-Conversions",
+      "name": "Energy Conversions",
+      "numbering": "3.1.2",
+      "level": 3,
+      "prerequisites": [
+        "Kinetic and Potential Energy"
+      ],
+      "folderPath": "plans/03-1-2-Energy-Conversions",
+      "lessons": [
+        {
+          "id": "Energy-Conversions-part-1",
+          "number": 1,
+          "completed": false
+        },
+        {
+          "id": "Energy-Conversions-part-2",
+          "number": 2,
+          "completed": false
+        },
+        {
+          "id": "Energy-Conversions-part-3",
+          "number": 3,
+          "completed": false
+        }
+      ]
+    },
+    {
+      "id": "Conservation-of-Energy",
+      "name": "Conservation of Energy",
+      "numbering": "3.1.3",
+      "level": 3,
+      "prerequisites": [
+        "Energy Conversions"
+      ],
+      "folderPath": "plans/03-1-3-Conservation-of-Energy",
+      "lessons": [
+        {
+          "id": "Conservation-of-Energy-part-1",
+          "number": 1,
+          "completed": false
+        },
+        {
+          "id": "Conservation-of-Energy-part-2",
+          "number": 2,
+          "completed": false
+        },
+        {
+          "id": "Conservation-of-Energy-part-3",
+          "number": 3,
+          "completed": false
+        }
+      ]
+    },
+    {
+      "id": "Work-and-Power",
+      "name": "Work and Power",
+      "numbering": "3.1.4",
+      "level": 3,
+      "prerequisites": [
+        "Conservation of Energy"
+      ],
+      "folderPath": "plans/03-1-4-Work-and-Power",
+      "lessons": [
+        {
+          "id": "Work-and-Power-part-1",
+          "number": 1,
+          "completed": false
+        },
+        {
+          "id": "Work-and-Power-part-2",
+          "number": 2,
+          "completed": false
+        },
+        {
+          "id": "Work-and-Power-part-3",
+          "number": 3,
+          "completed": false
+        }
+      ]
+    },
+    {
+      "id": "Forces-and-Motion",
+      "name": "Forces and Motion",
+      "numbering": "3.2",
+      "level": 2,
+      "prerequisites": [
+        "Energy and Forces",
+        "Materials Science"
+      ],
+      "folderPath": "plans/03-2-Forces-and-Motion",
+      "lessons": [
+        {
+          "id": "Forces-and-Motion-part-1",
+          "number": 1,
+          "completed": false
+        },
+        {
+          "id": "Forces-and-Motion-part-2",
+          "number": 2,
+          "completed": false
+        },
+        {
+          "id": "Forces-and-Motion-part-3",
+          "number": 3,
+          "completed": false
+        }
+      ]
+    },
+    {
+      "id": "Newton's-Laws",
+      "name": "Newton's Laws",
+      "numbering": "3.2.1",
+      "level": 3,
+      "prerequisites": [
+        "Forces and Motion"
+      ],
+      "folderPath": "plans/03-2-1-Newton's-Laws",
+      "lessons": [
+        {
+          "id": "Newton's-Laws-part-1",
+          "number": 1,
+          "completed": false
+        },
+        {
+          "id": "Newton's-Laws-part-2",
+          "number": 2,
+          "completed": false
+        },
+        {
+          "id": "Newton's-Laws-part-3",
+          "number": 3,
+          "completed": false
+        }
+      ]
+    },
+    {
+      "id": "Momentum",
+      "name": "Momentum",
+      "numbering": "3.2.2",
+      "level": 3,
+      "prerequisites": [
+        "Newton's Laws"
+      ],
+      "folderPath": "plans/03-2-2-Momentum",
+      "lessons": [
+        {
+          "id": "Momentum-part-1",
+          "number": 1,
+          "completed": false
+        },
+        {
+          "id": "Momentum-part-2",
+          "number": 2,
+          "completed": false
+        },
+        {
+          "id": "Momentum-part-3",
+          "number": 3,
+          "completed": false
+        }
+      ]
+    },
+    {
+      "id": "Pressure",
+      "name": "Pressure",
+      "numbering": "3.2.3",
+      "level": 3,
+      "prerequisites": [
+        "Forces and Motion"
+      ],
+      "folderPath": "plans/03-2-3-Pressure",
+      "lessons": [
+        {
+          "id": "Pressure-part-1",
+          "number": 1,
+          "completed": false
+        },
+        {
+          "id": "Pressure-part-2",
+          "number": 2,
+          "completed": false
+        },
+        {
+          "id": "Pressure-part-3",
+          "number": 3,
+          "completed": false
+        }
+      ]
+    },
+    {
+      "id": "Waves",
+      "name": "Waves",
+      "numbering": "3.3",
+      "level": 2,
+      "prerequisites": [
+        "Energy and Forces"
+      ],
+      "folderPath": "plans/03-3-Waves",
+      "lessons": [
+        {
+          "id": "Waves-part-1",
+          "number": 1,
+          "completed": false
+        },
+        {
+          "id": "Waves-part-2",
+          "number": 2,
+          "completed": false
+        },
+        {
+          "id": "Waves-part-3",
+          "number": 3,
+          "completed": false
+        }
+      ]
+    },
+    {
+      "id": "Wave-Properties",
+      "name": "Wave Properties",
+      "numbering": "3.3.1",
+      "level": 3,
+      "prerequisites": [
+        "Waves"
+      ],
+      "folderPath": "plans/03-3-1-Wave-Properties",
+      "lessons": [
+        {
+          "id": "Wave-Properties-part-1",
+          "number": 1,
+          "completed": false
+        },
+        {
+          "id": "Wave-Properties-part-2",
+          "number": 2,
+          "completed": false
+        },
+        {
+          "id": "Wave-Properties-part-3",
+          "number": 3,
+          "completed": false
+        }
+      ]
+    },
+    {
+      "id": "Electromagnetic-Spectrum",
+      "name": "Electromagnetic Spectrum",
+      "numbering": "3.3.2",
+      "level": 3,
+      "prerequisites": [
+        "Wave Properties"
+      ],
+      "folderPath": "plans/03-3-2-Electromagnetic-Spectrum",
+      "lessons": [
+        {
+          "id": "Electromagnetic-Spectrum-part-1",
+          "number": 1,
+          "completed": false
+        },
+        {
+          "id": "Electromagnetic-Spectrum-part-2",
+          "number": 2,
+          "completed": false
+        },
+        {
+          "id": "Electromagnetic-Spectrum-part-3",
+          "number": 3,
+          "completed": false
+        }
+      ]
+    },
+    {
+      "id": "Sound-Waves",
+      "name": "Sound Waves",
+      "numbering": "3.3.3",
+      "level": 3,
+      "prerequisites": [
+        "Electromagnetic Spectrum"
+      ],
+      "folderPath": "plans/03-3-3-Sound-Waves",
+      "lessons": [
+        {
+          "id": "Sound-Waves-part-1",
+          "number": 1,
+          "completed": false
+        },
+        {
+          "id": "Sound-Waves-part-2",
+          "number": 2,
+          "completed": false
+        },
+        {
+          "id": "Sound-Waves-part-3",
+          "number": 3,
+          "completed": false
+        }
+      ]
+    },
+    {
+      "id": "Electricity-and-Magnetism",
+      "name": "Electricity and Magnetism",
+      "numbering": "3.4",
+      "level": 2,
+      "prerequisites": [
+        "Energy and Forces",
+        "Atoms and Elements"
+      ],
+      "folderPath": "plans/03-4-Electricity-and-Magnetism",
+      "lessons": [
+        {
+          "id": "Electricity-and-Magnetism-part-1",
+          "number": 1,
+          "completed": false
+        },
+        {
+          "id": "Electricity-and-Magnetism-part-2",
+          "number": 2,
+          "completed": false
+        },
+        {
+          "id": "Electricity-and-Magnetism-part-3",
+          "number": 3,
+          "completed": false
+        }
+      ]
+    },
+    {
+      "id": "Electric-Circuits",
+      "name": "Electric Circuits",
+      "numbering": "3.4.1",
+      "level": 3,
+      "prerequisites": [
+        "Electricity and Magnetism"
+      ],
+      "folderPath": "plans/03-4-1-Electric-Circuits",
+      "lessons": [
+        {
+          "id": "Electric-Circuits-part-1",
+          "number": 1,
+          "completed": false
+        },
+        {
+          "id": "Electric-Circuits-part-2",
+          "number": 2,
+          "completed": false
+        },
+        {
+          "id": "Electric-Circuits-part-3",
+          "number": 3,
+          "completed": false
+        }
+      ]
+    },
+    {
+      "id": "Magnetism",
+      "name": "Magnetism",
+      "numbering": "3.4.2",
+      "level": 3,
+      "prerequisites": [
+        "Electric Circuits"
+      ],
+      "folderPath": "plans/03-4-2-Magnetism",
+      "lessons": [
+        {
+          "id": "Magnetism-part-1",
+          "number": 1,
+          "completed": false
+        },
+        {
+          "id": "Magnetism-part-2",
+          "number": 2,
+          "completed": false
+        },
+        {
+          "id": "Magnetism-part-3",
+          "number": 3,
+          "completed": false
+        }
+      ]
+    },
+    {
+      "id": "Electromagnetic-Induction",
+      "name": "Electromagnetic Induction",
+      "numbering": "3.4.3",
+      "level": 3,
+      "prerequisites": [
+        "Magnetism"
+      ],
+      "folderPath": "plans/03-4-3-Electromagnetic-Induction",
+      "lessons": [
+        {
+          "id": "Electromagnetic-Induction-part-1",
+          "number": 1,
+          "completed": false
+        },
+        {
+          "id": "Electromagnetic-Induction-part-2",
+          "number": 2,
+          "completed": false
+        },
+        {
+          "id": "Electromagnetic-Induction-part-3",
+          "number": 3,
+          "completed": false
+        }
+      ]
+    },
+    {
+      "id": "Life-and-Systems",
+      "name": "Life and Systems",
+      "numbering": "4",
+      "level": 1,
+      "prerequisites": [
+        "Scientific Inquiry Skills"
+      ],
+      "folderPath": "plans/04-Life-and-Systems",
+      "lessons": [
+        {
+          "id": "Life-and-Systems-part-1",
+          "number": 1,
+          "completed": false
+        },
+        {
+          "id": "Life-and-Systems-part-2",
+          "number": 2,
+          "completed": false
+        },
+        {
+          "id": "Life-and-Systems-part-3",
+          "number": 3,
+          "completed": false
+        }
+      ]
+    },
+    {
+      "id": "Cell-Biology",
+      "name": "Cell Biology",
+      "numbering": "4.1",
+      "level": 2,
+      "prerequisites": [
+        "Life and Systems"
+      ],
+      "folderPath": "plans/04-1-Cell-Biology",
+      "lessons": [
+        {
+          "id": "Cell-Biology-part-1",
+          "number": 1,
+          "completed": false
+        },
+        {
+          "id": "Cell-Biology-part-2",
+          "number": 2,
+          "completed": false
+        },
+        {
+          "id": "Cell-Biology-part-3",
+          "number": 3,
+          "completed": false
+        }
+      ]
+    },
+    {
+      "id": "Cell-Structure",
+      "name": "Cell Structure",
+      "numbering": "4.1.1",
+      "level": 3,
+      "prerequisites": [
+        "Cell Biology"
+      ],
+      "folderPath": "plans/04-1-1-Cell-Structure",
+      "lessons": [
+        {
+          "id": "Cell-Structure-part-1",
+          "number": 1,
+          "completed": false
+        },
+        {
+          "id": "Cell-Structure-part-2",
+          "number": 2,
+          "completed": false
+        },
+        {
+          "id": "Cell-Structure-part-3",
+          "number": 3,
+          "completed": false
+        }
+      ]
+    },
+    {
+      "id": "Cell-Division",
+      "name": "Cell Division",
+      "numbering": "4.1.2",
+      "level": 3,
+      "prerequisites": [
+        "Cell Structure"
+      ],
+      "folderPath": "plans/04-1-2-Cell-Division",
+      "lessons": [
+        {
+          "id": "Cell-Division-part-1",
+          "number": 1,
+          "completed": false
+        },
+        {
+          "id": "Cell-Division-part-2",
+          "number": 2,
+          "completed": false
+        },
+        {
+          "id": "Cell-Division-part-3",
+          "number": 3,
+          "completed": false
+        }
+      ]
+    },
+    {
+      "id": "Transport-in-Cells",
+      "name": "Transport in Cells",
+      "numbering": "4.1.3",
+      "level": 3,
+      "prerequisites": [
+        "Cell Biology"
+      ],
+      "folderPath": "plans/04-1-3-Transport-in-Cells",
+      "lessons": [
+        {
+          "id": "Transport-in-Cells-part-1",
+          "number": 1,
+          "completed": false
+        },
+        {
+          "id": "Transport-in-Cells-part-2",
+          "number": 2,
+          "completed": false
+        },
+        {
+          "id": "Transport-in-Cells-part-3",
+          "number": 3,
+          "completed": false
+        }
+      ]
+    },
+    {
+      "id": "Organisms-and-Environment",
+      "name": "Organisms and Environment",
+      "numbering": "4.2",
+      "level": 2,
+      "prerequisites": [
+        "Life and Systems",
+        "Energy Types and Transfers"
+      ],
+      "folderPath": "plans/04-2-Organisms-and-Environment",
+      "lessons": [
+        {
+          "id": "Organisms-and-Environment-part-1",
+          "number": 1,
+          "completed": false
+        },
+        {
+          "id": "Organisms-and-Environment-part-2",
+          "number": 2,
+          "completed": false
+        },
+        {
+          "id": "Organisms-and-Environment-part-3",
+          "number": 3,
+          "completed": false
+        }
+      ]
+    },
+    {
+      "id": "Plant-Biology",
+      "name": "Plant Biology",
+      "numbering": "4.2.1",
+      "level": 3,
+      "prerequisites": [
+        "Transport in Cells"
+      ],
+      "folderPath": "plans/04-2-1-Plant-Biology",
+      "lessons": [
+        {
+          "id": "Plant-Biology-part-1",
+          "number": 1,
+          "completed": false
+        },
+        {
+          "id": "Plant-Biology-part-2",
+          "number": 2,
+          "completed": false
+        },
+        {
+          "id": "Plant-Biology-part-3",
+          "number": 3,
+          "completed": false
+        }
+      ]
+    },
+    {
+      "id": "Animal-Biology",
+      "name": "Animal Biology",
+      "numbering": "4.2.2",
+      "level": 3,
+      "prerequisites": [
+        "Organisms and Environment"
+      ],
+      "folderPath": "plans/04-2-2-Animal-Biology",
+      "lessons": [
+        {
+          "id": "Animal-Biology-part-1",
+          "number": 1,
+          "completed": false
+        },
+        {
+          "id": "Animal-Biology-part-2",
+          "number": 2,
+          "completed": false
+        },
+        {
+          "id": "Animal-Biology-part-3",
+          "number": 3,
+          "completed": false
+        }
+      ]
+    },
+    {
+      "id": "Ecosystems",
+      "name": "Ecosystems",
+      "numbering": "4.2.3",
+      "level": 3,
+      "prerequisites": [
+        "Animal Biology"
+      ],
+      "folderPath": "plans/04-2-3-Ecosystems",
+      "lessons": [
+        {
+          "id": "Ecosystems-part-1",
+          "number": 1,
+          "completed": false
+        },
+        {
+          "id": "Ecosystems-part-2",
+          "number": 2,
+          "completed": false
+        },
+        {
+          "id": "Ecosystems-part-3",
+          "number": 3,
+          "completed": false
+        }
+      ]
+    },
+    {
+      "id": "Biodiversity",
+      "name": "Biodiversity",
+      "numbering": "4.2.4",
+      "level": 3,
+      "prerequisites": [
+        "Ecosystems"
+      ],
+      "folderPath": "plans/04-2-4-Biodiversity",
+      "lessons": [
+        {
+          "id": "Biodiversity-part-1",
+          "number": 1,
+          "completed": false
+        },
+        {
+          "id": "Biodiversity-part-2",
+          "number": 2,
+          "completed": false
+        },
+        {
+          "id": "Biodiversity-part-3",
+          "number": 3,
+          "completed": false
+        }
+      ]
+    },
+    {
+      "id": "Human-Biology",
+      "name": "Human Biology",
+      "numbering": "4.3",
+      "level": 2,
+      "prerequisites": [
+        "Life and Systems",
+        "Forces and Motion"
+      ],
+      "folderPath": "plans/04-3-Human-Biology",
+      "lessons": [
+        {
+          "id": "Human-Biology-part-1",
+          "number": 1,
+          "completed": false
+        },
+        {
+          "id": "Human-Biology-part-2",
+          "number": 2,
+          "completed": false
+        },
+        {
+          "id": "Human-Biology-part-3",
+          "number": 3,
+          "completed": false
+        }
+      ]
+    },
+    {
+      "id": "Hearing",
+      "name": "Hearing",
+      "numbering": "4.3.1",
+      "level": 3,
+      "prerequisites": [
+        "Sound Waves"
+      ],
+      "folderPath": "plans/04-3-1-Hearing",
+      "lessons": [
+        {
+          "id": "Hearing-part-1",
+          "number": 1,
+          "completed": false
+        },
+        {
+          "id": "Hearing-part-2",
+          "number": 2,
+          "completed": false
+        },
+        {
+          "id": "Hearing-part-3",
+          "number": 3,
+          "completed": false
+        }
+      ]
+    },
+    {
+      "id": "Digestive-System",
+      "name": "Digestive System",
+      "numbering": "4.3.2",
+      "level": 3,
+      "prerequisites": [
+        "Human Biology"
+      ],
+      "folderPath": "plans/04-3-2-Digestive-System",
+      "lessons": [
+        {
+          "id": "Digestive-System-part-1",
+          "number": 1,
+          "completed": false
+        },
+        {
+          "id": "Digestive-System-part-2",
+          "number": 2,
+          "completed": false
+        },
+        {
+          "id": "Digestive-System-part-3",
+          "number": 3,
+          "completed": false
+        }
+      ]
+    },
+    {
+      "id": "Circulatory-System",
+      "name": "Circulatory System",
+      "numbering": "4.3.3",
+      "level": 3,
+      "prerequisites": [
+        "Digestive System"
+      ],
+      "folderPath": "plans/04-3-3-Circulatory-System",
+      "lessons": [
+        {
+          "id": "Circulatory-System-part-1",
+          "number": 1,
+          "completed": false
+        },
+        {
+          "id": "Circulatory-System-part-2",
+          "number": 2,
+          "completed": false
+        },
+        {
+          "id": "Circulatory-System-part-3",
+          "number": 3,
+          "completed": false
+        }
+      ]
+    },
+    {
+      "id": "Respiratory-System",
+      "name": "Respiratory System",
+      "numbering": "4.3.4",
+      "level": 3,
+      "prerequisites": [
+        "Human Biology"
+      ],
+      "folderPath": "plans/04-3-4-Respiratory-System",
+      "lessons": [
+        {
+          "id": "Respiratory-System-part-1",
+          "number": 1,
+          "completed": false
+        },
+        {
+          "id": "Respiratory-System-part-2",
+          "number": 2,
+          "completed": false
+        },
+        {
+          "id": "Respiratory-System-part-3",
+          "number": 3,
+          "completed": false
+        }
+      ]
+    },
+    {
+      "id": "Nervous-System",
+      "name": "Nervous System",
+      "numbering": "4.3.5",
+      "level": 3,
+      "prerequisites": [
+        "Respiratory System"
+      ],
+      "folderPath": "plans/04-3-5-Nervous-System",
+      "lessons": [
+        {
+          "id": "Nervous-System-part-1",
+          "number": 1,
+          "completed": false
+        },
+        {
+          "id": "Nervous-System-part-2",
+          "number": 2,
+          "completed": false
+        },
+        {
+          "id": "Nervous-System-part-3",
+          "number": 3,
+          "completed": false
+        }
+      ]
+    },
+    {
+      "id": "Inheritance-and-Evolution",
+      "name": "Inheritance and Evolution",
+      "numbering": "4.4",
+      "level": 2,
+      "prerequisites": [
+        "Life and Systems"
+      ],
+      "folderPath": "plans/04-4-Inheritance-and-Evolution",
+      "lessons": [
+        {
+          "id": "Inheritance-and-Evolution-part-1",
+          "number": 1,
+          "completed": false
+        },
+        {
+          "id": "Inheritance-and-Evolution-part-2",
+          "number": 2,
+          "completed": false
+        },
+        {
+          "id": "Inheritance-and-Evolution-part-3",
+          "number": 3,
+          "completed": false
+        }
+      ]
+    },
+    {
+      "id": "DNA-and-Genes",
+      "name": "DNA and Genes",
+      "numbering": "4.4.1",
+      "level": 3,
+      "prerequisites": [
+        "Inheritance and Evolution"
+      ],
+      "folderPath": "plans/04-4-1-DNA-and-Genes",
+      "lessons": [
+        {
+          "id": "DNA-and-Genes-part-1",
+          "number": 1,
+          "completed": false
+        },
+        {
+          "id": "DNA-and-Genes-part-2",
+          "number": 2,
+          "completed": false
+        },
+        {
+          "id": "DNA-and-Genes-part-3",
+          "number": 3,
+          "completed": false
+        }
+      ]
+    },
+    {
+      "id": "Genetic-Inheritance",
+      "name": "Genetic Inheritance",
+      "numbering": "4.4.2",
+      "level": 3,
+      "prerequisites": [
+        "DNA and Genes"
+      ],
+      "folderPath": "plans/04-4-2-Genetic-Inheritance",
+      "lessons": [
+        {
+          "id": "Genetic-Inheritance-part-1",
+          "number": 1,
+          "completed": false
+        },
+        {
+          "id": "Genetic-Inheritance-part-2",
+          "number": 2,
+          "completed": false
+        },
+        {
+          "id": "Genetic-Inheritance-part-3",
+          "number": 3,
+          "completed": false
+        }
+      ]
+    },
+    {
+      "id": "Variation",
+      "name": "Variation",
+      "numbering": "4.4.3",
+      "level": 3,
+      "prerequisites": [
+        "Genetic Inheritance"
+      ],
+      "folderPath": "plans/04-4-3-Variation",
+      "lessons": [
+        {
+          "id": "Variation-part-1",
+          "number": 1,
+          "completed": false
+        },
+        {
+          "id": "Variation-part-2",
+          "number": 2,
+          "completed": false
+        },
+        {
+          "id": "Variation-part-3",
+          "number": 3,
+          "completed": false
+        }
+      ]
+    },
+    {
+      "id": "Natural-Selection",
+      "name": "Natural Selection",
+      "numbering": "4.4.4",
+      "level": 3,
+      "prerequisites": [
+        "Variation"
+      ],
+      "folderPath": "plans/04-4-4-Natural-Selection",
+      "lessons": [
+        {
+          "id": "Natural-Selection-part-1",
+          "number": 1,
+          "completed": false
+        },
+        {
+          "id": "Natural-Selection-part-2",
+          "number": 2,
+          "completed": false
+        },
+        {
+          "id": "Natural-Selection-part-3",
+          "number": 3,
+          "completed": false
+        }
+      ]
+    },
+    {
+      "id": "Earth-and-Space",
+      "name": "Earth and Space",
+      "numbering": "5",
+      "level": 1,
+      "prerequisites": [
+        "Scientific Inquiry Skills"
+      ],
+      "folderPath": "plans/05-Earth-and-Space",
+      "lessons": [
+        {
+          "id": "Earth-and-Space-part-1",
+          "number": 1,
+          "completed": false
+        },
+        {
+          "id": "Earth-and-Space-part-2",
+          "number": 2,
+          "completed": false
+        },
+        {
+          "id": "Earth-and-Space-part-3",
+          "number": 3,
+          "completed": false
+        }
+      ]
+    },
+    {
+      "id": "Earth-Structure-and-Processes",
+      "name": "Earth Structure and Processes",
+      "numbering": "5.1",
+      "level": 2,
+      "prerequisites": [
+        "Earth and Space"
+      ],
+      "folderPath": "plans/05-1-Earth-Structure-and-Processes",
+      "lessons": [
+        {
+          "id": "Earth-Structure-and-Processes-part-1",
+          "number": 1,
+          "completed": false
+        },
+        {
+          "id": "Earth-Structure-and-Processes-part-2",
+          "number": 2,
+          "completed": false
+        },
+        {
+          "id": "Earth-Structure-and-Processes-part-3",
+          "number": 3,
+          "completed": false
+        }
+      ]
+    },
+    {
+      "id": "Rock-Formation",
+      "name": "Rock Formation",
+      "numbering": "5.1.1",
+      "level": 3,
+      "prerequisites": [
+        "Acids and Bases"
+      ],
+      "folderPath": "plans/05-1-1-Rock-Formation",
+      "lessons": [
+        {
+          "id": "Rock-Formation-part-1",
+          "number": 1,
+          "completed": false
+        },
+        {
+          "id": "Rock-Formation-part-2",
+          "number": 2,
+          "completed": false
+        },
+        {
+          "id": "Rock-Formation-part-3",
+          "number": 3,
+          "completed": false
+        }
+      ]
+    },
+    {
+      "id": "Plate-Tectonics",
+      "name": "Plate Tectonics",
+      "numbering": "5.1.2",
+      "level": 3,
+      "prerequisites": [
+        "Earth Structure and Processes"
+      ],
+      "folderPath": "plans/05-1-2-Plate-Tectonics",
+      "lessons": [
+        {
+          "id": "Plate-Tectonics-part-1",
+          "number": 1,
+          "completed": false
+        },
+        {
+          "id": "Plate-Tectonics-part-2",
+          "number": 2,
+          "completed": false
+        },
+        {
+          "id": "Plate-Tectonics-part-3",
+          "number": 3,
+          "completed": false
+        }
+      ]
+    },
+    {
+      "id": "Rock-Cycle",
+      "name": "Rock Cycle",
+      "numbering": "5.1.3",
+      "level": 3,
+      "prerequisites": [
+        "Plate Tectonics"
+      ],
+      "folderPath": "plans/05-1-3-Rock-Cycle",
+      "lessons": [
+        {
+          "id": "Rock-Cycle-part-1",
+          "number": 1,
+          "completed": false
+        },
+        {
+          "id": "Rock-Cycle-part-2",
+          "number": 2,
+          "completed": false
+        },
+        {
+          "id": "Rock-Cycle-part-3",
+          "number": 3,
+          "completed": false
+        }
+      ]
+    },
+    {
+      "id": "Earth's-Resources",
+      "name": "Earth's Resources",
+      "numbering": "5.1.4",
+      "level": 3,
+      "prerequisites": [
+        "Rock Cycle"
+      ],
+      "folderPath": "plans/05-1-4-Earth's-Resources",
+      "lessons": [
+        {
+          "id": "Earth's-Resources-part-1",
+          "number": 1,
+          "completed": false
+        },
+        {
+          "id": "Earth's-Resources-part-2",
+          "number": 2,
+          "completed": false
+        },
+        {
+          "id": "Earth's-Resources-part-3",
+          "number": 3,
+          "completed": false
+        }
+      ]
+    },
+    {
+      "id": "Weather-and-Climate",
+      "name": "Weather and Climate",
+      "numbering": "5.2",
+      "level": 2,
+      "prerequisites": [
+        "Earth and Space",
+        "Organisms and Environment"
+      ],
+      "folderPath": "plans/05-2-Weather-and-Climate",
+      "lessons": [
+        {
+          "id": "Weather-and-Climate-part-1",
+          "number": 1,
+          "completed": false
+        },
+        {
+          "id": "Weather-and-Climate-part-2",
+          "number": 2,
+          "completed": false
+        },
+        {
+          "id": "Weather-and-Climate-part-3",
+          "number": 3,
+          "completed": false
+        }
+      ]
+    },
+    {
+      "id": "Water-Cycle",
+      "name": "Water Cycle",
+      "numbering": "5.2.1",
+      "level": 3,
+      "prerequisites": [
+        "Changes of State"
+      ],
+      "folderPath": "plans/05-2-1-Water-Cycle",
+      "lessons": [
+        {
+          "id": "Water-Cycle-part-1",
+          "number": 1,
+          "completed": false
+        },
+        {
+          "id": "Water-Cycle-part-2",
+          "number": 2,
+          "completed": false
+        },
+        {
+          "id": "Water-Cycle-part-3",
+          "number": 3,
+          "completed": false
+        }
+      ]
+    },
+    {
+      "id": "Atmospheric-Pressure",
+      "name": "Atmospheric Pressure",
+      "numbering": "5.2.2",
+      "level": 3,
+      "prerequisites": [
+        "Pressure"
+      ],
+      "folderPath": "plans/05-2-2-Atmospheric-Pressure",
+      "lessons": [
+        {
+          "id": "Atmospheric-Pressure-part-1",
+          "number": 1,
+          "completed": false
+        },
+        {
+          "id": "Atmospheric-Pressure-part-2",
+          "number": 2,
+          "completed": false
+        },
+        {
+          "id": "Atmospheric-Pressure-part-3",
+          "number": 3,
+          "completed": false
+        }
+      ]
+    },
+    {
+      "id": "Climate-Change-Impact",
+      "name": "Climate Change Impact",
+      "numbering": "5.2.3",
+      "level": 3,
+      "prerequisites": [
+        "Biodiversity"
+      ],
+      "folderPath": "plans/05-2-3-Climate-Change-Impact",
+      "lessons": [
+        {
+          "id": "Climate-Change-Impact-part-1",
+          "number": 1,
+          "completed": false
+        },
+        {
+          "id": "Climate-Change-Impact-part-2",
+          "number": 2,
+          "completed": false
+        },
+        {
+          "id": "Climate-Change-Impact-part-3",
+          "number": 3,
+          "completed": false
+        }
+      ]
+    },
+    {
+      "id": "Climate-Zones",
+      "name": "Climate Zones",
+      "numbering": "5.2.4",
+      "level": 3,
+      "prerequisites": [
+        "Weather and Climate"
+      ],
+      "folderPath": "plans/05-2-4-Climate-Zones",
+      "lessons": [
+        {
+          "id": "Climate-Zones-part-1",
+          "number": 1,
+          "completed": false
+        },
+        {
+          "id": "Climate-Zones-part-2",
+          "number": 2,
+          "completed": false
+        },
+        {
+          "id": "Climate-Zones-part-3",
+          "number": 3,
+          "completed": false
+        }
+      ]
+    },
+    {
+      "id": "Extreme-Weather",
+      "name": "Extreme Weather",
+      "numbering": "5.2.5",
+      "level": 3,
+      "prerequisites": [
+        "Climate Zones"
+      ],
+      "folderPath": "plans/05-2-5-Extreme-Weather",
+      "lessons": [
+        {
+          "id": "Extreme-Weather-part-1",
+          "number": 1,
+          "completed": false
+        },
+        {
+          "id": "Extreme-Weather-part-2",
+          "number": 2,
+          "completed": false
+        },
+        {
+          "id": "Extreme-Weather-part-3",
+          "number": 3,
+          "completed": false
+        }
+      ]
+    },
+    {
+      "id": "Human-Impact-on-Climate",
+      "name": "Human Impact on Climate",
+      "numbering": "5.2.6",
+      "level": 3,
+      "prerequisites": [
+        "Weather and Climate"
+      ],
+      "folderPath": "plans/05-2-6-Human-Impact-on-Climate",
+      "lessons": [
+        {
+          "id": "Human-Impact-on-Climate-part-1",
+          "number": 1,
+          "completed": false
+        },
+        {
+          "id": "Human-Impact-on-Climate-part-2",
+          "number": 2,
+          "completed": false
+        },
+        {
+          "id": "Human-Impact-on-Climate-part-3",
+          "number": 3,
+          "completed": false
+        }
+      ]
+    },
+    {
+      "id": "Space-Science",
+      "name": "Space Science",
+      "numbering": "5.3",
+      "level": 2,
+      "prerequisites": [
+        "Earth and Space"
+      ],
+      "folderPath": "plans/05-3-Space-Science",
+      "lessons": [
+        {
+          "id": "Space-Science-part-1",
+          "number": 1,
+          "completed": false
+        },
+        {
+          "id": "Space-Science-part-2",
+          "number": 2,
+          "completed": false
+        },
+        {
+          "id": "Space-Science-part-3",
+          "number": 3,
+          "completed": false
+        }
+      ]
+    },
+    {
+      "id": "Solar-System",
+      "name": "Solar System",
+      "numbering": "5.3.1",
+      "level": 3,
+      "prerequisites": [
+        "Space Science"
+      ],
+      "folderPath": "plans/05-3-1-Solar-System",
+      "lessons": [
+        {
+          "id": "Solar-System-part-1",
+          "number": 1,
+          "completed": false
+        },
+        {
+          "id": "Solar-System-part-2",
+          "number": 2,
+          "completed": false
+        },
+        {
+          "id": "Solar-System-part-3",
+          "number": 3,
+          "completed": false
+        }
+      ]
+    },
+    {
+      "id": "Stars-and-Galaxies",
+      "name": "Stars and Galaxies",
+      "numbering": "5.3.2",
+      "level": 3,
+      "prerequisites": [
+        "Solar System"
+      ],
+      "folderPath": "plans/05-3-2-Stars-and-Galaxies",
+      "lessons": [
+        {
+          "id": "Stars-and-Galaxies-part-1",
+          "number": 1,
+          "completed": false
+        },
+        {
+          "id": "Stars-and-Galaxies-part-2",
+          "number": 2,
+          "completed": false
+        },
+        {
+          "id": "Stars-and-Galaxies-part-3",
+          "number": 3,
+          "completed": false
+        }
+      ]
+    },
+    {
+      "id": "Universe-Origin",
+      "name": "Universe Origin",
+      "numbering": "5.3.3",
+      "level": 3,
+      "prerequisites": [
+        "Stars and Galaxies"
+      ],
+      "folderPath": "plans/05-3-3-Universe-Origin",
+      "lessons": [
+        {
+          "id": "Universe-Origin-part-1",
+          "number": 1,
+          "completed": false
+        },
+        {
+          "id": "Universe-Origin-part-2",
+          "number": 2,
+          "completed": false
+        },
+        {
+          "id": "Universe-Origin-part-3",
+          "number": 3,
+          "completed": false
+        }
+      ]
+    }
+  ],
+  "version": "1.0"
+}

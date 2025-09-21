@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Global styles for lesson content */
+.lesson-content h3 {
+  font-size: 19px;
+  font-weight: 600;
+  color: #000;
+  margin-top: 28px;
+  margin-bottom: 14px;
+}
+
+.lesson-content p {
+  margin-bottom: 18px;
+}
+
+.lesson-content ul,
+.lesson-content ol {
+  margin-bottom: 18px;
+  padding-left: 28px;
+}
+
+.lesson-content li {
+  margin-bottom: 10px;
+  line-height: 1.6;
+}
+
+.lesson-content strong {
+  font-weight: 600;
+  color: #000;
+}
+
+.lesson-content em {
+  font-style: italic;
+}
+
+/* Continue button styles */
+button:focus {
+  outline: none;
+}
+
+/* Input field focus styles */
+input:focus,
+textarea:focus {
+  outline: none;
+  border-color: #2E7CD6 !important;
+  box-shadow: 0 0 0 2px rgba(46, 124, 214, 0.1);
+}
+
+/* Scrollbar styles for container */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #c0c0c0;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #a8a8a8;
+}

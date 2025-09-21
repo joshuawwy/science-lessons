@@ -1,0 +1,197 @@
+{
+  "cards": [
+    {
+      "id": "matter-and-materials-lesson2-card1",
+      "type": "intro",
+      "cycle": 0,
+      "title": "Welcome to Properties of Matter!",
+      "content": "<h3>Exploring the Characteristics of Matter</h3><p>Welcome back, young scientist! In our last lesson, you discovered that everything around us is made of matter. Today, we're going to become <strong>matter detectives</strong> and learn how to identify and describe matter by its special characteristics, called <em>properties</em>.</p><p>Have you ever wondered why ice melts but rocks don't? Or why some materials float while others sink? Today, you'll discover the answers to these questions and many more!</p><p>This is <strong>Lesson 2</strong> in our Matter and Materials journey. Get ready to explore the amazing world of material properties!</p>",
+      "interactive": null
+    },
+    {
+      "id": "matter-and-materials-lesson2-card2",
+      "type": "objective",
+      "cycle": 0,
+      "title": "Today's Learning Goals",
+      "content": "<h3>What You Will Master Today</h3><p>By the end of this lesson, <strong>you will be able to:</strong></p><ul><li>Identify and describe <strong>physical properties</strong> of matter (like color, texture, and density)</li><li>Recognize <strong>chemical properties</strong> and understand how they differ from physical properties</li><li>Measure and compare properties to identify unknown materials</li><li>Explain how the tiny particles inside matter determine its properties</li></ul><p>These skills will help you understand why materials behave differently and how scientists classify matter in the real world!</p>",
+      "interactive": null
+    },
+    {
+      "id": "matter-and-materials-lesson2-card3",
+      "type": "i-do",
+      "cycle": 1,
+      "title": "Observing Physical Properties",
+      "content": "<h3>Watch How I Identify Physical Properties</h3><p>Let me show you how to identify <strong>physical properties</strong> - characteristics we can observe without changing what the material is made of.</p><p>I have a piece of aluminum foil. <strong>Notice how I observe its properties:</strong></p><ol><li><strong>Color:</strong> Silver/metallic gray</li><li><strong>Texture:</strong> Smooth and shiny</li><li><strong>Flexibility:</strong> Can be bent and folded easily</li><li><strong>State:</strong> Solid at room temperature</li></ol><p>See how I didn't change the aluminum into something else? I just observed and described what I could see and feel. These are all <em>physical properties</em> because the aluminum stays aluminum!</p>",
+      "interactive": null
+    },
+    {
+      "id": "matter-and-materials-lesson2-card4",
+      "type": "i-do",
+      "cycle": 1,
+      "title": "More Physical Properties",
+      "content": "<h3>Let Me Demonstrate Another Example</h3><p>Now watch as I examine water to identify more types of physical properties:</p><p><strong>Observable Properties of Water:</strong></p><ul><li><strong>Color:</strong> Clear/transparent</li><li><strong>State:</strong> Liquid at room temperature</li><li><strong>Boiling point:</strong> 100°C (212°F)</li><li><strong>Freezing point:</strong> 0°C (32°F)</li><li><strong>Density:</strong> 1 gram per cubic centimeter</li></ul><p>Notice how some properties (like boiling point) require measurement, but we're still not changing what the substance is - water remains water whether it's ice, liquid, or steam!</p>",
+      "interactive": null
+    },
+    {
+      "id": "matter-and-materials-lesson2-card5",
+      "type": "you-do",
+      "cycle": 1,
+      "title": "Identify the Physical Property",
+      "content": "<h3>Your Turn: Spot the Physical Property</h3><p>You observe a copper penny and notice it has a reddish-brown color. What type of property is this?</p>",
+      "interactive": {
+        "type": "quiz",
+        "question": "The reddish-brown color of a copper penny is what type of property?",
+        "correctAnswer": "Physical property",
+        "options": ["Physical property", "Chemical property", "Neither type", "Both types"],
+        "feedback": {
+          "correct": "Excellent! Color is a physical property because you can observe it without changing the copper into a different substance. The penny remains copper!",
+          "incorrect": "Not quite! Think about whether observing the color changes what the penny is made of. If it doesn't change the substance, it's a physical property.",
+          "partial": "You're on the right track! Remember, if you can observe it without changing the material into something else, it's physical."
+        },
+        "hint": "Does looking at the penny's color change it into a different material?"
+      }
+    },
+    {
+      "id": "matter-and-materials-lesson2-card6",
+      "type": "you-do",
+      "cycle": 1,
+      "title": "List Physical Properties",
+      "content": "<h3>Now It's Your Turn to Observe</h3><p>Imagine you have a piece of chalk. List at least three physical properties you could observe or measure without changing the chalk into something else.</p>",
+      "interactive": {
+        "type": "practice",
+        "question": "List 3 physical properties of chalk:",
+        "correctAnswer": "Possible answers include: white color, powdery texture, solid state, can be broken easily (brittle), leaves marks on surfaces, cylindrical shape, smooth or rough texture, opaque (not transparent)",
+        "feedback": {
+          "correct": "Great observations! You've identified physical properties that can be observed without changing what chalk is made of.",
+          "incorrect": "Think about what you can see, feel, or measure about chalk without turning it into a different substance.",
+          "partial": "Good start! Remember physical properties include color, texture, shape, and state of matter."
+        }
+      }
+    },
+    {
+      "id": "matter-and-materials-lesson2-card7",
+      "type": "i-do",
+      "cycle": 2,
+      "title": "Understanding Chemical Properties",
+      "content": "<h3>Watch As I Identify Chemical Properties</h3><p>Now let me show you <strong>chemical properties</strong> - characteristics that describe how a substance can change into new substances.</p><p>Let's examine an iron nail:</p><ul><li><strong>Rusting ability:</strong> Iron can react with oxygen to form rust (iron oxide)</li><li><strong>Flammability:</strong> Iron doesn't burn under normal conditions</li><li><strong>Reactivity with acid:</strong> Iron reacts with acids to produce hydrogen gas</li></ul><p><strong>Notice the difference:</strong> These properties describe how iron can <em>change into different substances</em>. When iron rusts, it's no longer just iron - it becomes a new substance called iron oxide!</p>",
+      "interactive": null
+    },
+    {
+      "id": "matter-and-materials-lesson2-card8",
+      "type": "i-do",
+      "cycle": 2,
+      "title": "Comparing Property Types",
+      "content": "<h3>Let Me Show You the Key Difference</h3><p>Watch how I compare physical and chemical properties using paper:</p><p><strong>Physical Properties of Paper:</strong></p><ul><li>White color ✓ (paper stays paper)</li><li>Rectangular shape ✓ (paper stays paper)</li><li>Smooth texture ✓ (paper stays paper)</li></ul><p><strong>Chemical Properties of Paper:</strong></p><ul><li>Flammability ✓ (paper turns to ash and smoke - new substances!)</li><li>Ability to decompose ✓ (paper breaks down into simpler substances)</li></ul><p>See the pattern? Physical = no new substance formed. Chemical = new substance formed!</p>",
+      "interactive": null
+    },
+    {
+      "id": "matter-and-materials-lesson2-card9",
+      "type": "you-do",
+      "cycle": 2,
+      "title": "Classify the Properties",
+      "content": "<h3>Your Turn: Physical or Chemical?</h3><p>A piece of wood can be cut into smaller pieces. Is this ability to be cut a physical or chemical property?</p>",
+      "interactive": {
+        "type": "quiz",
+        "question": "The ability of wood to be cut into smaller pieces is which type of property?",
+        "correctAnswer": "Physical property",
+        "options": ["Physical property", "Chemical property", "Both", "Neither"],
+        "feedback": {
+          "correct": "Perfect! Cutting wood is a physical change because the pieces are still wood - no new substance is created. The wood just changes shape and size.",
+          "incorrect": "Think carefully: When you cut wood, do you still have wood afterward, or does it turn into something else?",
+          "partial": "You're close! Remember, if the material stays the same type of substance, it's a physical property."
+        },
+        "hint": "After cutting, are the pieces still made of wood?"
+      }
+    },
+    {
+      "id": "matter-and-materials-lesson2-card10",
+      "type": "you-do",
+      "cycle": 2,
+      "title": "Property Detective Challenge",
+      "content": "<h3>Apply What You've Learned</h3><p>You have a shiny metal spoon. You observe that it: (1) reflects light, (2) feels cold to touch, (3) can tarnish over time and turn dark. Which of these is a chemical property?</p>",
+      "interactive": {
+        "type": "input",
+        "question": "Which observation describes a chemical property? Enter the number (1, 2, or 3):",
+        "correctAnswer": "3",
+        "alternativeAnswers": ["three", "tarnish", "tarnishing"],
+        "feedback": {
+          "correct": "Outstanding! Tarnishing is a chemical property because the metal reacts with air to form a new substance (tarnish). Reflecting light and feeling cold are physical properties.",
+          "incorrect": "Think about which property involves the metal changing into a different substance. Tarnishing creates a new compound on the surface!",
+          "partial": "You're thinking in the right direction! Remember, chemical properties involve forming new substances."
+        },
+        "hint": "Which property involves a reaction that creates something new on the spoon's surface?"
+      }
+    },
+    {
+      "id": "matter-and-materials-lesson2-card11",
+      "type": "i-do",
+      "cycle": 3,
+      "title": "Measuring Density",
+      "content": "<h3>Let Me Show You How to Calculate Density</h3><p><strong>Density</strong> is a special physical property that tells us how much matter is packed into a space. Watch how I calculate it:</p><p><strong>Example: Finding the density of a gold ring</strong></p><ol><li>Measure the mass: 19.3 grams</li><li>Measure the volume: 1 cubic centimeter</li><li>Calculate density: Density = Mass ÷ Volume</li><li>Density = 19.3 g ÷ 1 cm³ = <strong>19.3 g/cm³</strong></li></ol><p>This high density is why gold feels so heavy for its size! Different materials have different densities - it's like their fingerprint!</p>",
+      "interactive": null
+    },
+    {
+      "id": "matter-and-materials-lesson2-card12",
+      "type": "i-do",
+      "cycle": 3,
+      "title": "Using Properties to Identify Materials",
+      "content": "<h3>Watch How I Use Properties Like a Detective</h3><p>I have an unknown silvery metal. Let me identify it using its properties:</p><p><strong>My observations:</strong></p><ul><li>Color: Silvery-white ✓</li><li>Density: 2.7 g/cm³ ✓</li><li>Melting point: 660°C ✓</li><li>Reacts slowly with oxygen ✓</li><li>Conducts electricity well ✓</li></ul><p>Comparing to my reference chart... This matches <strong>aluminum</strong>! See how combining multiple properties helps us identify materials accurately? Each material has a unique combination of properties!</p>",
+      "interactive": null
+    },
+    {
+      "id": "matter-and-materials-lesson2-card13",
+      "type": "you-do",
+      "cycle": 3,
+      "title": "Calculate Density",
+      "content": "<h3>Your Turn: Become a Density Detective</h3><p>You have a block of wood with a mass of 50 grams and a volume of 100 cubic centimeters. Calculate its density.</p>",
+      "interactive": {
+        "type": "input",
+        "question": "What is the density of the wood block? (Enter your answer in g/cm³)",
+        "correctAnswer": "0.5",
+        "alternativeAnswers": ["0.5 g/cm³", "0.50", ".5", "1/2"],
+        "feedback": {
+          "correct": "Excellent calculation! 50g ÷ 100cm³ = 0.5 g/cm³. This low density explains why wood floats on water (which has a density of 1 g/cm³)!",
+          "incorrect": "Remember the formula: Density = Mass ÷ Volume. Try dividing 50 by 100.",
+          "partial": "You're on the right track! Make sure you're dividing mass by volume: 50 ÷ 100."
+        },
+        "hint": "Density = Mass ÷ Volume. What is 50 divided by 100?"
+      }
+    },
+    {
+      "id": "matter-and-materials-lesson2-card14",
+      "type": "you-do",
+      "cycle": 3,
+      "title": "Mystery Material Challenge",
+      "content": "<h3>Apply Your Knowledge: Identify the Mystery Material</h3><p>You test an unknown liquid and find: Density = 0.79 g/cm³, Clear and colorless, Evaporates quickly, Flammable, Dissolves in water. Based on these properties, what is it most likely to be?</p>",
+      "interactive": {
+        "type": "quiz",
+        "question": "Based on the properties, the mystery liquid is most likely:",
+        "correctAnswer": "Rubbing alcohol (isopropyl alcohol)",
+        "options": ["Water", "Cooking oil", "Rubbing alcohol (isopropyl alcohol)", "Mercury"],
+        "feedback": {
+          "correct": "Brilliant detective work! The low density (less than water's 1 g/cm³), quick evaporation, and flammability all point to rubbing alcohol. You used multiple properties to identify the material!",
+          "incorrect": "Look at all the properties together. The density is less than water (1 g/cm³), it's flammable, and evaporates quickly. What common liquid has these properties?",
+          "partial": "Good thinking! Consider which liquid would have a density less than water and be flammable."
+        },
+        "hint": "Which of these liquids would evaporate quickly and be flammable?"
+      }
+    },
+    {
+      "id": "matter-and-materials-lesson2-card15",
+      "type": "summary",
+      "cycle": 0,
+      "title": "Celebrating Your Learning!",
+      "content": "<h3>You're Now a Properties Expert!</h3><p>Congratulations! You've mastered the amazing world of material properties. <strong>Here's what you've accomplished:</strong></p><ul><li>✓ You can identify <strong>physical properties</strong> by observing materials without changing them</li><li>✓ You understand <strong>chemical properties</strong> that describe how materials can transform</li><li>✓ You can <strong>calculate density</strong> and use it to identify materials</li><li>✓ You can use multiple properties together like a scientific detective!</li></ul><p>These skills are used by scientists every day to identify substances, create new materials, and solve real-world problems. From designing spacecraft materials to developing new medicines, understanding properties is essential!</p><p><strong>Next lesson:</strong> Get ready to explore how matter changes and transforms in amazing ways!</p>",
+      "interactive": null
+    }
+  ],
+  "totalCards": 15,
+  "metadata": {
+    "topicName": "Matter and Materials",
+    "lessonNumber": 2,
+    "estimatedTime": "20-30 minutes",
+    "gradeLevel": "Primary to Lower Secondary",
+    "prerequisites": ["Scientific Inquiry Skills", "Introduction to Matter (Lesson 1)"],
+    "nextLesson": "Changes in Matter (Lesson 3)"
+  }
+}
