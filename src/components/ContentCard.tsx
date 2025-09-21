@@ -1,16 +1,50 @@
 import React from 'react';
 
+// Helper function to check practice answers against correct answer and alternatives
+const checkPracticeAnswer = (userAnswer: string, interactive: any): boolean => {
+  if (!interactive.correctAnswer || typeof interactive.correctAnswer !== 'string') return false;
+  
+  const normalizedUserAnswer = userAnswer.trim().toLowerCase();
+  const normalizedCorrectAnswer = interactive.correctAnswer.toLowerCase();
+  
+  // Check main correct answer
+  if (normalizedUserAnswer === normalizedCorrectAnswer) return true;
+  
+  // Check alternative answers
+  if (interactive.alternativeAnswers) {
+    return interactive.alternativeAnswers.some((alt: string) => 
+      normalizedUserAnswer === alt.toLowerCase()
+    );
+  }
+  
+  return false;
+};
+
 interface CardContent {
   id: string;
   type: 'intro' | 'objective' | 'i-do' | 'you-do' | 'summary';
   cycle?: number;
   title: string;
   content: string;
+  image?: {
+    src: string;
+    alt: string;
+    type?: string;
+    prompt?: string;
+    placement?: string;
+  };
   interactive?: {
     type: 'quiz' | 'input' | 'practice';
     question?: string;
-    correctAnswer?: string;
-    feedback?: string;
+    correctAnswer?: string | number;
+    options?: string[];
+    feedback?: {
+      correct?: string;
+      incorrect?: string[] | string;
+      partial?: string;
+    } | string;
+    alternativeAnswers?: string[];
+    hint?: string;
   };
 }
 
@@ -90,6 +124,18 @@ export const ContentCard: React.FC<ContentCardProps> = ({
         <div className="lesson-content" dangerouslySetInnerHTML={{ __html: card.content }} />
       </div>
 
+      {/* Image */}
+      {card.image && (
+        <div className="mt-6 flex justify-center">
+          <img 
+            src={card.image.src}
+            alt={card.image.alt}
+            style={{ maxWidth: '300px', height: 'auto' }}
+            className="rounded-lg shadow-sm border border-gray-200"
+          />
+        </div>
+      )}
+
       {/* Interactive Section */}
       {card.interactive && (
         <div className="mt-6 p-5" style={{
@@ -127,13 +173,13 @@ export const ContentCard: React.FC<ContentCardProps> = ({
               
               {showFeedback && (
                 <div className={`mt-3 p-3 rounded-md text-sm ${
-                  userAnswer.trim().toLowerCase() === card.interactive.correctAnswer?.toLowerCase()
+                  typeof card.interactive.correctAnswer === 'string' && userAnswer.trim().toLowerCase() === card.interactive.correctAnswer.toLowerCase()
                     ? 'bg-green-50 text-green-700'
                     : 'bg-red-50 text-red-700'
-                }`} style={{ border: userAnswer.trim().toLowerCase() === card.interactive.correctAnswer?.toLowerCase() ? '1px solid #c3e6cb' : '1px solid #f5c6cb' }}>
-                  {userAnswer.trim().toLowerCase() === card.interactive.correctAnswer?.toLowerCase()
-                    ? '✓ Correct! ' + (card.interactive.feedback || '')
-                    : '✗ Not quite. Try again!'}
+                }`} style={{ border: typeof card.interactive.correctAnswer === 'string' && userAnswer.trim().toLowerCase() === card.interactive.correctAnswer.toLowerCase() ? '1px solid #c3e6cb' : '1px solid #f5c6cb' }}>
+                  {typeof card.interactive.correctAnswer === 'string' && userAnswer.trim().toLowerCase() === card.interactive.correctAnswer.toLowerCase()
+                    ? '✓ ' + (typeof card.interactive.feedback === 'object' ? card.interactive.feedback.correct : card.interactive.feedback || 'Correct!')
+                    : '✗ ' + (typeof card.interactive.feedback === 'object' ? card.interactive.feedback.incorrect : 'Not quite. Try again!')}
                 </div>
               )}
             </div>
@@ -141,8 +187,38 @@ export const ContentCard: React.FC<ContentCardProps> = ({
 
           {card.interactive.type === 'quiz' && (
             <div className="space-y-2">
-              {/* Quiz options would be rendered here */}
-              <p className="text-gray-500 italic text-sm">Quiz interface coming soon...</p>
+              {card.interactive.options?.map((option, index) => (
+                <label key={index} className="flex items-start space-x-3 p-3 border rounded cursor-pointer hover:bg-gray-50" style={{
+                  border: userAnswer === index.toString() ? '2px solid #4A90E2' : '1px solid #d0d0d0',
+                  backgroundColor: userAnswer === index.toString() ? '#f0f8ff' : 'white'
+                }}>
+                  <input
+                    type="radio"
+                    name={`quiz-${card.id}`}
+                    value={index}
+                    checked={userAnswer === index.toString()}
+                    onChange={(e) => setUserAnswer(e.target.value)}
+                    className="mt-1"
+                  />
+                  <span style={{ fontSize: '15px', lineHeight: '1.4' }}>{option}</span>
+                </label>
+              ))}
+              
+              {showFeedback && (
+                <div className={`mt-3 p-3 rounded-md text-sm ${
+                  parseInt(userAnswer) === card.interactive.correctAnswer
+                    ? 'bg-green-50 text-green-700'
+                    : 'bg-red-50 text-red-700'
+                }`} style={{ border: parseInt(userAnswer) === card.interactive.correctAnswer ? '1px solid #c3e6cb' : '1px solid #f5c6cb' }}>
+                  {parseInt(userAnswer) === card.interactive.correctAnswer
+                    ? '✓ ' + (typeof card.interactive.feedback === 'object' ? card.interactive.feedback.correct : card.interactive.feedback || 'Correct!')
+                    : '✗ ' + (typeof card.interactive.feedback === 'object' && Array.isArray(card.interactive.feedback.incorrect) 
+                        ? card.interactive.feedback.incorrect[parseInt(userAnswer)] || card.interactive.feedback.incorrect[0] || 'Not quite. Try again!'
+                        : typeof card.interactive.feedback === 'object' 
+                          ? card.interactive.feedback.incorrect || 'Not quite. Try again!'
+                          : 'Not quite. Try again!')}
+                </div>
+              )}
             </div>
           )}
 
@@ -165,6 +241,18 @@ export const ContentCard: React.FC<ContentCardProps> = ({
                 onFocus={(e) => e.target.style.borderColor = '#4A90E2'}
                 onBlur={(e) => e.target.style.borderColor = '#d0d0d0'}
               />
+              
+              {showFeedback && (
+                <div className={`mt-3 p-3 rounded-md text-sm ${
+                  checkPracticeAnswer(userAnswer, card.interactive)
+                    ? 'bg-green-50 text-green-700'
+                    : 'bg-red-50 text-red-700'
+                }`} style={{ border: checkPracticeAnswer(userAnswer, card.interactive) ? '1px solid #c3e6cb' : '1px solid #f5c6cb' }}>
+                  {checkPracticeAnswer(userAnswer, card.interactive)
+                    ? '✓ ' + (typeof card.interactive.feedback === 'object' ? card.interactive.feedback.correct : card.interactive.feedback || 'Great work!')
+                    : '✗ ' + (typeof card.interactive.feedback === 'object' ? card.interactive.feedback.incorrect : 'Try again!')}
+                </div>
+              )}
             </div>
           )}
         </div>

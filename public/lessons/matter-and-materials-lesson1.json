@@ -22,6 +22,13 @@
       "cycle": 1,
       "title": "What is Matter? Let Me Show You!",
       "content": "<p><strong>Watch as I demonstrate what matter is:</strong></p><p>Look at this pencil I'm holding. <em>This pencil is matter.</em> Now look at this water bottle. <em>The water inside is also matter.</em> Even the air around us that we can't see - <em>that's matter too!</em></p><p><strong>Here's the key:</strong> Matter is anything that takes up space and has weight (or mass). Let me prove it:</p><ul><li>The pencil takes up space on my desk - I can't put another pencil in the exact same spot</li><li>The pencil has weight - if I put it on a scale, it would show a measurement</li><li>Therefore, the pencil is matter!</li></ul><p>Notice how I check two things: Does it take up space? Does it have weight? If the answer to both is yes, then it's matter!</p>",
+      "image": {
+        "src": "/images/examples-of-matter.png",
+        "alt": "Illustration showing a pencil, water bottle, and invisible air particles, with labels indicating how each takes up space and has mass",
+        "type": "illustration",
+        "prompt": "Educational illustration showing three examples of matter: a wooden pencil on a desk, a clear water bottle with blue water inside, and invisible air particles represented as small circles around them. Include arrows and labels showing 'takes up space' and 'has mass' for each example. Simple, clean style suitable for elementary students.",
+        "placement": "top"
+      },
       "interactive": null
     },
     {
@@ -82,6 +89,13 @@
       "cycle": 2,
       "title": "The Tiny Particle Secret",
       "content": "<p><strong>Now let me show you an amazing secret about all matter!</strong></p><p>Watch as I demonstrate with this sugar cube. This solid cube looks like one piece, right? But here's the incredible truth: <em>This sugar cube is actually made of millions and millions of tiny particles called molecules!</em></p><p>These particles are so small that:</p><ul><li>You can't see them, even with a regular microscope</li><li>Millions could fit on the tip of a pin</li><li>They're constantly moving, even in solid objects!</li></ul><p><strong>Here's the key insight:</strong> When I drop this sugar cube in water and stir, watch what happens... The sugar disappears! But it's not gone - the tiny sugar particles have spread out between the water particles. That's why the water tastes sweet!</p><p>This proves that matter is made of particles too small to see!</p>",
+      "image": {
+        "src": "/images/sugar-dissolving-particles.png",
+        "alt": "Diagram showing sugar cube dissolving in water, with zoom-in views showing sugar and water molecules mixing together",
+        "type": "diagram",
+        "prompt": "Educational diagram showing a sugar cube dissolving in water in three stages: 1) whole sugar cube next to glass of water, 2) sugar cube partially dissolved with particles spreading, 3) fully dissolved with magnified view showing sugar molecules (small white spheres) distributed among water molecules (blue spheres). Include labels and arrows showing the process.",
+        "placement": "top"
+      },
       "interactive": null
     },
     {
@@ -90,6 +104,13 @@
       "cycle": 2,
       "title": "Particles in Different States",
       "content": "<p><strong>Let me show you how particles behave differently in solids, liquids, and gases:</strong></p><p>Imagine particles as tiny balls that are always moving:</p><h3>In a SOLID (like ice):</h3><ul><li>Particles are packed tightly together</li><li>They vibrate in place but can't move around</li><li>That's why solids keep their shape!</li></ul><h3>In a LIQUID (like water):</h3><ul><li>Particles are close but can slide past each other</li><li>They move around more freely</li><li>That's why liquids flow and take the shape of their container!</li></ul><h3>In a GAS (like water vapor):</h3><ul><li>Particles are far apart and zoom around quickly</li><li>They spread out to fill any space</li><li>That's why gases fill up entire rooms!</li></ul><p>Same particles, different arrangements!</p>",
+      "image": {
+        "src": "/images/states-of-matter-particles.png",
+        "alt": "Diagram showing particle arrangements in solid, liquid, and gas states with water molecules as examples",
+        "type": "diagram",
+        "prompt": "Educational diagram showing three containers side by side with particle arrangements: 1) SOLID (ice) - particles tightly packed in organized rows, vibrating slightly in place; 2) LIQUID (water) - particles close together but able to slide past each other; 3) GAS (water vapor) - particles far apart, moving rapidly in all directions. Use blue spheres for water molecules and arrows to show movement patterns. Include clear labels.",
+        "placement": "top"
+      },
       "interactive": null
     },
     {
@@ -143,6 +164,13 @@
       "cycle": 3,
       "title": "Mastering the Three States of Matter",
       "content": "<p><strong>Let me show you how to identify and compare all three states of matter like a real scientist!</strong></p><p>Here's my systematic approach using water as an example:</p><h3>SOLID - Ice:</h3><ul><li><strong>Shape:</strong> Keeps its own shape (ice cube stays cube-shaped)</li><li><strong>Volume:</strong> Takes up a fixed amount of space</li><li><strong>Particle behavior:</strong> Tightly packed, vibrating in place</li><li><strong>Example property:</strong> Hard, can be held, breaks if hit hard</li></ul><h3>LIQUID - Water:</h3><ul><li><strong>Shape:</strong> Takes the shape of its container</li><li><strong>Volume:</strong> Fixed volume but flows</li><li><strong>Particle behavior:</strong> Close together but sliding past each other</li><li><strong>Example property:</strong> Pours, splashes, forms drops</li></ul><h3>GAS - Steam:</h3><ul><li><strong>Shape:</strong> No fixed shape, expands to fill space</li><li><strong>Volume:</strong> Expands to fill entire container</li><li><strong>Particle behavior:</strong> Far apart, moving rapidly</li><li><strong>Example property:</strong> Invisible (mostly), rises up, spreads out</li></ul>",
+      "image": {
+        "src": "/images/water-three-states-comparison.png",
+        "alt": "Comprehensive comparison chart showing ice, liquid water, and steam with their properties and particle arrangements",
+        "type": "diagram",
+        "prompt": "Educational comparison chart showing water in three states: 1) Ice cube (solid) - crystalline structure, fixed shape; 2) Liquid water in a glass - takes container shape, flows; 3) Steam (gas) - invisible vapor rising from hot water. Include particle diagrams below each state showing molecular arrangements. Add property labels for shape, volume, and behavior. Clean, scientific illustration style.",
+        "placement": "top"
+      },
       "interactive": null
     },
     {
@@ -151,6 +179,13 @@
       "cycle": 3,
       "title": "Real-World State Changes",
       "content": "<p><strong>Let me demonstrate how matter changes states in everyday life:</strong></p><p>Watch this complete cycle with a candle:</p><ol><li><strong>Solid wax</strong> at room temperature - hard, keeps its shape</li><li>Light the candle → heat energy added</li><li><strong>Liquid wax</strong> pools around the wick - flows, takes shape of the dip</li><li>More heat → some wax gets very hot</li><li><strong>Gas particles</strong> rise up (that's partly what you see as smoke)</li></ol><p><strong>The amazing part:</strong> It's the SAME wax particles throughout! They just move differently:</p><ul><li>Cold = particles locked in place (solid)</li><li>Warm = particles sliding around (liquid)</li><li>Hot = particles zooming apart (gas)</li></ul><p>Temperature controls how fast particles move and how they arrange themselves!</p>",
+      "image": {
+        "src": "/images/candle-state-changes.png",
+        "alt": "Diagram showing a burning candle with all three states of matter: solid wax, liquid wax pool, and gaseous wax vapor",
+        "type": "diagram",
+        "prompt": "Educational diagram of a burning candle showing state changes: solid wax candle body, liquid wax pooling around the wick, and gaseous wax particles rising as vapor. Include temperature arrows showing heat flow and magnified particle views showing how wax molecules behave differently in each state. Add labels for each state and temperature indicators.",
+        "placement": "top"
+      },
       "interactive": null
     },
     {

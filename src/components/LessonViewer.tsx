@@ -12,6 +12,13 @@ export interface CardContent {
   cycle?: number;
   title: string;
   content: string;
+  image?: {
+    src: string;
+    alt: string;
+    type?: string;
+    prompt?: string;
+    placement?: string;
+  };
   interactive?: {
     type: 'quiz' | 'input' | 'practice';
     question?: string;
@@ -97,8 +104,33 @@ export const LessonViewer: React.FC = () => {
     
     // If this is an interactive card and user hasn't answered correctly
     if (card.interactive && !showFeedback[cardIndex]) {
-      // Check answer
-      if (answer.trim().toLowerCase() === card.interactive.correctAnswer?.toLowerCase()) {
+      let isCorrect = false;
+      
+      // Handle different interactive types
+      if (card.interactive.type === 'quiz') {
+        // For quiz type, correctAnswer is a number (index of correct option)
+        const selectedIndex = parseInt(answer);
+        isCorrect = selectedIndex === card.interactive.correctAnswer;
+      } else {
+        // For other types (input, practice), correctAnswer is a string
+        const correctAnswer = card.interactive.correctAnswer;
+        if (typeof correctAnswer === 'string') {
+          const normalizedAnswer = answer.trim().toLowerCase();
+          const normalizedCorrect = correctAnswer.toLowerCase();
+          
+          // Check main correct answer
+          isCorrect = normalizedAnswer === normalizedCorrect;
+          
+          // Check alternative answers for practice type
+          if (!isCorrect && card.interactive.alternativeAnswers) {
+            isCorrect = card.interactive.alternativeAnswers.some((alt: string) => 
+              normalizedAnswer === alt.toLowerCase()
+            );
+          }
+        }
+      }
+      
+      if (isCorrect) {
         setShowFeedback(prev => ({ ...prev, [cardIndex]: true }));
         setTimeout(() => {
           moveToNextCard(cardIndex);

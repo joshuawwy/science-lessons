@@ -22,6 +22,13 @@
       "cycle": 1,
       "title": "I Do: Spotting Physical Changes",
       "content": "<h3>Let me show you how to identify a physical change!</h3><p>Watch as I examine what happens when we tear a piece of paper:</p><ol><li><strong>Before:</strong> I have one whole sheet of paper</li><li><strong>Action:</strong> I tear it into smaller pieces</li><li><strong>After:</strong> I have many small pieces of paper</li></ol><p><strong>Notice how:</strong></p><ul><li>The paper is still paper - it hasn't become a different substance</li><li>The particles (molecules) that make up the paper are exactly the same</li><li>I could tape the pieces back together (theoretically)</li><li>Only the <em>shape</em> and <em>size</em> changed, not the <em>identity</em></li></ul><p>This is a <strong>physical change</strong> - the substance stays the same, only its form changes!</p>",
+      "image": {
+        "src": "/images/paper-tearing-physical-change.png",
+        "alt": "Demonstration showing paper being torn: whole paper → torn pieces, with molecular diagram showing paper molecules remain unchanged",
+        "type": "demonstration",
+        "prompt": "Educational demonstration showing physical change: whole white paper on left being torn into smaller pieces on right. Include molecular diagram below showing paper molecules (represented as linked hexagons) remain exactly the same before and after tearing. Add labels 'BEFORE: Whole paper', 'ACTION: Tearing', 'AFTER: Smaller pieces' and 'Molecules stay the same!' Clean, instructional style.",
+        "placement": "top"
+      },
       "interactive": null
     },
     {
@@ -30,6 +37,13 @@
       "cycle": 1,
       "title": "I Do: Another Physical Change Example",
       "content": "<h3>Let me demonstrate another physical change with water!</h3><p>Watch what happens when water freezes into ice:</p><ol><li><strong>Start:</strong> Liquid water at room temperature (H₂O molecules moving freely)</li><li><strong>Process:</strong> Place in freezer at 0°C or below</li><li><strong>Result:</strong> Solid ice (H₂O molecules locked in place)</li></ol><p><strong>Key observations:</strong></p><ul><li>The chemical formula stays H₂O - it's still water!</li><li>Only the arrangement of molecules changed (spread out → organized pattern)</li><li>We can reverse it by melting the ice back to water</li><li>The substance's identity remains unchanged</li></ul><p>Remember: In physical changes, the particles themselves don't change - only how they're arranged or how fast they're moving!</p>",
+      "image": {
+        "src": "/images/water-freezing-molecular-view.png",
+        "alt": "Water freezing demonstration showing liquid water becoming ice with molecular diagrams of H2O arrangement changes",
+        "type": "demonstration",
+        "prompt": "Educational diagram showing water freezing: LEFT - liquid water in glass with H2O molecules moving freely (arrows showing movement), MIDDLE - transition with freezer symbol, RIGHT - ice cube with H2O molecules in organized crystal structure. Include temperature labels (20°C → 0°C) and molecular formulas. Same H2O molecules, different arrangements. Clean, scientific style.",
+        "placement": "top"
+      },
       "interactive": null
     },
     {
@@ -84,6 +98,13 @@
       "cycle": 2,
       "title": "I Do: Recognizing Chemical Changes",
       "content": "<h3>Now let me show you how to identify a chemical change!</h3><p>Watch what happens when we burn a piece of paper:</p><ol><li><strong>Before:</strong> White paper made of cellulose (C₆H₁₀O₅)</li><li><strong>During:</strong> Apply heat from a flame</li><li><strong>After:</strong> Black ash (mostly carbon), smoke, and invisible gases (CO₂ and H₂O vapor)</li></ol><p><strong>Evidence of chemical change:</strong></p><ul><li>✓ New substances formed (ash, carbon dioxide, water vapor)</li><li>✓ Energy released as heat and light</li><li>✓ Color change (white → black)</li><li>✓ Irreversible - we can't turn ash back into paper</li><li>✓ Chemical bonds broken and new ones formed</li></ul><p>This is a <strong>chemical change</strong> - the original substance is transformed into completely different substances!</p>",
+      "image": {
+        "src": "/images/paper-burning-chemical-change.png",
+        "alt": "Paper burning demonstration showing chemical change: white paper becoming ash, smoke, and gases with molecular transformations",
+        "type": "demonstration",
+        "prompt": "Educational chemical change demonstration: LEFT - white paper (C6H10O5 cellulose molecules), MIDDLE - paper burning with flame showing heat and light, RIGHT - products including black ash (carbon), smoke clouds, and invisible gas molecules (CO2 and H2O). Include chemical equation and arrows showing transformation. Add checkmarks for evidence: new substances, energy release, color change, irreversible. Scientific illustration style.",
+        "placement": "top"
+      },
       "interactive": null
     },
     {
@@ -92,6 +113,13 @@
       "cycle": 2,
       "title": "I Do: Conservation of Mass in Action",
       "content": "<h3>Let me demonstrate the amazing principle of conservation of mass!</h3><p>Imagine we're doing a chemical reaction in a sealed container:</p><p><strong>Baking soda + Vinegar reaction:</strong></p><ol><li><strong>Before:</strong> 10g baking soda + 50g vinegar = 60g total</li><li><strong>During:</strong> Bubbling and fizzing as CO₂ gas forms</li><li><strong>After:</strong> Products (including trapped gas) = still 60g total!</li></ol><p><strong>The Law of Conservation of Mass states:</strong></p><p><em>Matter cannot be created or destroyed in a chemical reaction - it only changes form!</em></p><ul><li>All atoms present before the reaction are still there after</li><li>They've just rearranged into new combinations</li><li>If mass seems to disappear, it's usually because gas escaped!</li></ul><p>Remember: Count the atoms, not just what you can see!</p>",
+      "image": {
+        "src": "/images/conservation-of-mass-reaction.png",
+        "alt": "Conservation of mass demonstration with sealed container: baking soda + vinegar reaction showing equal mass before and after",
+        "type": "demonstration",
+        "prompt": "Educational conservation of mass demonstration: sealed glass container with balance scale. LEFT - before reaction: 10g baking soda + 50g vinegar = 60g total. MIDDLE - during reaction: bubbling and fizzing with CO2 gas forming inside sealed container. RIGHT - after reaction: all products including trapped gas = still 60g total. Include balance scales, mass measurements, and atoms count diagram showing same number of atoms rearranged. Scientific illustration.",
+        "placement": "top"
+      },
       "interactive": null
     },
     {

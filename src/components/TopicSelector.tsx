@@ -158,9 +158,6 @@ export const TopicSelector: React.FC = () => {
                       <h2 className="text-2xl font-semibold text-gray-800">
                         {topic.name}
                       </h2>
-                      <p className="text-sm text-gray-500 mt-1">
-                        Topic {topic.numbering}
-                      </p>
                     </div>
                     <div className="text-right">
                       <div className="text-sm font-medium text-gray-600">
@@ -181,13 +178,7 @@ export const TopicSelector: React.FC = () => {
                     </div>
                   </div>
                   
-                  {topic.prerequisites.length > 0 && (
-                    <div className="text-xs text-gray-500 mb-2">
-                      Prerequisites: {topic.prerequisites.join(', ')}
-                    </div>
-                  )}
-                  
-                  <div className="mt-4 flex justify-between items-center">
+                  <div className="mt-6 flex justify-between items-center">
                     <span className="text-blue-600 font-medium">
                       {progress > 0 ? `Continue with Lesson ${nextLesson}` : `Start Lesson ${nextLesson}`} →
                     </span>
@@ -200,6 +191,14 @@ export const TopicSelector: React.FC = () => {
                       {3 - progress} lesson{3 - progress !== 1 ? 's' : ''} remaining
                     </div>
                   </div>
+
+                  {topic.prerequisites.length > 0 && (
+                    <div className="mt-4 pt-4 border-t border-gray-200">
+                      <div className="text-xs text-gray-500">
+                        Prerequisites: {topic.prerequisites.join(', ')}
+                      </div>
+                    </div>
+                  )}
                 </div>
               );
             })}

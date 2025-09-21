@@ -22,6 +22,13 @@
       "cycle": 1,
       "title": "Observing Physical Properties",
       "content": "<h3>Watch How I Identify Physical Properties</h3><p>Let me show you how to identify <strong>physical properties</strong> - characteristics we can observe without changing what the material is made of.</p><p>I have a piece of aluminum foil. <strong>Notice how I observe its properties:</strong></p><ol><li><strong>Color:</strong> Silver/metallic gray</li><li><strong>Texture:</strong> Smooth and shiny</li><li><strong>Flexibility:</strong> Can be bent and folded easily</li><li><strong>State:</strong> Solid at room temperature</li></ol><p>See how I didn't change the aluminum into something else? I just observed and described what I could see and feel. These are all <em>physical properties</em> because the aluminum stays aluminum!</p>",
+      "image": {
+        "src": "/images/aluminum-foil-properties.png",
+        "alt": "Illustration showing aluminum foil with labeled physical properties: color, texture, flexibility, and state",
+        "type": "illustration",
+        "prompt": "Educational illustration showing a piece of aluminum foil with callout labels pointing to different physical properties: silver/metallic color, smooth and shiny texture, flexibility (showing it being bent), and solid state. Include a hand demonstrating the flexibility test. Clean, simple style suitable for elementary students.",
+        "placement": "top"
+      },
       "interactive": null
     },
     {
@@ -74,6 +81,13 @@
       "cycle": 2,
       "title": "Understanding Chemical Properties",
       "content": "<h3>Watch As I Identify Chemical Properties</h3><p>Now let me show you <strong>chemical properties</strong> - characteristics that describe how a substance can change into new substances.</p><p>Let's examine an iron nail:</p><ul><li><strong>Rusting ability:</strong> Iron can react with oxygen to form rust (iron oxide)</li><li><strong>Flammability:</strong> Iron doesn't burn under normal conditions</li><li><strong>Reactivity with acid:</strong> Iron reacts with acids to produce hydrogen gas</li></ul><p><strong>Notice the difference:</strong> These properties describe how iron can <em>change into different substances</em>. When iron rusts, it's no longer just iron - it becomes a new substance called iron oxide!</p>",
+      "image": {
+        "src": "/images/iron-nail-chemical-properties.png",
+        "alt": "Diagram showing an iron nail and its chemical properties: rusting reaction with oxygen, non-flammability, and reaction with acid",
+        "type": "diagram",
+        "prompt": "Educational diagram showing an iron nail in the center with three chemical property examples around it: 1) rusting reaction showing iron + oxygen → rust (iron oxide), 2) flammability test showing iron doesn't burn easily, 3) acid reaction showing iron + acid → hydrogen gas bubbles. Include chemical equations and arrows showing transformations. Clear, scientific illustration style.",
+        "placement": "top"
+      },
       "interactive": null
     },
     {
@@ -82,6 +96,13 @@
       "cycle": 2,
       "title": "Comparing Property Types",
       "content": "<h3>Let Me Show You the Key Difference</h3><p>Watch how I compare physical and chemical properties using paper:</p><p><strong>Physical Properties of Paper:</strong></p><ul><li>White color ✓ (paper stays paper)</li><li>Rectangular shape ✓ (paper stays paper)</li><li>Smooth texture ✓ (paper stays paper)</li></ul><p><strong>Chemical Properties of Paper:</strong></p><ul><li>Flammability ✓ (paper turns to ash and smoke - new substances!)</li><li>Ability to decompose ✓ (paper breaks down into simpler substances)</li></ul><p>See the pattern? Physical = no new substance formed. Chemical = new substance formed!</p>",
+      "image": {
+        "src": "/images/physical-vs-chemical-properties.png",
+        "alt": "Comparison chart showing physical properties (observing paper) versus chemical properties (burning paper)",
+        "type": "diagram",
+        "prompt": "Educational comparison chart with two columns: LEFT - Physical Properties showing paper being observed for color, shape, and texture (paper remains unchanged); RIGHT - Chemical Properties showing paper burning into ash and smoke (new substances formed). Include checkmarks and X marks to show 'substance stays same' vs 'new substances formed'. Clear visual distinction between the two property types.",
+        "placement": "top"
+      },
       "interactive": null
     },
     {
@@ -128,6 +149,13 @@
       "cycle": 3,
       "title": "Measuring Density",
       "content": "<h3>Let Me Show You How to Calculate Density</h3><p><strong>Density</strong> is a special physical property that tells us how much matter is packed into a space. Watch how I calculate it:</p><p><strong>Example: Finding the density of a gold ring</strong></p><ol><li>Measure the mass: 19.3 grams</li><li>Measure the volume: 1 cubic centimeter</li><li>Calculate density: Density = Mass ÷ Volume</li><li>Density = 19.3 g ÷ 1 cm³ = <strong>19.3 g/cm³</strong></li></ol><p>This high density is why gold feels so heavy for its size! Different materials have different densities - it's like their fingerprint!</p>",
+      "image": {
+        "src": "/images/density-calculation-gold-ring.png",
+        "alt": "Step-by-step illustration showing how to calculate density using a gold ring: measuring mass on a scale, measuring volume, and the density formula",
+        "type": "diagram",
+        "prompt": "Educational step-by-step diagram showing density calculation: 1) gold ring on a digital scale showing 19.3g, 2) volume measurement showing 1 cm³, 3) density formula (Density = Mass ÷ Volume), 4) calculation (19.3g ÷ 1cm³ = 19.3 g/cm³). Include measurement tools like scale and graduated cylinder. Clean, instructional style with clear labels and arrows.",
+        "placement": "top"
+      },
       "interactive": null
     },
     {
@@ -136,6 +164,13 @@
       "cycle": 3,
       "title": "Using Properties to Identify Materials",
       "content": "<h3>Watch How I Use Properties Like a Detective</h3><p>I have an unknown silvery metal. Let me identify it using its properties:</p><p><strong>My observations:</strong></p><ul><li>Color: Silvery-white ✓</li><li>Density: 2.7 g/cm³ ✓</li><li>Melting point: 660°C ✓</li><li>Reacts slowly with oxygen ✓</li><li>Conducts electricity well ✓</li></ul><p>Comparing to my reference chart... This matches <strong>aluminum</strong>! See how combining multiple properties helps us identify materials accurately? Each material has a unique combination of properties!</p>",
+      "image": {
+        "src": "/images/material-identification-chart.png",
+        "alt": "Detective-style identification chart showing unknown metal sample being compared to reference properties for different metals",
+        "type": "diagram",
+        "prompt": "Educational material identification chart showing: unknown silvery metal sample in center, with property checklist (color, density, melting point, reactivity, conductivity) being compared to reference table with different metals (aluminum, iron, copper, etc.). Include magnifying glass and detective elements. Show the match highlighting aluminum. Clean, scientific detective theme.",
+        "placement": "top"
+      },
       "interactive": null
     },
     {
