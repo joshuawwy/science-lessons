@@ -65,7 +65,7 @@ export const UserSelector: React.FC<UserSelectorProps> = ({ onUserSelected }) =>
       const mainStoreData = localStorage.getItem('science-users');
       if (mainStoreData) {
         try {
-          exportData.userStoreData = JSON.parse(mainStoreData);
+          (exportData as any).userStoreData = JSON.parse(mainStoreData);
         } catch {
           // Skip if invalid
         }
@@ -102,7 +102,7 @@ export const UserSelector: React.FC<UserSelectorProps> = ({ onUserSelected }) =>
     const reader = new FileReader();
     reader.onload = (e) => {
       try {
-        const importData = JSON.parse(e.target?.result as string);
+        const importData = JSON.parse(e.target?.result as string) as any;
         
         // Validate the import data structure
         if (!importData.users || !importData.progressData || !importData.version) {
