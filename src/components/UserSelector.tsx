@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useRef } from 'react';
 import { useUserStore } from '../stores/userStore';
 
 interface UserSelectorProps {
@@ -9,6 +9,8 @@ export const UserSelector: React.FC<UserSelectorProps> = ({ onUserSelected }) =>
   const { users, addUser, selectUser, deleteUser } = useUserStore();
   const [newUserName, setNewUserName] = useState('');
   const [showCreateForm, setShowCreateForm] = useState(false);
+  const [showDataInfo, setShowDataInfo] = useState(false);
+  const fileInputRef = useRef<HTMLInputElement>(null);
 
   const handleCreateUser = (e: React.FormEvent) => {
     e.preventDefault();
@@ -34,6 +36,116 @@ export const UserSelector: React.FC<UserSelectorProps> = ({ onUserSelected }) =>
 
   const formatDate = (dateString: string) => {
     return new Date(dateString).toLocaleDateString();
+  };
+
+  const exportProgress = () => {
+    try {
+      // Collect all user data and their progress
+      const exportData = {
+        users: users,
+        progressData: {} as Record<string, any>,
+        exportDate: new Date().toISOString(),
+        version: '1.0'
+      };
+
+      // Get progress data for each user
+      users.forEach(user => {
+        const progressKey = `science-progress-${user.id}`;
+        const storedProgress = localStorage.getItem(progressKey);
+        if (storedProgress) {
+          try {
+            exportData.progressData[user.id] = JSON.parse(storedProgress);
+          } catch {
+            // Skip invalid progress data
+          }
+        }
+      });
+
+      // Also include the main store data
+      const mainStoreData = localStorage.getItem('science-users');
+      if (mainStoreData) {
+        try {
+          exportData.userStoreData = JSON.parse(mainStoreData);
+        } catch {
+          // Skip if invalid
+        }
+      }
+
+      // Create and download the file
+      const dataStr = JSON.stringify(exportData, null, 2);
+      const dataBlob = new Blob([dataStr], { type: 'application/json' });
+      const url = URL.createObjectURL(dataBlob);
+      
+      const link = document.createElement('a');
+      link.href = url;
+      link.download = `science-progress-${new Date().toISOString().split('T')[0]}.json`;
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+      URL.revokeObjectURL(url);
+
+      alert('Progress exported successfully! Save this file to restore your data on another device.');
+    } catch (error) {
+      console.error('Export failed:', error);
+      alert('Failed to export progress. Please try again.');
+    }
+  };
+
+  const handleImportClick = () => {
+    fileInputRef.current?.click();
+  };
+
+  const importProgress = (event: React.ChangeEvent<HTMLInputElement>) => {
+    const file = event.target.files?.[0];
+    if (!file) return;
+
+    const reader = new FileReader();
+    reader.onload = (e) => {
+      try {
+        const importData = JSON.parse(e.target?.result as string);
+        
+        // Validate the import data structure
+        if (!importData.users || !importData.progressData || !importData.version) {
+          throw new Error('Invalid file format');
+        }
+
+        // Show confirmation dialog
+        const userCount = importData.users.length;
+        const confirmed = confirm(
+          `This will import ${userCount} user(s) and their progress data. ` +
+          `This will replace any existing users with the same names. ` +
+          `Continue?`
+        );
+
+        if (!confirmed) return;
+
+        // Clear existing data first
+        localStorage.clear();
+
+        // Import user store data if available
+        if (importData.userStoreData) {
+          localStorage.setItem('science-users', JSON.stringify(importData.userStoreData));
+        }
+
+        // Import progress data for each user
+        Object.keys(importData.progressData).forEach(userId => {
+          const progressKey = `science-progress-${userId}`;
+          localStorage.setItem(progressKey, JSON.stringify(importData.progressData[userId]));
+        });
+
+        // Reload the page to reinitialize all stores
+        alert(`Successfully imported ${userCount} user(s) and their progress! The page will reload.`);
+        window.location.reload();
+
+      } catch (error) {
+        console.error('Import failed:', error);
+        alert('Failed to import progress. Please check that you selected a valid export file.');
+      }
+    };
+
+    reader.readAsText(file);
+    // Reset the input so the same file can be selected again if needed
+    event.target.value = '';
   };
 
   return (
@@ -181,6 +293,87 @@ export const UserSelector: React.FC<UserSelectorProps> = ({ onUserSelected }) =>
             <p className="text-gray-600">No users found. Create your first user to get started!</p>
           </div>
         )}
+
+        {/* Data Management Section */}
+        <div 
+          style={{
+            backgroundColor: '#ffffff',
+            border: '1px solid #e0e0e0',
+            borderRadius: '8px',
+            padding: '32px 40px',
+            boxShadow: '0 2px 8px rgba(0,0,0,0.08)'
+          }}
+        >
+          <div className="flex items-center justify-between mb-4">
+            <h3 className="text-lg font-medium text-gray-800">Data Management</h3>
+            <button
+              onClick={() => setShowDataInfo(!showDataInfo)}
+              className="text-blue-600 hover:text-blue-700 text-sm"
+            >
+              {showDataInfo ? 'Hide Info' : 'Why is this needed?'}
+            </button>
+          </div>
+
+          {showDataInfo && (
+            <div className="mb-6 p-4 bg-blue-50 border border-blue-200 rounded-md">
+              <h4 className="font-medium text-blue-900 mb-2">📱 Moving Between Devices?</h4>
+              <p className="text-sm text-blue-800 mb-3">
+                Your progress is saved on <strong>this device only</strong>. If you want to continue learning on a different computer, tablet, or browser, you'll need to transfer your data.
+              </p>
+              <div className="text-sm text-blue-800">
+                <p className="mb-2"><strong>To move your progress:</strong></p>
+                <ol className="list-decimal list-inside space-y-1 ml-2">
+                  <li>Click "Export Progress" to download your data file</li>
+                  <li>Transfer the file to your new device (email, USB drive, cloud storage)</li>
+                  <li>On the new device, click "Import Progress" and select the file</li>
+                </ol>
+                <p className="mt-3 text-xs text-blue-700">
+                  💡 <strong>Tip:</strong> Export regularly to back up your progress!
+                </p>
+              </div>
+            </div>
+          )}
+
+          <div className="flex gap-4 flex-wrap">
+            <button
+              onClick={exportProgress}
+              disabled={users.length === 0}
+              className={`px-6 py-3 rounded-md font-medium transition-colors ${
+                users.length === 0
+                  ? 'bg-gray-200 text-gray-500 cursor-not-allowed'
+                  : 'bg-green-600 text-white hover:bg-green-700'
+              }`}
+              title={users.length === 0 ? 'Create users first to export their progress' : 'Download all user progress as a file'}
+            >
+              📥 Export Progress
+            </button>
+
+            <button
+              onClick={handleImportClick}
+              className="px-6 py-3 bg-blue-600 text-white rounded-md hover:bg-blue-700 transition-colors font-medium"
+              title="Upload a progress file to restore user data"
+            >
+              📤 Import Progress
+            </button>
+          </div>
+
+          <div className="mt-4 text-xs text-gray-500">
+            {users.length > 0 ? (
+              <p>Ready to export {users.length} user(s) and their progress data</p>
+            ) : (
+              <p>No users to export yet. Create users first, then export their progress.</p>
+            )}
+          </div>
+
+          {/* Hidden file input for import */}
+          <input
+            ref={fileInputRef}
+            type="file"
+            accept=".json"
+            onChange={importProgress}
+            style={{ display: 'none' }}
+          />
+        </div>
       </div>
     </div>
   );
